@@ -5,14 +5,14 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 class Movie(models.Model):
     id = models.IntegerField(primary_key=True)
     title = models.CharField(max_length=1024)
-    year = models.IntegerField()
+    year = models.IntegerField(null=True)
 
 class MovieGenre(models.Model):
     movie = models.ForeignKey(Movie, primary_key=True)
     genre = models.CharField(max_length=1024)
 
 class Award(models.Model):
-    name = models.CharField(max_length=255, primary_key=True)
+    name = models.CharField(max_length=255)
     year = models.IntegerField()
     actorAwards = models.ManyToManyField(Movie, through='ActorNomination', related_name='actor_award_set')
     directorAwards = models.ManyToManyField(Movie, through='DirectorNomination', related_name='director_award_set')
@@ -32,14 +32,14 @@ class Director(models.Model):
     movies = models.ManyToManyField(Movie)
     
 class MovieNomination(models.Model):
-    movie = models.ForeignKey(Movie, primary_key=True)
+    movie = models.ForeignKey(Movie)
     award = models.ForeignKey(Award)
     won = models.BooleanField()
     class Meta:
         unique_together = ('movie', 'award')
     
 class ActorNomination(models.Model):
-    movie = models.ForeignKey(Movie, primary_key=True)
+    movie = models.ForeignKey(Movie)
     actor = models.ForeignKey(Actor)
     award = models.ForeignKey(Award)
     won = models.BooleanField()
@@ -47,7 +47,7 @@ class ActorNomination(models.Model):
         unique_together = (('movie', 'actor'), ('actor', 'award'))
     
 class DirectorNomination(models.Model):
-    movie = models.ForeignKey(Movie, primary_key=True)
+    movie = models.ForeignKey(Movie)
     director = models.ForeignKey(Director)
     award = models.ForeignKey(Award)
     won = models.BooleanField()
@@ -64,7 +64,7 @@ class Member(models.Model):
     ratings = models.ManyToManyField(Movie, through='Rated')
     
 class Rated(models.Model):
-    member = models.ForeignKey(Member, primary_key=True)
+    member = models.ForeignKey(Member)
     movie = models.ForeignKey(Movie)
     rating = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(10)])
     class Meta:
