@@ -8,7 +8,7 @@ class Movie(models.Model):
     year = models.IntegerField(null=True)
 
 class MovieGenre(models.Model):
-    movie = models.ForeignKey(Movie, primary_key=True)
+    movie = models.ForeignKey(Movie)
     genre = models.CharField(max_length=1024)
 
 class Award(models.Model):
