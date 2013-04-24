@@ -44,7 +44,7 @@ class ActorNomination(models.Model):
     award = models.ForeignKey(Award)
     won = models.BooleanField()
     class Meta:
-        unique_together = (('movie', 'actor'), ('actor', 'award'))
+        unique_together = ('movie', 'actor', 'award')
     
 class DirectorNomination(models.Model):
     movie = models.ForeignKey(Movie)
@@ -52,7 +52,7 @@ class DirectorNomination(models.Model):
     award = models.ForeignKey(Award)
     won = models.BooleanField()
     class Meta:
-        unique_together = (('movie', 'director'), ('director', 'award'))
+        unique_together = ('movie', 'director', 'award')
     
 class Member(models.Model):
     SEX_CHOICES = (('M', 'Male'), ('F', 'Female'))
