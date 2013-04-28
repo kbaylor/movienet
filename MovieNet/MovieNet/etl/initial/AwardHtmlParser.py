@@ -3,7 +3,6 @@ def parseAwards(soup):
 	years_and_headers = soup.find_all('dt')
 	headers = getHeaders(soup)
 	awardDict = {}
-	won = False
 	i = -1
 	for elem in headers:
 		awardDict[elem] = {}
@@ -28,11 +27,16 @@ def parseAwards(soup):
 					continue
 				#have an actual nomination
 				else:
+					won = False
 					if row.find('td').string == '*':
 						won = True
+					first_a = row.find('a')
+					if first_a.parent.name != 'i' and first_a.string:
+						name = tuple(first_a.string.split(','))
+					elif first_a.find_next('a', text=True):
+						name = tuple(first_a.find_next('a').string.split(','))
 					else:
-						#NEED TO FIX THIS
-						name = (name for name in row.find('a').string.split(','))
+						name = None
 					#if this award does not contain a movie of any kind then skip it
 					if not row.find('i') or (not row.find('i').find('a') and not row.find('i').string):
 						continue;
@@ -42,7 +46,7 @@ def parseAwards(soup):
 						movie = row.find('i').find('a').string
 					if awardName not in awardDict[headers[i]]:
 						awardDict[headers[i]][awardName] = {}
-						awardDict[headers[i]][year] = {}
+						awardDict[headers[i]][awardName][year] = {}
 					awardDict[headers[i]][awardName][year][(name, movie)] = won
 					won = False
 	return awardDict
