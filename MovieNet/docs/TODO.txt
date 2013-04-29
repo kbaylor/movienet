@@ -1,0 +1,50 @@
+TODO
+-IMDB Ratings
+-Get models created correctly - DONE
+-Create fixture files - DONE
+-Load initial data using fixtures - DONE
+
+
+Home Page
+	-Should be login page? What else would it be? A generic introductory welcome to the site?
+Registration
+	-need to add DOB and Sex fields in addition to those needed by django auth
+	-take away member table and use the User table id as foreign key in Rated table
+Login
+	-Redirects to User Profile Page
+User Profile
+	-Will contain user information along with information on movies that have been rated
+	-Could possibly have "starred" movies that the user likes
+Find
+	-Movies
+	-Actor
+	-Director
+Add Movie
+	-Will ask to provide IMDB url
+	-Will redirect back to Home Page or Add Movie screen
+Movie Page, also Actor and Director Pages
+	-There should be some widget to rate a movie
+		-If in time crunch can have a form on a separate page that will redirect to movie page when done
+		-Look at jquery plugins
+	-If a user is logged in and has rated a movie, then the rating should be displayed
+	
+
+VIEWS and URLs: 
+	-For registration and login could use class-based views. Same goes for results of the Find page
+		-'/register'
+		-'/login'
+		-'/logout
+			-This will obviously redirect to something else
+	-For movie, actor, and director, will have a view that takes an ID as an argument
+		-'/movie/(id)'
+		-'/actor/(id)'
+		-'/director/(id)'
+	-For queries, it may be possible to utilize class-based views (possibly DetailedView with a given querySet?)
+		-'/find/(movie|actor|director)'
+			-May provide query parameters since this will be a HTTP GET
+	-For adding movies, will link to a view that will do the imdb parsing
+		-'/add'
+			-IMDB URL should be passed as POST parameter
+	-For the user profile part, may be able to utilize class-based views. Not sure
+		-'/user/(id)'
+		-'/user' should link to a view that displays the top users for the month
