@@ -26,16 +26,16 @@ if __name__ == '__main__':
             genre = [unicode(line[GENRE_INDEX])]
             year = line[YEAR_INDEX]
             if year in ILLEGAL_YEAR_VALUES:
-                year = 'NULL'
+                year = None
             else:
                 year = int(year)
-            movie_json.append({'pk':movie_id, 'model':'movieapp.movie', 'fields': {'name':movie_name, 'year':year}})
+            movie_json.append({'pk':movie_id, 'model':'movieapp.movie', 'fields': {'title':movie_name, 'year':year}})
             movie_genre_json.append({'pk':auto_increment, 'model':'movieapp.moviegenre', 'fields': {
                             'movie':movie_id, 'genre':genre}})
             auto_increment += 1
     with open("../../../movieapp/fixtures/movie.json", 'w') as movie_fixture:
-        movie_fixture.write(json.dumps(movie_json, indent=4))
+        json.dump(movie_json, movie_fixture, indent=4)
     with open("../../../movieapp/fixtures/moviegenre.json", 'w') as movie_fixture:
-        movie_fixture.write(json.dumps(movie_genre_json, indent=4))
+        json.dump(movie_genre_json, movie_fixture, indent=4)
     
         
