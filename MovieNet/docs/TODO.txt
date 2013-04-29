@@ -32,7 +32,7 @@ Movie Page, also Actor and Director Pages
 VIEWS and URLs: 
 	-For registration and login could use class-based views. Same goes for results of the Find page
 		-'/register'
-		-'/login'
+		-'/login' (Home page: so '^$' should link to this)
 		-'/logout
 			-This will obviously redirect to something else
 	-For movie, actor, and director, will have a view that takes an ID as an argument
