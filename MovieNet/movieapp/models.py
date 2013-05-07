@@ -23,13 +23,13 @@ class Actor(models.Model):
     id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=1024)
     awards = models.ManyToManyField(Award, through='ActorNomination')
-    movies = models.ManyToManyField(Movie)
+    movies = models.ManyToManyField(Movie, related_name = 'actors')
 
 class Director(models.Model):
     id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=1024)
     awards = models.ManyToManyField(Award, through='DirectorNomination')
-    movies = models.ManyToManyField(Movie)
+    movies = models.ManyToManyField(Movie, related_name = 'directors')
     
 class MovieNomination(models.Model):
     movie = models.ForeignKey(Movie)
