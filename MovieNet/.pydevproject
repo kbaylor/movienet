@@ -10,7 +10,11 @@
 </pydev_variables_property>
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
 <path>/MovieNet</path>
+<path>/MovieNet</path>
 </pydev_pathproperty>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">python27</pydev_property>
+<pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
+<path>C:\Users\Owner\.eclipse\org.eclipse.platform_3.7.0_248562372\plugins\org.python.pydev_2.7.3.2013031601\pysrc</path>
+</pydev_pathproperty>
 </pydev_project>

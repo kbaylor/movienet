@@ -29,7 +29,8 @@ if __name__ == '__main__':
                 year = None
             else:
                 year = int(year)
-            movie_json.append({'pk':movie_id, 'model':'movieapp.movie', 'fields': {'title':movie_name, 'year':year}})
+            movie_json.append({'pk':movie_id, 'model':'movieapp.movie', 'fields': {'title':movie_name, 'year':year,
+                                                                                   'imdb_rating': None}})
             movie_genre_json.append({'pk':auto_increment, 'model':'movieapp.moviegenre', 'fields': {
                             'movie':movie_id, 'genre':genre}})
             auto_increment += 1

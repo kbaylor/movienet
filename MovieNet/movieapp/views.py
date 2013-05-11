@@ -3,7 +3,11 @@ Created on Apr 29, 2013
 
 @author: Aashish
 '''
-from django.http import HttpResponse
+from django.shortcuts import render_to_response
+from MovieNet.etl.imdb import IMDBParser as parser
+from movieapp.models import Movie, MovieGenre
+from django.contrib.auth.decorators import login_required
+from django.core.context_processors import csrf
 from movieapp.forms import SearchForm
 from django.shortcuts import render, get_object_or_404
 
@@ -77,3 +81,18 @@ def find(request):
     else:
         form = SearchForm()
     return render(request, 'find_form.html', {'form': form})
+@login_required
+def add_movie(request):
+    if request.method == 'POST':
+        url = request.POST['url']
+        movie_info = parser.parse_page(url)
+        if movie_info == None:
+            pass
+        m = Movie.objects.create(title=movie_info['title'], year=movie_info['year'], imdb_rating=movie_info['rating'])
+        for genre in movie_info['genres']:
+            MovieGenre.objects.create(movie=m.id, genre=genre)
+        return render_to_response('movieapp/add_confirmation.html', {'movie_info':movie_info})
+    else:
+        return render_to_response('movieapp/add.html', csrf(request))
+    
+    

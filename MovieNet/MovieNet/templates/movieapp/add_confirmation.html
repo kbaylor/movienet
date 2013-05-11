@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h4><b>Movie Added Successfully</b></h4>
+<ul>
+	<li>Title: {{ movie_info.title }}</li>
+	<li>Year: {{ movie_info.year }}</li>
+	<li>IMDB Rating: {{ movie_info.rating }}</li>
+	<li>Genres: {{ movie_info.genre|join:", " }}</li>
+	<li>Actors / Actresses: {{ movie_info.actors|join:", " }}</li>
+</ul>
+{% endblock %}
