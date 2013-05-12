@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if actor %}
+    <h2 style="color:black"><b>	{{ actor.name }} </b></h2>
+    </br>
+    <ul>
+    <h3 style="color:black">Top 5 Co-stars</h3>
+    	{% for costar in costars %}
+    		<li><a href="/movieapp/actor/{{costar.0.id }}/">{{costar.0.name}}</a>:<b>{{costar.1}}</b></li>
+    	{% endfor %}
+    </ul>
+    </br>
+    <h3 style="color:black">Movies</h3>
+    <ul>
+    	{% for movie in actor.movies.all %}
+    		<li><a href="/movieapp/movie/{{ movie.id }}/">{{ movie.title }}</a></li>
+    	{% endfor %}
+    </ul>
+{% else %}
+    <p>No actor is available.</p>
+{% endif %}
+{% endblock %}

@@ -62,7 +62,7 @@ class DirectorNomination(models.Model):
 class Rated(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL)
     movie = models.ForeignKey(Movie)
-    rating = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(10)])
+    rating = models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(10)])
     date_rated = models.DateTimeField()
     class Meta:
         unique_together = ('user', 'movie')
