@@ -1,0 +1,17 @@
+{% if actor %}
+    	{{ actor.name }}
+    <ul>
+    	{% for costar in costars %}
+    		<li><a href="/movieapp/actor/{{costar.0.id }}/">{{costar.0.name}}</a> {{costar.1}}</li>
+    	{% endfor %}
+    
+    </ul>
+    <ul>
+    	{% for movie in actor.movies.all %}
+    		<li><a href="/movieapp/movie/{{ movie.id }}/">{{ movie.title }}</a></li>
+    	
+    	{% endfor %}
+    </ul>
+{% else %}
+    <p>No actor is available.</p>
+{% endif %}

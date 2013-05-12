@@ -4,10 +4,12 @@ Created on Apr 29, 2013
 @author: Aashish
 '''
 from django.http import HttpResponse
-from movieapp.forms import SearchForm
+from django.db.models import Count
+
+from movieapp.forms import SearchForm, BasicSearchForm
 from django.shortcuts import render, get_object_or_404
 
-from movieapp.models import Director, Movie, Actor, MovieNomination, ActorNomination, DirectorNomination
+from movieapp.models import Director, Movie, Actor, MovieNomination, ActorNomination, DirectorNomination, Rated
 
 def index(request):
     return HttpResponse("Hello, world. You're at the movieapp index.")
@@ -17,7 +19,21 @@ def movie(request, movieid):
     return render(request, 'movie.html', {'movie':movie})
 
 def actor(request, actorid):
-    return HttpResponse("You're looking at actor %s." % actorid)
+    actor = get_object_or_404(Actor, id=actorid)
+    costars_id = Movie.objects.filter(pk__in=actor.movies.all).values('actors')
+    costars_id = costars_id.annotate(num_movies=Count('actors')).order_by('-num_movies')[1:6]
+    print costars_id
+    #id_values = costars_id.values_list('actors', flat=True)
+    # id_values = [a.actors for a in costars_id]
+    
+    #ids = []
+    costar_list = []
+    for actor_dict in costars_id:
+        #ids.append(actor_dict['actors'])
+        costar_list.append([Actor.objects.get(id=actor_dict['actors']), actor_dict['num_movies']])
+    #return HttpResponse(costars_id)
+    #costars = Actor.objects.filter(id__in=ids)
+    return render(request, 'actor.html', {'actor':actor, 'costars':costar_list});
 
 def director(request, did):
     director = get_object_or_404(Director, id=did)
@@ -36,8 +52,31 @@ def director(request, did):
 #             return render(request, 'movies_results.html',
 #                           {'movies': movies, 'query': movie_title, 'search_type': request.GET['current_choice']})
 #     return render(request, 'find_form.html', {'error': error, 'search_types': {'movie','actor','director'}})
-
 def find(request):
+    if request.method == 'POST':
+        form = BasicSearchForm(request.POST)
+        if form.is_valid():
+            cd = form.cleaned_data
+            text = cd['query']
+            search_type = cd['search_type']
+            
+            if search_type=='movie':
+                return_set = Movie.objects.filter(title__icontains=text)
+                
+
+            if search_type=='actor': 
+                return_set = Actor.objects.filter(name__icontains=text)
+
+            if search_type=='director':
+                return_set = Director.objects.filter(name__icontains=text)
+            return render(request, 'basic_search_results.html',
+                           {'return_set': return_set, 'query': text, 'search_type':search_type})
+    else:
+        form = BasicSearchForm()
+    return render(request, 'find_form.html', {'form': form})
+
+
+def advancedfind(request):
     if request.method == 'POST':
         form = SearchForm(request.POST)
         if form.is_valid():
@@ -47,6 +86,8 @@ def find(request):
             director_name = cd['director_name']
             start = cd['start_year']
             end = cd['end_year']
+            ratings_start = cd['min_rating']
+            ratings_end = cd['max_rating']
             #movie_award = cd['show_movie_oscars']
             #actor_award = cd['show_actor_oscars']
             #director_award = cd['show_director_oscars']
@@ -62,17 +103,23 @@ def find(request):
                 movies = movies.filter(directors__in=director)
             if start and end:
                 movies = movies.filter(year__range=(start,end))
+           
+                
+           ## ratings=Rated.objects.filter(movie__in=movies).annotate(avg_rating=Avg('rating'))
+            #ratings.annotate(Avg('rating'))
             
-            #actor.filter(movies__in=movies)
+           ## if rating_start and rating_end:
+           ##     ratings = ratings.filter(avg_rating__range=(rating_start,rating_end))
+           ##     movies = movies.filter(pk__in=ratings)
             if show_oscars: 
                 movie_oscars = MovieNomination.objects.filter(movie__in=movies)
                 actor_oscars = ActorNomination.objects.filter(movie__in=movies)
                 director_oscars = DirectorNomination.objects.filter(movie__in=movies)
-                return render(request, 'movies_results.html',
+                return render(request, 'advanced_search_results.html',
                            {'movies': movies, 'query': movie_title, 'show_oscars':show_oscars, 
                                 'movie_oscars': movie_oscars, 'actor_oscars':actor_oscars, 'director_oscars':director_oscars})
             else:
-                return render(request, 'movies_results.html',
+                return render(request, 'advanced_search_results.html',
                            {'movies': movies, 'query': movie_title, 'show_oscars':show_oscars})
     else:
         form = SearchForm()

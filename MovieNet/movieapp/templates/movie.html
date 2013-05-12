@@ -1,7 +1,20 @@
 {% if movie %}
-    	{{ movie.title }}
-    	{{ movie.year }}
+    <h3>{{ movie.title }} ({{ movie.year }})</h2>
+	<h4>Directed by: </h4>
+	<ul>	
+		{% for director in movie.directors.all %}
+			<li><a href="/movieapp/director/{{ director.id }}/">{{ director.name }}</a></li>
+		{% endfor %}
+	</ul>
+
+	<h4>Starring: </h4>
+	<ul>	
+	{% for actor in movie.actors.all %}
+		<li><a href="/movieapp/actor/{{ actor.id }}/">{{ actor.name }}</a></li>
+	
+	{% endfor %}
+    </ul>
     
 {% else %}
-    <p>No movie are available.</p>
+    <p>No movie is available.</p>
 {% endif %}

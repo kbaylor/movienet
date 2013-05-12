@@ -1,0 +1,16 @@
+<p>You searched for: <strong>{{ query }}</strong> under  <strong>{{ search_type }}</strong></p>
+
+{% if return_set %}
+    <p>Found {{ return_set|length }} {{search_type}}{{ return_set|pluralize }}.</p>
+    <u1>
+    {% for value in return_set %}
+    	{% if search_type == "movie" %}
+   			<li><a href="/movieapp/{{ search_type }}/{{ value.id }}/">{{ value.title }}</a> ({{ value.year }})</li>
+   		{% else %}
+   			<li><a href="/movieapp/{{ search_type }}/{{ value.id }}/">{{ value.name }}</a></li>
+   		{% endif %}
+    {% endfor %}
+    
+{% else %}
+    <p>No {{search_type}}{{ return_set|pluralize }} matched your search criteria.</p>
+{% endif %}

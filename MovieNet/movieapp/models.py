@@ -66,7 +66,7 @@ class Member(models.Model):
 class Rated(models.Model):
     member = models.ForeignKey(Member)
     movie = models.ForeignKey(Movie)
-    rating = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(10)])
+    rating = models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(10)])
     class Meta:
         unique_together = ('member', 'movie')
     
