@@ -19,7 +19,7 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
      url(r'^admin/', include(admin.site.urls)),
      url(r'^$', login, {'template_name':'registration/login.html'}),
-     url(r'^login$', login, {'template_name':'base.html'}),
+     url(r'^login$', login, {'template_name':'registration/login.html'}),
      url(r'^logout', logout),
      url(r'^register$', register),
      url(r'movieapp', include('movieapp.urls'))

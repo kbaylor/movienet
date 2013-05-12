@@ -47,13 +47,13 @@ def getValidJson(index_file, name_file, model_name):
 
 if __name__ == '__main__':
     with open("./sources/director_index.csv", 'r') as index_file:
-        with open("../sources/directors.csv", 'r') as csvfile:
+        with open("./sources/directors.csv", 'r') as csvfile:
             directors = getValidJson(index_file, csvfile, 'movieapp.director')
     with open("../../../movieapp/fixtures/director.json", 'w') as director_file:
         director_file.write(json.dumps(directors, indent=4))
         
     with open("./sources/actor_index.csv", 'r') as index_file:
-        with open("../sources/actors.csv", 'r') as csvfile:
+        with open("./sources/actors.csv", 'r') as csvfile:
             actors = getValidJson(index_file, csvfile, 'movieapp.actor')
     with open("../../../movieapp/fixtures/actor.json", 'w') as director_file:
         director_file.write(json.dumps(actors, indent=4))

@@ -12,13 +12,14 @@ Released   : 20100729
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <script src="jquery/jquery.min.js" type="text/javascript"></script>
+        {% block javascript %}{% endblock %}
         <link rel="shortcut icon" href="/static/movieapp/images/terrapin.ico" ></link>
         <meta name="description" content="This is the official website for MovieNet, a free DVD database ."/>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta property="og:type" content="website"/>
         <title> {% block title %} MovieNet {% endblock %} </title>
-        <link href="/static/style.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="/static/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+        {% block css %}{% endblock %}
     </head>
     <body>
         <div id="wrapper">
@@ -33,10 +34,10 @@ Released   : 20100729
                         <ul>
                         	{% block menu %}
                             <li class="current_page_item"><a title="Home" href="/">User Home</a></li>
-                            <li><a title="Search" href="/find">Search</a></li>
+                            <li><a title="Search" href="/movieapp/find">Search</a></li>
                             <li><a href='/movieapp/add' title="Add Movie" href="/add">Add Movie</a></li>
-                            <li><a title="Top Users" href="/top/users">Top Users</a></li>
-                            <li><a title="Top Rated Movies" href="/top/movies">Top Rated</a></li>
+                            <li><a title="Top Users" href="/movieapp/users/top">Top Users</a></li>
+                            <li><a title="Top Rated Movies" href="/movieapp/movies/top">Top Rated</a></li>
                             {% endblock %}
                         </ul>
                     </div>
