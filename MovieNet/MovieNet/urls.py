@@ -22,5 +22,5 @@ urlpatterns = patterns('',
      url(r'^login$', login, {'template_name':'registration/login.html'}),
      url(r'^logout', logout),
      url(r'^register$', register),
-     url(r'movieapp', include('movieapp.urls'))
+     url(r'^movieapp/', include('movieapp.urls'))
 )

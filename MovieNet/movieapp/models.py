@@ -64,7 +64,6 @@ class Rated(models.Model):
     movie = models.ForeignKey(Movie)
     rating = models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(10)])
     date_rated = models.DateTimeField()
->>>>>>> origin/master
     class Meta:
         unique_together = ('user', 'movie')
     
