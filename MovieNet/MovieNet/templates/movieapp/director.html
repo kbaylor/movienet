@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if director %}
+    	{{ director.name }}
+    <ul>
+    	{% for movie in director.movies.all %}
+    		<li><a href="/movieapp/movie/{{ movie.id }}/">{{ movie.title }}</a></li>
+    	
+    	{% endfor %}
+    </ul>
+{% else %}
+    <p>No director is available.</p>
+{% endif %}
+{% endblock %}

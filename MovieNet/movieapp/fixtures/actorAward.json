@@ -43,6 +43,16 @@
         "pk": 5, 
         "model": "movieapp.actornomination", 
         "fields": {
+            "movie": 853, 
+            "won": false, 
+            "award": 283, 
+            "actor": 34480
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "movieapp.actornomination", 
+        "fields": {
             "movie": 1348, 
             "won": true, 
             "award": 283, 
@@ -50,7 +60,7 @@
         }
     }, 
     {
-        "pk": 6, 
+        "pk": 7, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2617, 
@@ -60,7 +70,7 @@
         }
     }, 
     {
-        "pk": 7, 
+        "pk": 8, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 853, 
@@ -70,7 +80,7 @@
         }
     }, 
     {
-        "pk": 8, 
+        "pk": 9, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2529, 
@@ -80,7 +90,7 @@
         }
     }, 
     {
-        "pk": 9, 
+        "pk": 10, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 202995, 
@@ -90,7 +100,7 @@
         }
     }, 
     {
-        "pk": 10, 
+        "pk": 11, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 175321, 
@@ -100,7 +110,7 @@
         }
     }, 
     {
-        "pk": 11, 
+        "pk": 12, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 380, 
@@ -110,7 +120,7 @@
         }
     }, 
     {
-        "pk": 12, 
+        "pk": 13, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 249, 
@@ -120,7 +130,17 @@
         }
     }, 
     {
-        "pk": 13, 
+        "pk": 14, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 38930, 
+            "won": false, 
+            "award": 285, 
+            "actor": 42446
+        }
+    }, 
+    {
+        "pk": 15, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 42334, 
@@ -130,7 +150,7 @@
         }
     }, 
     {
-        "pk": 14, 
+        "pk": 16, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 81174, 
@@ -140,7 +160,7 @@
         }
     }, 
     {
-        "pk": 15, 
+        "pk": 17, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5598, 
@@ -150,7 +170,7 @@
         }
     }, 
     {
-        "pk": 16, 
+        "pk": 18, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 20715, 
@@ -160,7 +180,7 @@
         }
     }, 
     {
-        "pk": 17, 
+        "pk": 19, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6487, 
@@ -170,7 +190,7 @@
         }
     }, 
     {
-        "pk": 18, 
+        "pk": 20, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 12051, 
@@ -180,7 +200,7 @@
         }
     }, 
     {
-        "pk": 19, 
+        "pk": 21, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 45470, 
@@ -190,7 +210,7 @@
         }
     }, 
     {
-        "pk": 20, 
+        "pk": 22, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 115, 
@@ -200,7 +220,7 @@
         }
     }, 
     {
-        "pk": 21, 
+        "pk": 23, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5382, 
@@ -210,7 +230,7 @@
         }
     }, 
     {
-        "pk": 22, 
+        "pk": 24, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 21681, 
@@ -220,7 +240,7 @@
         }
     }, 
     {
-        "pk": 23, 
+        "pk": 25, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4026, 
@@ -230,7 +250,7 @@
         }
     }, 
     {
-        "pk": 24, 
+        "pk": 26, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 178302, 
@@ -240,7 +260,7 @@
         }
     }, 
     {
-        "pk": 25, 
+        "pk": 27, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9758, 
@@ -250,7 +270,7 @@
         }
     }, 
     {
-        "pk": 26, 
+        "pk": 28, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 77073, 
@@ -260,7 +280,7 @@
         }
     }, 
     {
-        "pk": 27, 
+        "pk": 29, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190518, 
@@ -270,7 +290,7 @@
         }
     }, 
     {
-        "pk": 28, 
+        "pk": 30, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 89785, 
@@ -280,7 +300,7 @@
         }
     }, 
     {
-        "pk": 29, 
+        "pk": 31, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 19543, 
@@ -290,7 +310,7 @@
         }
     }, 
     {
-        "pk": 30, 
+        "pk": 32, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5179, 
@@ -300,7 +320,17 @@
         }
     }, 
     {
-        "pk": 31, 
+        "pk": 33, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 229011, 
+            "won": false, 
+            "award": 291, 
+            "actor": 5193
+        }
+    }, 
+    {
+        "pk": 34, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 191040, 
@@ -310,7 +340,7 @@
         }
     }, 
     {
-        "pk": 32, 
+        "pk": 35, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 216600, 
@@ -320,7 +350,7 @@
         }
     }, 
     {
-        "pk": 33, 
+        "pk": 36, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 97392, 
@@ -330,7 +360,7 @@
         }
     }, 
     {
-        "pk": 34, 
+        "pk": 37, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6109, 
@@ -340,7 +370,7 @@
         }
     }, 
     {
-        "pk": 35, 
+        "pk": 38, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 197390, 
@@ -350,7 +380,7 @@
         }
     }, 
     {
-        "pk": 36, 
+        "pk": 39, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 33015, 
@@ -360,7 +390,7 @@
         }
     }, 
     {
-        "pk": 37, 
+        "pk": 40, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2826, 
@@ -370,7 +400,7 @@
         }
     }, 
     {
-        "pk": 38, 
+        "pk": 41, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4627, 
@@ -380,7 +410,7 @@
         }
     }, 
     {
-        "pk": 39, 
+        "pk": 42, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4627, 
@@ -390,7 +420,7 @@
         }
     }, 
     {
-        "pk": 40, 
+        "pk": 43, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13243, 
@@ -400,7 +430,7 @@
         }
     }, 
     {
-        "pk": 41, 
+        "pk": 44, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 195779, 
@@ -410,7 +440,7 @@
         }
     }, 
     {
-        "pk": 42, 
+        "pk": 45, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 30855, 
@@ -420,7 +450,7 @@
         }
     }, 
     {
-        "pk": 43, 
+        "pk": 46, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1413, 
@@ -430,7 +460,7 @@
         }
     }, 
     {
-        "pk": 44, 
+        "pk": 47, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 939, 
@@ -440,7 +470,7 @@
         }
     }, 
     {
-        "pk": 45, 
+        "pk": 48, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 75506, 
@@ -450,7 +480,7 @@
         }
     }, 
     {
-        "pk": 46, 
+        "pk": 49, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 41390, 
@@ -460,7 +490,7 @@
         }
     }, 
     {
-        "pk": 47, 
+        "pk": 50, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 50755, 
@@ -470,7 +500,7 @@
         }
     }, 
     {
-        "pk": 48, 
+        "pk": 51, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 203118, 
@@ -480,7 +510,7 @@
         }
     }, 
     {
-        "pk": 49, 
+        "pk": 52, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 73469, 
@@ -490,7 +520,7 @@
         }
     }, 
     {
-        "pk": 50, 
+        "pk": 53, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 60408, 
@@ -500,7 +530,7 @@
         }
     }, 
     {
-        "pk": 51, 
+        "pk": 54, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 19288, 
@@ -510,7 +540,7 @@
         }
     }, 
     {
-        "pk": 52, 
+        "pk": 55, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 28294, 
@@ -520,7 +550,7 @@
         }
     }, 
     {
-        "pk": 53, 
+        "pk": 56, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2100, 
@@ -530,7 +560,7 @@
         }
     }, 
     {
-        "pk": 54, 
+        "pk": 57, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 69196, 
@@ -540,7 +570,7 @@
         }
     }, 
     {
-        "pk": 55, 
+        "pk": 58, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46872, 
@@ -550,7 +580,7 @@
         }
     }, 
     {
-        "pk": 56, 
+        "pk": 59, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 191061, 
@@ -560,7 +590,7 @@
         }
     }, 
     {
-        "pk": 57, 
+        "pk": 60, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1900, 
@@ -570,7 +600,7 @@
         }
     }, 
     {
-        "pk": 58, 
+        "pk": 61, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 54293, 
@@ -580,7 +610,7 @@
         }
     }, 
     {
-        "pk": 59, 
+        "pk": 62, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9537, 
@@ -590,7 +620,7 @@
         }
     }, 
     {
-        "pk": 60, 
+        "pk": 63, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3814, 
@@ -600,7 +630,7 @@
         }
     }, 
     {
-        "pk": 61, 
+        "pk": 64, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9537, 
@@ -610,7 +640,7 @@
         }
     }, 
     {
-        "pk": 62, 
+        "pk": 65, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1147, 
@@ -620,7 +650,17 @@
         }
     }, 
     {
-        "pk": 63, 
+        "pk": 66, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 46154, 
+            "won": false, 
+            "award": 300, 
+            "actor": 36753
+        }
+    }, 
+    {
+        "pk": 67, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 378, 
@@ -630,7 +670,7 @@
         }
     }, 
     {
-        "pk": 64, 
+        "pk": 68, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 137676, 
@@ -640,7 +680,7 @@
         }
     }, 
     {
-        "pk": 65, 
+        "pk": 69, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 30757, 
@@ -650,7 +690,7 @@
         }
     }, 
     {
-        "pk": 66, 
+        "pk": 70, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 39435, 
@@ -660,7 +700,7 @@
         }
     }, 
     {
-        "pk": 67, 
+        "pk": 71, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 209188, 
@@ -670,7 +710,7 @@
         }
     }, 
     {
-        "pk": 68, 
+        "pk": 72, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127677, 
@@ -680,7 +720,7 @@
         }
     }, 
     {
-        "pk": 69, 
+        "pk": 73, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2268, 
@@ -690,7 +730,17 @@
         }
     }, 
     {
-        "pk": 70, 
+        "pk": 74, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 14293, 
+            "won": false, 
+            "award": 302, 
+            "actor": 31236
+        }
+    }, 
+    {
+        "pk": 75, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46305, 
@@ -700,7 +750,7 @@
         }
     }, 
     {
-        "pk": 71, 
+        "pk": 76, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2869, 
@@ -710,7 +760,7 @@
         }
     }, 
     {
-        "pk": 72, 
+        "pk": 77, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 92847, 
@@ -720,7 +770,7 @@
         }
     }, 
     {
-        "pk": 73, 
+        "pk": 78, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 100323, 
@@ -730,7 +780,7 @@
         }
     }, 
     {
-        "pk": 74, 
+        "pk": 79, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 141787, 
@@ -740,7 +790,7 @@
         }
     }, 
     {
-        "pk": 75, 
+        "pk": 80, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 202855, 
@@ -750,7 +800,7 @@
         }
     }, 
     {
-        "pk": 76, 
+        "pk": 81, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 63427, 
@@ -760,7 +810,7 @@
         }
     }, 
     {
-        "pk": 77, 
+        "pk": 82, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 62741, 
@@ -770,7 +820,7 @@
         }
     }, 
     {
-        "pk": 78, 
+        "pk": 83, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46870, 
@@ -780,7 +830,7 @@
         }
     }, 
     {
-        "pk": 79, 
+        "pk": 84, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 99581, 
@@ -790,7 +840,7 @@
         }
     }, 
     {
-        "pk": 80, 
+        "pk": 85, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 237630, 
@@ -800,7 +850,7 @@
         }
     }, 
     {
-        "pk": 81, 
+        "pk": 86, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 141930, 
@@ -810,7 +860,17 @@
         }
     }, 
     {
-        "pk": 82, 
+        "pk": 87, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 6830, 
+            "won": false, 
+            "award": 309, 
+            "actor": 26893
+        }
+    }, 
+    {
+        "pk": 88, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190601, 
@@ -820,7 +880,7 @@
         }
     }, 
     {
-        "pk": 83, 
+        "pk": 89, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239707, 
@@ -830,7 +890,7 @@
         }
     }, 
     {
-        "pk": 84, 
+        "pk": 90, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3128, 
@@ -840,7 +900,7 @@
         }
     }, 
     {
-        "pk": 85, 
+        "pk": 91, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5411, 
@@ -850,7 +910,7 @@
         }
     }, 
     {
-        "pk": 86, 
+        "pk": 92, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 199934, 
@@ -860,7 +920,17 @@
         }
     }, 
     {
-        "pk": 87, 
+        "pk": 93, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 223795, 
+            "won": false, 
+            "award": 310, 
+            "actor": 41280
+        }
+    }, 
+    {
+        "pk": 94, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 221335, 
@@ -870,7 +940,7 @@
         }
     }, 
     {
-        "pk": 88, 
+        "pk": 95, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 217806, 
@@ -880,7 +950,7 @@
         }
     }, 
     {
-        "pk": 89, 
+        "pk": 96, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 218153, 
@@ -890,7 +960,7 @@
         }
     }, 
     {
-        "pk": 90, 
+        "pk": 97, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 187396, 
@@ -900,7 +970,17 @@
         }
     }, 
     {
-        "pk": 91, 
+        "pk": 98, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 238530, 
+            "won": false, 
+            "award": 312, 
+            "actor": 21843
+        }
+    }, 
+    {
+        "pk": 99, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 238721, 
@@ -910,7 +990,7 @@
         }
     }, 
     {
-        "pk": 92, 
+        "pk": 100, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 242293, 
@@ -920,7 +1000,7 @@
         }
     }, 
     {
-        "pk": 93, 
+        "pk": 101, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 169140, 
@@ -930,7 +1010,7 @@
         }
     }, 
     {
-        "pk": 94, 
+        "pk": 102, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 83535, 
@@ -940,7 +1020,7 @@
         }
     }, 
     {
-        "pk": 95, 
+        "pk": 103, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 178701, 
@@ -950,7 +1030,7 @@
         }
     }, 
     {
-        "pk": 96, 
+        "pk": 104, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 83920, 
@@ -960,7 +1040,7 @@
         }
     }, 
     {
-        "pk": 97, 
+        "pk": 105, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 70441, 
@@ -970,7 +1050,7 @@
         }
     }, 
     {
-        "pk": 98, 
+        "pk": 106, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13294, 
@@ -980,7 +1060,7 @@
         }
     }, 
     {
-        "pk": 99, 
+        "pk": 107, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 88050, 
@@ -990,7 +1070,7 @@
         }
     }, 
     {
-        "pk": 100, 
+        "pk": 108, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 195827, 
@@ -1000,7 +1080,7 @@
         }
     }, 
     {
-        "pk": 101, 
+        "pk": 109, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4595, 
@@ -1010,7 +1090,7 @@
         }
     }, 
     {
-        "pk": 102, 
+        "pk": 110, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 237926, 
@@ -1020,7 +1100,7 @@
         }
     }, 
     {
-        "pk": 103, 
+        "pk": 111, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 237926, 
@@ -1030,7 +1110,17 @@
         }
     }, 
     {
-        "pk": 104, 
+        "pk": 112, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 237926, 
+            "won": false, 
+            "award": 317, 
+            "actor": 8770
+        }
+    }, 
+    {
+        "pk": 113, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 12053, 
@@ -1040,7 +1130,7 @@
         }
     }, 
     {
-        "pk": 105, 
+        "pk": 114, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 40333, 
@@ -1050,7 +1140,7 @@
         }
     }, 
     {
-        "pk": 106, 
+        "pk": 115, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 40333, 
@@ -1060,7 +1150,7 @@
         }
     }, 
     {
-        "pk": 107, 
+        "pk": 116, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 10855, 
@@ -1070,7 +1160,7 @@
         }
     }, 
     {
-        "pk": 108, 
+        "pk": 117, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 7711, 
@@ -1080,7 +1170,7 @@
         }
     }, 
     {
-        "pk": 109, 
+        "pk": 118, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9653, 
@@ -1090,7 +1180,7 @@
         }
     }, 
     {
-        "pk": 110, 
+        "pk": 119, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 75511, 
@@ -1100,7 +1190,7 @@
         }
     }, 
     {
-        "pk": 111, 
+        "pk": 120, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 110960, 
@@ -1110,7 +1200,7 @@
         }
     }, 
     {
-        "pk": 112, 
+        "pk": 121, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 111725, 
@@ -1120,7 +1210,7 @@
         }
     }, 
     {
-        "pk": 113, 
+        "pk": 122, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4094, 
@@ -1130,7 +1220,7 @@
         }
     }, 
     {
-        "pk": 114, 
+        "pk": 123, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 11856, 
@@ -1140,7 +1230,7 @@
         }
     }, 
     {
-        "pk": 115, 
+        "pk": 124, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 25979, 
@@ -1150,7 +1240,7 @@
         }
     }, 
     {
-        "pk": 116, 
+        "pk": 125, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239719, 
@@ -1160,7 +1250,17 @@
         }
     }, 
     {
-        "pk": 117, 
+        "pk": 126, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 239719, 
+            "won": false, 
+            "award": 322, 
+            "actor": 45024
+        }
+    }, 
+    {
+        "pk": 127, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 21270, 
@@ -1170,7 +1270,7 @@
         }
     }, 
     {
-        "pk": 118, 
+        "pk": 128, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 32191, 
@@ -1180,7 +1280,7 @@
         }
     }, 
     {
-        "pk": 119, 
+        "pk": 129, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5792, 
@@ -1190,7 +1290,7 @@
         }
     }, 
     {
-        "pk": 120, 
+        "pk": 130, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 17543, 
@@ -1200,7 +1300,7 @@
         }
     }, 
     {
-        "pk": 121, 
+        "pk": 131, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 145750, 
@@ -1210,7 +1310,7 @@
         }
     }, 
     {
-        "pk": 122, 
+        "pk": 132, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 145750, 
@@ -1220,7 +1320,7 @@
         }
     }, 
     {
-        "pk": 123, 
+        "pk": 133, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 107882, 
@@ -1230,7 +1330,7 @@
         }
     }, 
     {
-        "pk": 124, 
+        "pk": 134, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 217667, 
@@ -1240,7 +1340,7 @@
         }
     }, 
     {
-        "pk": 125, 
+        "pk": 135, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 160704, 
@@ -1250,7 +1350,7 @@
         }
     }, 
     {
-        "pk": 126, 
+        "pk": 136, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13763, 
@@ -1260,7 +1360,7 @@
         }
     }, 
     {
-        "pk": 127, 
+        "pk": 137, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 204359, 
@@ -1270,7 +1370,7 @@
         }
     }, 
     {
-        "pk": 128, 
+        "pk": 138, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 90476, 
@@ -1280,7 +1380,7 @@
         }
     }, 
     {
-        "pk": 129, 
+        "pk": 139, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 238775, 
@@ -1290,7 +1390,7 @@
         }
     }, 
     {
-        "pk": 130, 
+        "pk": 140, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6874, 
@@ -1300,7 +1400,7 @@
         }
     }, 
     {
-        "pk": 131, 
+        "pk": 141, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 609, 
@@ -1310,7 +1410,17 @@
         }
     }, 
     {
-        "pk": 132, 
+        "pk": 142, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 6874, 
+            "won": false, 
+            "award": 327, 
+            "actor": 38378
+        }
+    }, 
+    {
+        "pk": 143, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 70672, 
@@ -1320,7 +1430,7 @@
         }
     }, 
     {
-        "pk": 133, 
+        "pk": 144, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 60906, 
@@ -1330,7 +1440,7 @@
         }
     }, 
     {
-        "pk": 134, 
+        "pk": 145, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 15814, 
@@ -1340,7 +1450,7 @@
         }
     }, 
     {
-        "pk": 135, 
+        "pk": 146, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 88718, 
@@ -1350,7 +1460,7 @@
         }
     }, 
     {
-        "pk": 136, 
+        "pk": 147, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239599, 
@@ -1360,7 +1470,7 @@
         }
     }, 
     {
-        "pk": 137, 
+        "pk": 148, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239599, 
@@ -1370,7 +1480,7 @@
         }
     }, 
     {
-        "pk": 138, 
+        "pk": 149, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 976, 
@@ -1380,7 +1490,17 @@
         }
     }, 
     {
-        "pk": 139, 
+        "pk": 150, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 3138, 
+            "won": false, 
+            "award": 330, 
+            "actor": 21843
+        }
+    }, 
+    {
+        "pk": 151, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 28765, 
@@ -1390,7 +1510,7 @@
         }
     }, 
     {
-        "pk": 140, 
+        "pk": 152, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 976, 
@@ -1400,7 +1520,7 @@
         }
     }, 
     {
-        "pk": 141, 
+        "pk": 153, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1235, 
@@ -1410,7 +1530,7 @@
         }
     }, 
     {
-        "pk": 142, 
+        "pk": 154, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9079, 
@@ -1420,7 +1540,7 @@
         }
     }, 
     {
-        "pk": 143, 
+        "pk": 155, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 16431, 
@@ -1430,7 +1550,7 @@
         }
     }, 
     {
-        "pk": 144, 
+        "pk": 156, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 39305, 
@@ -1440,7 +1560,7 @@
         }
     }, 
     {
-        "pk": 145, 
+        "pk": 157, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13456, 
@@ -1450,7 +1570,7 @@
         }
     }, 
     {
-        "pk": 146, 
+        "pk": 158, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2971, 
@@ -1460,7 +1580,7 @@
         }
     }, 
     {
-        "pk": 147, 
+        "pk": 159, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 37569, 
@@ -1470,7 +1590,7 @@
         }
     }, 
     {
-        "pk": 148, 
+        "pk": 160, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2969, 
@@ -1480,7 +1600,7 @@
         }
     }, 
     {
-        "pk": 149, 
+        "pk": 161, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3755, 
@@ -1490,7 +1610,7 @@
         }
     }, 
     {
-        "pk": 150, 
+        "pk": 162, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 77005, 
@@ -1500,7 +1620,7 @@
         }
     }, 
     {
-        "pk": 151, 
+        "pk": 163, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 452, 
@@ -1510,7 +1630,7 @@
         }
     }, 
     {
-        "pk": 152, 
+        "pk": 164, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 99129, 
@@ -1520,7 +1640,7 @@
         }
     }, 
     {
-        "pk": 153, 
+        "pk": 165, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9, 
@@ -1530,7 +1650,7 @@
         }
     }, 
     {
-        "pk": 154, 
+        "pk": 166, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 217000, 
@@ -1540,7 +1660,7 @@
         }
     }, 
     {
-        "pk": 155, 
+        "pk": 167, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 229492, 
@@ -1550,7 +1670,7 @@
         }
     }, 
     {
-        "pk": 156, 
+        "pk": 168, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 980, 
@@ -1560,7 +1680,7 @@
         }
     }, 
     {
-        "pk": 157, 
+        "pk": 169, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 240044, 
@@ -1570,7 +1690,17 @@
         }
     }, 
     {
-        "pk": 158, 
+        "pk": 170, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 4878, 
+            "won": false, 
+            "award": 335, 
+            "actor": 20996
+        }
+    }, 
+    {
+        "pk": 171, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4905, 
@@ -1580,7 +1710,7 @@
         }
     }, 
     {
-        "pk": 159, 
+        "pk": 172, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9463, 
@@ -1590,7 +1720,7 @@
         }
     }, 
     {
-        "pk": 160, 
+        "pk": 173, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 12668, 
@@ -1600,7 +1730,7 @@
         }
     }, 
     {
-        "pk": 161, 
+        "pk": 174, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 35336, 
@@ -1610,17 +1740,17 @@
         }
     }, 
     {
-        "pk": 162, 
+        "pk": 175, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 63433, 
+            "movie": 2717, 
             "won": false, 
             "award": 337, 
             "actor": 44171
         }
     }, 
     {
-        "pk": 163, 
+        "pk": 176, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 12043, 
@@ -1630,7 +1760,7 @@
         }
     }, 
     {
-        "pk": 164, 
+        "pk": 177, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 16373, 
@@ -1640,7 +1770,7 @@
         }
     }, 
     {
-        "pk": 165, 
+        "pk": 178, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 162028, 
@@ -1650,7 +1780,7 @@
         }
     }, 
     {
-        "pk": 166, 
+        "pk": 179, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 25897, 
@@ -1660,7 +1790,7 @@
         }
     }, 
     {
-        "pk": 167, 
+        "pk": 180, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 86361, 
@@ -1670,7 +1800,7 @@
         }
     }, 
     {
-        "pk": 168, 
+        "pk": 181, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 61983, 
@@ -1680,7 +1810,7 @@
         }
     }, 
     {
-        "pk": 169, 
+        "pk": 182, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 61983, 
@@ -1690,7 +1820,7 @@
         }
     }, 
     {
-        "pk": 170, 
+        "pk": 183, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 188, 
@@ -1700,7 +1830,7 @@
         }
     }, 
     {
-        "pk": 171, 
+        "pk": 184, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 54450, 
@@ -1710,7 +1840,7 @@
         }
     }, 
     {
-        "pk": 172, 
+        "pk": 185, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4197, 
@@ -1720,7 +1850,7 @@
         }
     }, 
     {
-        "pk": 173, 
+        "pk": 186, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 54450, 
@@ -1730,7 +1860,7 @@
         }
     }, 
     {
-        "pk": 174, 
+        "pk": 187, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 12354, 
@@ -1740,7 +1870,7 @@
         }
     }, 
     {
-        "pk": 175, 
+        "pk": 188, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1674, 
@@ -1750,7 +1880,7 @@
         }
     }, 
     {
-        "pk": 176, 
+        "pk": 189, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 24373, 
@@ -1760,7 +1890,7 @@
         }
     }, 
     {
-        "pk": 177, 
+        "pk": 190, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127792, 
@@ -1770,7 +1900,7 @@
         }
     }, 
     {
-        "pk": 178, 
+        "pk": 191, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6033, 
@@ -1780,7 +1910,7 @@
         }
     }, 
     {
-        "pk": 179, 
+        "pk": 192, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 69949, 
@@ -1790,7 +1920,7 @@
         }
     }, 
     {
-        "pk": 180, 
+        "pk": 193, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 25982, 
@@ -1800,7 +1930,7 @@
         }
     }, 
     {
-        "pk": 181, 
+        "pk": 194, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 237699, 
@@ -1810,7 +1940,7 @@
         }
     }, 
     {
-        "pk": 182, 
+        "pk": 195, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 113980, 
@@ -1820,7 +1950,17 @@
         }
     }, 
     {
-        "pk": 183, 
+        "pk": 196, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 25008, 
+            "won": false, 
+            "award": 345, 
+            "actor": 16007
+        }
+    }, 
+    {
+        "pk": 197, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239926, 
@@ -1830,7 +1970,7 @@
         }
     }, 
     {
-        "pk": 184, 
+        "pk": 198, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 76321, 
@@ -1840,7 +1980,7 @@
         }
     }, 
     {
-        "pk": 185, 
+        "pk": 199, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 42529, 
@@ -1850,7 +1990,7 @@
         }
     }, 
     {
-        "pk": 186, 
+        "pk": 200, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 215604, 
@@ -1860,7 +2000,17 @@
         }
     }, 
     {
-        "pk": 187, 
+        "pk": 201, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 101602, 
+            "won": false, 
+            "award": 346, 
+            "actor": 35736
+        }
+    }, 
+    {
+        "pk": 202, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239697, 
@@ -1870,7 +2020,7 @@
         }
     }, 
     {
-        "pk": 188, 
+        "pk": 203, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 26173, 
@@ -1880,7 +2030,7 @@
         }
     }, 
     {
-        "pk": 189, 
+        "pk": 204, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 191106, 
@@ -1890,7 +2040,7 @@
         }
     }, 
     {
-        "pk": 190, 
+        "pk": 205, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 164673, 
@@ -1900,7 +2050,7 @@
         }
     }, 
     {
-        "pk": 191, 
+        "pk": 206, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 28417, 
@@ -1910,7 +2060,7 @@
         }
     }, 
     {
-        "pk": 192, 
+        "pk": 207, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5341, 
@@ -1920,7 +2070,7 @@
         }
     }, 
     {
-        "pk": 193, 
+        "pk": 208, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13576, 
@@ -1930,7 +2080,7 @@
         }
     }, 
     {
-        "pk": 194, 
+        "pk": 209, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 7253, 
@@ -1940,7 +2090,7 @@
         }
     }, 
     {
-        "pk": 195, 
+        "pk": 210, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 49208, 
@@ -1950,7 +2100,17 @@
         }
     }, 
     {
-        "pk": 196, 
+        "pk": 211, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 10662, 
+            "won": true, 
+            "award": 348, 
+            "actor": 42446
+        }
+    }, 
+    {
+        "pk": 212, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 78770, 
@@ -1960,7 +2120,7 @@
         }
     }, 
     {
-        "pk": 197, 
+        "pk": 213, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 18736, 
@@ -1970,7 +2130,7 @@
         }
     }, 
     {
-        "pk": 198, 
+        "pk": 214, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 24174, 
@@ -1980,7 +2140,7 @@
         }
     }, 
     {
-        "pk": 199, 
+        "pk": 215, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 98835, 
@@ -1990,7 +2150,7 @@
         }
     }, 
     {
-        "pk": 200, 
+        "pk": 216, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 103065, 
@@ -2000,7 +2160,7 @@
         }
     }, 
     {
-        "pk": 201, 
+        "pk": 217, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239058, 
@@ -2010,7 +2170,17 @@
         }
     }, 
     {
-        "pk": 202, 
+        "pk": 218, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 104259, 
+            "won": false, 
+            "award": 350, 
+            "actor": 17933
+        }
+    }, 
+    {
+        "pk": 219, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127783, 
@@ -2020,7 +2190,17 @@
         }
     }, 
     {
-        "pk": 203, 
+        "pk": 220, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 131250, 
+            "won": false, 
+            "award": 351, 
+            "actor": 19641
+        }
+    }, 
+    {
+        "pk": 221, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 126672, 
@@ -2030,7 +2210,7 @@
         }
     }, 
     {
-        "pk": 204, 
+        "pk": 222, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 128072, 
@@ -2040,7 +2220,7 @@
         }
     }, 
     {
-        "pk": 205, 
+        "pk": 223, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190383, 
@@ -2050,7 +2230,17 @@
         }
     }, 
     {
-        "pk": 206, 
+        "pk": 224, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 148407, 
+            "won": false, 
+            "award": 352, 
+            "actor": 8433
+        }
+    }, 
+    {
+        "pk": 225, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 51852, 
@@ -2060,7 +2250,7 @@
         }
     }, 
     {
-        "pk": 207, 
+        "pk": 226, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 64576, 
@@ -2070,7 +2260,7 @@
         }
     }, 
     {
-        "pk": 208, 
+        "pk": 227, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1671, 
@@ -2080,7 +2270,7 @@
         }
     }, 
     {
-        "pk": 209, 
+        "pk": 228, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 34319, 
@@ -2090,7 +2280,7 @@
         }
     }, 
     {
-        "pk": 210, 
+        "pk": 229, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 111728, 
@@ -2100,7 +2290,7 @@
         }
     }, 
     {
-        "pk": 211, 
+        "pk": 230, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 69660, 
@@ -2110,7 +2300,7 @@
         }
     }, 
     {
-        "pk": 212, 
+        "pk": 231, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 150592, 
@@ -2120,7 +2310,7 @@
         }
     }, 
     {
-        "pk": 213, 
+        "pk": 232, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 150592, 
@@ -2130,7 +2320,27 @@
         }
     }, 
     {
-        "pk": 214, 
+        "pk": 233, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 146212, 
+            "won": false, 
+            "award": 355, 
+            "actor": 22077
+        }
+    }, 
+    {
+        "pk": 234, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 154296, 
+            "won": false, 
+            "award": 355, 
+            "actor": 19641
+        }
+    }, 
+    {
+        "pk": 235, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 154192, 
@@ -2140,7 +2350,7 @@
         }
     }, 
     {
-        "pk": 215, 
+        "pk": 236, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 157781, 
@@ -2150,7 +2360,7 @@
         }
     }, 
     {
-        "pk": 216, 
+        "pk": 237, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 179091, 
@@ -2160,7 +2370,7 @@
         }
     }, 
     {
-        "pk": 217, 
+        "pk": 238, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 169520, 
@@ -2170,7 +2380,7 @@
         }
     }, 
     {
-        "pk": 218, 
+        "pk": 239, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 64308, 
@@ -2180,7 +2390,7 @@
         }
     }, 
     {
-        "pk": 219, 
+        "pk": 240, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190529, 
@@ -2190,7 +2400,7 @@
         }
     }, 
     {
-        "pk": 220, 
+        "pk": 241, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 175, 
@@ -2200,7 +2410,7 @@
         }
     }, 
     {
-        "pk": 221, 
+        "pk": 242, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 106088, 
@@ -2210,7 +2420,7 @@
         }
     }, 
     {
-        "pk": 222, 
+        "pk": 243, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 18922, 
@@ -2220,7 +2430,7 @@
         }
     }, 
     {
-        "pk": 223, 
+        "pk": 244, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 18922, 
@@ -2230,7 +2440,7 @@
         }
     }, 
     {
-        "pk": 224, 
+        "pk": 245, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4478, 
@@ -2240,7 +2450,7 @@
         }
     }, 
     {
-        "pk": 225, 
+        "pk": 246, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6744, 
@@ -2250,7 +2460,7 @@
         }
     }, 
     {
-        "pk": 226, 
+        "pk": 247, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4088, 
@@ -2260,7 +2470,7 @@
         }
     }, 
     {
-        "pk": 227, 
+        "pk": 248, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2617, 
@@ -2270,7 +2480,7 @@
         }
     }, 
     {
-        "pk": 228, 
+        "pk": 249, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 25989, 
@@ -2280,7 +2490,7 @@
         }
     }, 
     {
-        "pk": 229, 
+        "pk": 250, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 853, 
@@ -2290,7 +2500,7 @@
         }
     }, 
     {
-        "pk": 230, 
+        "pk": 251, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 28655, 
@@ -2300,7 +2510,7 @@
         }
     }, 
     {
-        "pk": 231, 
+        "pk": 252, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2953, 
@@ -2310,7 +2520,7 @@
         }
     }, 
     {
-        "pk": 232, 
+        "pk": 253, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2529, 
@@ -2320,7 +2530,7 @@
         }
     }, 
     {
-        "pk": 233, 
+        "pk": 254, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 228997, 
@@ -2330,7 +2540,7 @@
         }
     }, 
     {
-        "pk": 234, 
+        "pk": 255, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 171399, 
@@ -2340,7 +2550,7 @@
         }
     }, 
     {
-        "pk": 235, 
+        "pk": 256, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 175321, 
@@ -2350,7 +2560,17 @@
         }
     }, 
     {
-        "pk": 236, 
+        "pk": 257, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 42334, 
+            "won": false, 
+            "award": 706, 
+            "actor": 18266
+        }
+    }, 
+    {
+        "pk": 258, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 202764, 
@@ -2360,7 +2580,7 @@
         }
     }, 
     {
-        "pk": 237, 
+        "pk": 259, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 39357, 
@@ -2370,7 +2590,7 @@
         }
     }, 
     {
-        "pk": 238, 
+        "pk": 260, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 37215, 
@@ -2380,7 +2600,7 @@
         }
     }, 
     {
-        "pk": 239, 
+        "pk": 261, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 37134, 
@@ -2390,7 +2610,7 @@
         }
     }, 
     {
-        "pk": 240, 
+        "pk": 262, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9763, 
@@ -2400,7 +2620,7 @@
         }
     }, 
     {
-        "pk": 241, 
+        "pk": 263, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 140860, 
@@ -2410,7 +2630,7 @@
         }
     }, 
     {
-        "pk": 242, 
+        "pk": 264, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 45470, 
@@ -2420,7 +2640,7 @@
         }
     }, 
     {
-        "pk": 243, 
+        "pk": 265, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 187402, 
@@ -2430,7 +2650,7 @@
         }
     }, 
     {
-        "pk": 244, 
+        "pk": 266, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6487, 
@@ -2440,7 +2660,7 @@
         }
     }, 
     {
-        "pk": 245, 
+        "pk": 267, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2777, 
@@ -2450,7 +2670,7 @@
         }
     }, 
     {
-        "pk": 246, 
+        "pk": 268, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3549, 
@@ -2460,7 +2680,7 @@
         }
     }, 
     {
-        "pk": 247, 
+        "pk": 269, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4821, 
@@ -2470,7 +2690,7 @@
         }
     }, 
     {
-        "pk": 248, 
+        "pk": 270, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 27309, 
@@ -2480,7 +2700,7 @@
         }
     }, 
     {
-        "pk": 249, 
+        "pk": 271, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5382, 
@@ -2490,7 +2710,7 @@
         }
     }, 
     {
-        "pk": 250, 
+        "pk": 272, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 16546, 
@@ -2500,7 +2720,7 @@
         }
     }, 
     {
-        "pk": 251, 
+        "pk": 273, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 160532, 
@@ -2510,7 +2730,7 @@
         }
     }, 
     {
-        "pk": 252, 
+        "pk": 274, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2879, 
@@ -2520,7 +2740,7 @@
         }
     }, 
     {
-        "pk": 253, 
+        "pk": 275, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1443, 
@@ -2530,7 +2750,7 @@
         }
     }, 
     {
-        "pk": 254, 
+        "pk": 276, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 154201, 
@@ -2540,7 +2760,7 @@
         }
     }, 
     {
-        "pk": 255, 
+        "pk": 277, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 66933, 
@@ -2550,7 +2770,7 @@
         }
     }, 
     {
-        "pk": 256, 
+        "pk": 278, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 77073, 
@@ -2560,7 +2780,7 @@
         }
     }, 
     {
-        "pk": 257, 
+        "pk": 279, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9758, 
@@ -2570,7 +2790,7 @@
         }
     }, 
     {
-        "pk": 258, 
+        "pk": 280, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 17205, 
@@ -2580,7 +2800,7 @@
         }
     }, 
     {
-        "pk": 259, 
+        "pk": 281, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 216600, 
@@ -2590,7 +2810,7 @@
         }
     }, 
     {
-        "pk": 260, 
+        "pk": 282, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 64009, 
@@ -2600,7 +2820,7 @@
         }
     }, 
     {
-        "pk": 261, 
+        "pk": 283, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6109, 
@@ -2610,7 +2830,7 @@
         }
     }, 
     {
-        "pk": 262, 
+        "pk": 284, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6109, 
@@ -2620,7 +2840,7 @@
         }
     }, 
     {
-        "pk": 263, 
+        "pk": 285, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9777, 
@@ -2630,7 +2850,7 @@
         }
     }, 
     {
-        "pk": 264, 
+        "pk": 286, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 147807, 
@@ -2640,7 +2860,7 @@
         }
     }, 
     {
-        "pk": 265, 
+        "pk": 287, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 37267, 
@@ -2650,7 +2870,7 @@
         }
     }, 
     {
-        "pk": 266, 
+        "pk": 288, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13243, 
@@ -2660,7 +2880,7 @@
         }
     }, 
     {
-        "pk": 267, 
+        "pk": 289, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 65247, 
@@ -2670,7 +2890,7 @@
         }
     }, 
     {
-        "pk": 268, 
+        "pk": 290, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 195779, 
@@ -2680,7 +2900,7 @@
         }
     }, 
     {
-        "pk": 269, 
+        "pk": 291, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 240073, 
@@ -2690,7 +2910,7 @@
         }
     }, 
     {
-        "pk": 270, 
+        "pk": 292, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 7309, 
@@ -2700,7 +2920,7 @@
         }
     }, 
     {
-        "pk": 271, 
+        "pk": 293, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 75506, 
@@ -2710,7 +2930,17 @@
         }
     }, 
     {
-        "pk": 272, 
+        "pk": 294, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 50755, 
+            "won": false, 
+            "award": 716, 
+            "actor": 15923
+        }
+    }, 
+    {
+        "pk": 295, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 84694, 
@@ -2720,7 +2950,7 @@
         }
     }, 
     {
-        "pk": 273, 
+        "pk": 296, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 50755, 
@@ -2730,7 +2960,7 @@
         }
     }, 
     {
-        "pk": 274, 
+        "pk": 297, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 52389, 
@@ -2740,7 +2970,7 @@
         }
     }, 
     {
-        "pk": 275, 
+        "pk": 298, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 238655, 
@@ -2750,7 +2980,7 @@
         }
     }, 
     {
-        "pk": 276, 
+        "pk": 299, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 238655, 
@@ -2760,7 +2990,7 @@
         }
     }, 
     {
-        "pk": 277, 
+        "pk": 300, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 73469, 
@@ -2770,7 +3000,7 @@
         }
     }, 
     {
-        "pk": 278, 
+        "pk": 301, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 52389, 
@@ -2780,7 +3010,7 @@
         }
     }, 
     {
-        "pk": 279, 
+        "pk": 302, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13706, 
@@ -2790,7 +3020,7 @@
         }
     }, 
     {
-        "pk": 280, 
+        "pk": 303, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 7560, 
@@ -2800,7 +3030,7 @@
         }
     }, 
     {
-        "pk": 281, 
+        "pk": 304, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2100, 
@@ -2810,7 +3040,7 @@
         }
     }, 
     {
-        "pk": 282, 
+        "pk": 305, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 149333, 
@@ -2820,7 +3050,7 @@
         }
     }, 
     {
-        "pk": 283, 
+        "pk": 306, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3863, 
@@ -2830,7 +3060,7 @@
         }
     }, 
     {
-        "pk": 284, 
+        "pk": 307, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 191061, 
@@ -2840,7 +3070,7 @@
         }
     }, 
     {
-        "pk": 285, 
+        "pk": 308, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 16665, 
@@ -2850,7 +3080,7 @@
         }
     }, 
     {
-        "pk": 286, 
+        "pk": 309, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46872, 
@@ -2860,7 +3090,7 @@
         }
     }, 
     {
-        "pk": 287, 
+        "pk": 310, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4845, 
@@ -2870,7 +3100,7 @@
         }
     }, 
     {
-        "pk": 288, 
+        "pk": 311, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 149689, 
@@ -2880,7 +3110,7 @@
         }
     }, 
     {
-        "pk": 289, 
+        "pk": 312, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 54293, 
@@ -2890,7 +3120,7 @@
         }
     }, 
     {
-        "pk": 290, 
+        "pk": 313, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3814, 
@@ -2900,7 +3130,17 @@
         }
     }, 
     {
-        "pk": 291, 
+        "pk": 314, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 185705, 
+            "won": false, 
+            "award": 720, 
+            "actor": 149513
+        }
+    }, 
+    {
+        "pk": 315, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46154, 
@@ -2910,7 +3150,7 @@
         }
     }, 
     {
-        "pk": 292, 
+        "pk": 316, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 34940, 
@@ -2920,7 +3160,7 @@
         }
     }, 
     {
-        "pk": 293, 
+        "pk": 317, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 137676, 
@@ -2930,7 +3170,7 @@
         }
     }, 
     {
-        "pk": 294, 
+        "pk": 318, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 191083, 
@@ -2940,7 +3180,7 @@
         }
     }, 
     {
-        "pk": 295, 
+        "pk": 319, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 62755, 
@@ -2950,7 +3190,7 @@
         }
     }, 
     {
-        "pk": 296, 
+        "pk": 320, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127677, 
@@ -2960,7 +3200,17 @@
         }
     }, 
     {
-        "pk": 297, 
+        "pk": 321, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 127677, 
+            "won": false, 
+            "award": 722, 
+            "actor": 44935
+        }
+    }, 
+    {
+        "pk": 322, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 53433, 
@@ -2970,7 +3220,7 @@
         }
     }, 
     {
-        "pk": 298, 
+        "pk": 323, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 104403, 
@@ -2980,7 +3230,7 @@
         }
     }, 
     {
-        "pk": 299, 
+        "pk": 324, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2268, 
@@ -2990,7 +3240,7 @@
         }
     }, 
     {
-        "pk": 300, 
+        "pk": 325, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 141828, 
@@ -3000,7 +3250,7 @@
         }
     }, 
     {
-        "pk": 301, 
+        "pk": 326, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 203541, 
@@ -3010,7 +3260,7 @@
         }
     }, 
     {
-        "pk": 302, 
+        "pk": 327, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 92847, 
@@ -3020,7 +3270,7 @@
         }
     }, 
     {
-        "pk": 303, 
+        "pk": 328, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2869, 
@@ -3030,7 +3280,7 @@
         }
     }, 
     {
-        "pk": 304, 
+        "pk": 329, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 39290, 
@@ -3040,7 +3290,7 @@
         }
     }, 
     {
-        "pk": 305, 
+        "pk": 330, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 59755, 
@@ -3050,7 +3300,7 @@
         }
     }, 
     {
-        "pk": 306, 
+        "pk": 331, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2409, 
@@ -3060,7 +3310,7 @@
         }
     }, 
     {
-        "pk": 307, 
+        "pk": 332, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 63427, 
@@ -3070,7 +3320,7 @@
         }
     }, 
     {
-        "pk": 308, 
+        "pk": 333, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2409, 
@@ -3080,7 +3330,7 @@
         }
     }, 
     {
-        "pk": 309, 
+        "pk": 334, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 201918, 
@@ -3090,7 +3340,7 @@
         }
     }, 
     {
-        "pk": 310, 
+        "pk": 335, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 214696, 
@@ -3100,7 +3350,7 @@
         }
     }, 
     {
-        "pk": 311, 
+        "pk": 336, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 105910, 
@@ -3110,7 +3360,7 @@
         }
     }, 
     {
-        "pk": 312, 
+        "pk": 337, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46870, 
@@ -3120,7 +3370,7 @@
         }
     }, 
     {
-        "pk": 313, 
+        "pk": 338, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 201913, 
@@ -3130,7 +3380,7 @@
         }
     }, 
     {
-        "pk": 314, 
+        "pk": 339, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 62897, 
@@ -3140,7 +3390,7 @@
         }
     }, 
     {
-        "pk": 315, 
+        "pk": 340, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 62897, 
@@ -3150,7 +3400,7 @@
         }
     }, 
     {
-        "pk": 316, 
+        "pk": 341, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 56009, 
@@ -3160,7 +3410,7 @@
         }
     }, 
     {
-        "pk": 317, 
+        "pk": 342, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 224253, 
@@ -3170,7 +3420,7 @@
         }
     }, 
     {
-        "pk": 318, 
+        "pk": 343, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 211585, 
@@ -3180,7 +3430,7 @@
         }
     }, 
     {
-        "pk": 319, 
+        "pk": 344, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 192546, 
@@ -3190,7 +3440,7 @@
         }
     }, 
     {
-        "pk": 320, 
+        "pk": 345, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 201282, 
@@ -3200,7 +3450,7 @@
         }
     }, 
     {
-        "pk": 321, 
+        "pk": 346, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 238530, 
@@ -3210,7 +3460,7 @@
         }
     }, 
     {
-        "pk": 322, 
+        "pk": 347, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 887, 
@@ -3220,7 +3470,7 @@
         }
     }, 
     {
-        "pk": 323, 
+        "pk": 348, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2455, 
@@ -3230,7 +3480,7 @@
         }
     }, 
     {
-        "pk": 324, 
+        "pk": 349, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5841, 
@@ -3240,7 +3490,7 @@
         }
     }, 
     {
-        "pk": 325, 
+        "pk": 350, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 599, 
@@ -3250,7 +3500,7 @@
         }
     }, 
     {
-        "pk": 326, 
+        "pk": 351, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 77979, 
@@ -3260,7 +3510,7 @@
         }
     }, 
     {
-        "pk": 327, 
+        "pk": 352, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 83535, 
@@ -3270,7 +3520,7 @@
         }
     }, 
     {
-        "pk": 328, 
+        "pk": 353, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 240035, 
@@ -3280,7 +3530,7 @@
         }
     }, 
     {
-        "pk": 329, 
+        "pk": 354, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 75592, 
@@ -3290,7 +3540,7 @@
         }
     }, 
     {
-        "pk": 330, 
+        "pk": 355, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13294, 
@@ -3300,7 +3550,7 @@
         }
     }, 
     {
-        "pk": 331, 
+        "pk": 356, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 35268, 
@@ -3310,7 +3560,7 @@
         }
     }, 
     {
-        "pk": 332, 
+        "pk": 357, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 135405, 
@@ -3320,7 +3570,17 @@
         }
     }, 
     {
-        "pk": 333, 
+        "pk": 358, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 60979, 
+            "won": true, 
+            "award": 737, 
+            "actor": 14376
+        }
+    }, 
+    {
+        "pk": 359, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 195827, 
@@ -3330,7 +3590,17 @@
         }
     }, 
     {
-        "pk": 334, 
+        "pk": 360, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 237926, 
+            "won": true, 
+            "award": 738, 
+            "actor": 37537
+        }
+    }, 
+    {
+        "pk": 361, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 59739, 
@@ -3340,7 +3610,7 @@
         }
     }, 
     {
-        "pk": 335, 
+        "pk": 362, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 117326, 
@@ -3350,7 +3620,7 @@
         }
     }, 
     {
-        "pk": 336, 
+        "pk": 363, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 40333, 
@@ -3360,7 +3630,7 @@
         }
     }, 
     {
-        "pk": 337, 
+        "pk": 364, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 40333, 
@@ -3370,7 +3640,7 @@
         }
     }, 
     {
-        "pk": 338, 
+        "pk": 365, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13580, 
@@ -3380,7 +3650,7 @@
         }
     }, 
     {
-        "pk": 339, 
+        "pk": 366, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 12053, 
@@ -3390,7 +3660,7 @@
         }
     }, 
     {
-        "pk": 340, 
+        "pk": 367, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 82207, 
@@ -3400,7 +3670,7 @@
         }
     }, 
     {
-        "pk": 341, 
+        "pk": 368, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 79987, 
@@ -3410,7 +3680,7 @@
         }
     }, 
     {
-        "pk": 342, 
+        "pk": 369, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 10855, 
@@ -3420,7 +3690,7 @@
         }
     }, 
     {
-        "pk": 343, 
+        "pk": 370, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 65337, 
@@ -3430,7 +3700,7 @@
         }
     }, 
     {
-        "pk": 344, 
+        "pk": 371, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 56137, 
@@ -3440,7 +3710,17 @@
         }
     }, 
     {
-        "pk": 345, 
+        "pk": 372, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 201895, 
+            "won": false, 
+            "award": 741, 
+            "actor": 44935
+        }
+    }, 
+    {
+        "pk": 373, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 55739, 
@@ -3450,7 +3730,7 @@
         }
     }, 
     {
-        "pk": 346, 
+        "pk": 374, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5701, 
@@ -3460,7 +3740,7 @@
         }
     }, 
     {
-        "pk": 347, 
+        "pk": 375, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1673, 
@@ -3470,7 +3750,7 @@
         }
     }, 
     {
-        "pk": 348, 
+        "pk": 376, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4094, 
@@ -3480,7 +3760,7 @@
         }
     }, 
     {
-        "pk": 349, 
+        "pk": 377, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 128189, 
@@ -3490,7 +3770,7 @@
         }
     }, 
     {
-        "pk": 350, 
+        "pk": 378, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 25979, 
@@ -3500,7 +3780,7 @@
         }
     }, 
     {
-        "pk": 351, 
+        "pk": 379, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 224812, 
@@ -3510,7 +3790,7 @@
         }
     }, 
     {
-        "pk": 352, 
+        "pk": 380, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 37209, 
@@ -3520,7 +3800,7 @@
         }
     }, 
     {
-        "pk": 353, 
+        "pk": 381, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 83724, 
@@ -3530,7 +3810,7 @@
         }
     }, 
     {
-        "pk": 354, 
+        "pk": 382, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 45195, 
@@ -3540,7 +3820,7 @@
         }
     }, 
     {
-        "pk": 355, 
+        "pk": 383, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 117817, 
@@ -3550,17 +3830,17 @@
         }
     }, 
     {
-        "pk": 356, 
+        "pk": 384, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 189006, 
+            "movie": 40569, 
             "won": false, 
             "award": 744, 
             "actor": 27400
         }
     }, 
     {
-        "pk": 357, 
+        "pk": 385, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5470, 
@@ -3570,7 +3850,7 @@
         }
     }, 
     {
-        "pk": 358, 
+        "pk": 386, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 173114, 
@@ -3580,7 +3860,7 @@
         }
     }, 
     {
-        "pk": 359, 
+        "pk": 387, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 10904, 
@@ -3590,7 +3870,7 @@
         }
     }, 
     {
-        "pk": 360, 
+        "pk": 388, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 10904, 
@@ -3600,7 +3880,27 @@
         }
     }, 
     {
-        "pk": 361, 
+        "pk": 389, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 17543, 
+            "won": false, 
+            "award": 745, 
+            "actor": 44230
+        }
+    }, 
+    {
+        "pk": 390, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 59701, 
+            "won": false, 
+            "award": 746, 
+            "actor": 32456
+        }
+    }, 
+    {
+        "pk": 391, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6667, 
@@ -3610,7 +3910,7 @@
         }
     }, 
     {
-        "pk": 362, 
+        "pk": 392, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3609, 
@@ -3620,7 +3920,17 @@
         }
     }, 
     {
-        "pk": 363, 
+        "pk": 393, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 2521, 
+            "won": false, 
+            "award": 746, 
+            "actor": 18698
+        }
+    }, 
+    {
+        "pk": 394, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2521, 
@@ -3630,7 +3940,7 @@
         }
     }, 
     {
-        "pk": 364, 
+        "pk": 395, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 151137, 
@@ -3640,7 +3950,7 @@
         }
     }, 
     {
-        "pk": 365, 
+        "pk": 396, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 145909, 
@@ -3650,7 +3960,7 @@
         }
     }, 
     {
-        "pk": 366, 
+        "pk": 397, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3137, 
@@ -3660,7 +3970,7 @@
         }
     }, 
     {
-        "pk": 367, 
+        "pk": 398, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 38991, 
@@ -3670,7 +3980,17 @@
         }
     }, 
     {
-        "pk": 368, 
+        "pk": 399, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 26066, 
+            "won": false, 
+            "award": 748, 
+            "actor": 23628
+        }
+    }, 
+    {
+        "pk": 400, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5140, 
@@ -3680,7 +4000,17 @@
         }
     }, 
     {
-        "pk": 369, 
+        "pk": 401, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 26066, 
+            "won": false, 
+            "award": 748, 
+            "actor": 30346
+        }
+    }, 
+    {
+        "pk": 402, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 70672, 
@@ -3690,7 +4020,7 @@
         }
     }, 
     {
-        "pk": 370, 
+        "pk": 403, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13574, 
@@ -3700,7 +4030,7 @@
         }
     }, 
     {
-        "pk": 371, 
+        "pk": 404, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190553, 
@@ -3710,7 +4040,7 @@
         }
     }, 
     {
-        "pk": 372, 
+        "pk": 405, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 15814, 
@@ -3720,7 +4050,7 @@
         }
     }, 
     {
-        "pk": 373, 
+        "pk": 406, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 30804, 
@@ -3730,7 +4060,7 @@
         }
     }, 
     {
-        "pk": 374, 
+        "pk": 407, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 148447, 
@@ -3740,7 +4070,7 @@
         }
     }, 
     {
-        "pk": 375, 
+        "pk": 408, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 16524, 
@@ -3750,7 +4080,7 @@
         }
     }, 
     {
-        "pk": 376, 
+        "pk": 409, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 80414, 
@@ -3760,7 +4090,7 @@
         }
     }, 
     {
-        "pk": 377, 
+        "pk": 410, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 68000, 
@@ -3770,7 +4100,7 @@
         }
     }, 
     {
-        "pk": 378, 
+        "pk": 411, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 54662, 
@@ -3780,7 +4110,7 @@
         }
     }, 
     {
-        "pk": 379, 
+        "pk": 412, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 50807, 
@@ -3790,7 +4120,7 @@
         }
     }, 
     {
-        "pk": 380, 
+        "pk": 413, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 39305, 
@@ -3800,7 +4130,7 @@
         }
     }, 
     {
-        "pk": 381, 
+        "pk": 414, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2151, 
@@ -3810,7 +4140,7 @@
         }
     }, 
     {
-        "pk": 382, 
+        "pk": 415, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2971, 
@@ -3820,7 +4150,7 @@
         }
     }, 
     {
-        "pk": 383, 
+        "pk": 416, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1461, 
@@ -3830,7 +4160,7 @@
         }
     }, 
     {
-        "pk": 384, 
+        "pk": 417, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 97390, 
@@ -3840,7 +4170,7 @@
         }
     }, 
     {
-        "pk": 385, 
+        "pk": 418, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 97390, 
@@ -3850,7 +4180,7 @@
         }
     }, 
     {
-        "pk": 386, 
+        "pk": 419, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3907, 
@@ -3860,7 +4190,7 @@
         }
     }, 
     {
-        "pk": 387, 
+        "pk": 420, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 87895, 
@@ -3870,7 +4200,7 @@
         }
     }, 
     {
-        "pk": 388, 
+        "pk": 421, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4274, 
@@ -3880,7 +4210,7 @@
         }
     }, 
     {
-        "pk": 389, 
+        "pk": 422, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2418, 
@@ -3890,7 +4220,7 @@
         }
     }, 
     {
-        "pk": 390, 
+        "pk": 423, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3873, 
@@ -3900,7 +4230,7 @@
         }
     }, 
     {
-        "pk": 391, 
+        "pk": 424, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 99129, 
@@ -3910,7 +4240,7 @@
         }
     }, 
     {
-        "pk": 392, 
+        "pk": 425, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4878, 
@@ -3920,7 +4250,7 @@
         }
     }, 
     {
-        "pk": 393, 
+        "pk": 426, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 980, 
@@ -3930,7 +4260,7 @@
         }
     }, 
     {
-        "pk": 394, 
+        "pk": 427, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 980, 
@@ -3940,7 +4270,7 @@
         }
     }, 
     {
-        "pk": 395, 
+        "pk": 428, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 27267, 
@@ -3950,7 +4280,7 @@
         }
     }, 
     {
-        "pk": 396, 
+        "pk": 429, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 14520, 
@@ -3960,7 +4290,7 @@
         }
     }, 
     {
-        "pk": 397, 
+        "pk": 430, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 63121, 
@@ -3970,7 +4300,7 @@
         }
     }, 
     {
-        "pk": 398, 
+        "pk": 431, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6764, 
@@ -3980,7 +4310,7 @@
         }
     }, 
     {
-        "pk": 399, 
+        "pk": 432, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 12668, 
@@ -3990,7 +4320,7 @@
         }
     }, 
     {
-        "pk": 400, 
+        "pk": 433, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 12668, 
@@ -4000,7 +4330,7 @@
         }
     }, 
     {
-        "pk": 401, 
+        "pk": 434, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6762, 
@@ -4010,7 +4340,7 @@
         }
     }, 
     {
-        "pk": 402, 
+        "pk": 435, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 191087, 
@@ -4020,7 +4350,7 @@
         }
     }, 
     {
-        "pk": 403, 
+        "pk": 436, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 16373, 
@@ -4030,17 +4360,17 @@
         }
     }, 
     {
-        "pk": 404, 
+        "pk": 437, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 63433, 
+            "movie": 2717, 
             "won": false, 
             "award": 758, 
             "actor": 6808
         }
     }, 
     {
-        "pk": 405, 
+        "pk": 438, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 61983, 
@@ -4050,7 +4380,7 @@
         }
     }, 
     {
-        "pk": 406, 
+        "pk": 439, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 19531, 
@@ -4060,17 +4390,17 @@
         }
     }, 
     {
-        "pk": 407, 
+        "pk": 440, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 53838, 
+            "movie": 1056, 
             "won": false, 
             "award": 760, 
             "actor": 24724
         }
     }, 
     {
-        "pk": 408, 
+        "pk": 441, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5901, 
@@ -4080,7 +4410,7 @@
         }
     }, 
     {
-        "pk": 409, 
+        "pk": 442, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 188, 
@@ -4090,7 +4420,7 @@
         }
     }, 
     {
-        "pk": 410, 
+        "pk": 443, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4197, 
@@ -4100,7 +4430,7 @@
         }
     }, 
     {
-        "pk": 411, 
+        "pk": 444, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6432, 
@@ -4110,7 +4440,7 @@
         }
     }, 
     {
-        "pk": 412, 
+        "pk": 445, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 52675, 
@@ -4120,7 +4450,7 @@
         }
     }, 
     {
-        "pk": 413, 
+        "pk": 446, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 24373, 
@@ -4130,7 +4460,7 @@
         }
     }, 
     {
-        "pk": 414, 
+        "pk": 447, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 52675, 
@@ -4140,7 +4470,7 @@
         }
     }, 
     {
-        "pk": 415, 
+        "pk": 448, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 44475, 
@@ -4150,7 +4480,7 @@
         }
     }, 
     {
-        "pk": 416, 
+        "pk": 449, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 45413, 
@@ -4160,7 +4490,7 @@
         }
     }, 
     {
-        "pk": 417, 
+        "pk": 450, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 774, 
@@ -4170,7 +4500,7 @@
         }
     }, 
     {
-        "pk": 418, 
+        "pk": 451, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 28957, 
@@ -4180,7 +4510,7 @@
         }
     }, 
     {
-        "pk": 419, 
+        "pk": 452, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 200213, 
@@ -4190,7 +4520,7 @@
         }
     }, 
     {
-        "pk": 420, 
+        "pk": 453, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 28957, 
@@ -4200,7 +4530,7 @@
         }
     }, 
     {
-        "pk": 421, 
+        "pk": 454, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 215672, 
@@ -4210,7 +4540,7 @@
         }
     }, 
     {
-        "pk": 422, 
+        "pk": 455, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 191067, 
@@ -4220,7 +4550,7 @@
         }
     }, 
     {
-        "pk": 423, 
+        "pk": 456, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1046, 
@@ -4230,7 +4560,7 @@
         }
     }, 
     {
-        "pk": 424, 
+        "pk": 457, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 130, 
@@ -4240,7 +4570,7 @@
         }
     }, 
     {
-        "pk": 425, 
+        "pk": 458, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 130, 
@@ -4250,7 +4580,7 @@
         }
     }, 
     {
-        "pk": 426, 
+        "pk": 459, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 23676, 
@@ -4260,7 +4590,7 @@
         }
     }, 
     {
-        "pk": 427, 
+        "pk": 460, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2229, 
@@ -4270,7 +4600,7 @@
         }
     }, 
     {
-        "pk": 428, 
+        "pk": 461, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 101602, 
@@ -4280,7 +4610,7 @@
         }
     }, 
     {
-        "pk": 429, 
+        "pk": 462, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 191106, 
@@ -4290,7 +4620,7 @@
         }
     }, 
     {
-        "pk": 430, 
+        "pk": 463, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 26903, 
@@ -4300,7 +4630,7 @@
         }
     }, 
     {
-        "pk": 431, 
+        "pk": 464, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 101602, 
@@ -4310,7 +4640,7 @@
         }
     }, 
     {
-        "pk": 432, 
+        "pk": 465, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 164673, 
@@ -4320,7 +4650,7 @@
         }
     }, 
     {
-        "pk": 433, 
+        "pk": 466, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 41285, 
@@ -4330,7 +4660,7 @@
         }
     }, 
     {
-        "pk": 434, 
+        "pk": 467, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 211597, 
@@ -4340,7 +4670,17 @@
         }
     }, 
     {
-        "pk": 435, 
+        "pk": 468, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 11744, 
+            "won": true, 
+            "award": 769, 
+            "actor": 18266
+        }
+    }, 
+    {
+        "pk": 469, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 11444, 
@@ -4350,7 +4690,7 @@
         }
     }, 
     {
-        "pk": 436, 
+        "pk": 470, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 211597, 
@@ -4360,7 +4700,7 @@
         }
     }, 
     {
-        "pk": 437, 
+        "pk": 471, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 10308, 
@@ -4370,7 +4710,7 @@
         }
     }, 
     {
-        "pk": 438, 
+        "pk": 472, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 160692, 
@@ -4380,7 +4720,7 @@
         }
     }, 
     {
-        "pk": 439, 
+        "pk": 473, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 160692, 
@@ -4390,7 +4730,7 @@
         }
     }, 
     {
-        "pk": 440, 
+        "pk": 474, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 18736, 
@@ -4400,7 +4740,7 @@
         }
     }, 
     {
-        "pk": 441, 
+        "pk": 475, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 18865, 
@@ -4410,7 +4750,7 @@
         }
     }, 
     {
-        "pk": 442, 
+        "pk": 476, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 158335, 
@@ -4420,7 +4760,7 @@
         }
     }, 
     {
-        "pk": 443, 
+        "pk": 477, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 98835, 
@@ -4430,7 +4770,7 @@
         }
     }, 
     {
-        "pk": 444, 
+        "pk": 478, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239058, 
@@ -4440,7 +4780,7 @@
         }
     }, 
     {
-        "pk": 445, 
+        "pk": 479, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 163608, 
@@ -4450,7 +4790,7 @@
         }
     }, 
     {
-        "pk": 446, 
+        "pk": 480, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 163608, 
@@ -4460,7 +4800,7 @@
         }
     }, 
     {
-        "pk": 447, 
+        "pk": 481, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 128072, 
@@ -4470,7 +4810,7 @@
         }
     }, 
     {
-        "pk": 448, 
+        "pk": 482, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 207374, 
@@ -4480,7 +4820,7 @@
         }
     }, 
     {
-        "pk": 449, 
+        "pk": 483, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 132081, 
@@ -4490,7 +4830,7 @@
         }
     }, 
     {
-        "pk": 450, 
+        "pk": 484, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127396, 
@@ -4500,7 +4840,7 @@
         }
     }, 
     {
-        "pk": 451, 
+        "pk": 485, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 130586, 
@@ -4510,7 +4850,7 @@
         }
     }, 
     {
-        "pk": 452, 
+        "pk": 486, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190383, 
@@ -4520,7 +4860,7 @@
         }
     }, 
     {
-        "pk": 453, 
+        "pk": 487, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 148407, 
@@ -4530,7 +4870,7 @@
         }
     }, 
     {
-        "pk": 454, 
+        "pk": 488, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 60158, 
@@ -4540,7 +4880,7 @@
         }
     }, 
     {
-        "pk": 455, 
+        "pk": 489, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 59740, 
@@ -4550,7 +4890,7 @@
         }
     }, 
     {
-        "pk": 456, 
+        "pk": 490, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 111728, 
@@ -4560,7 +4900,7 @@
         }
     }, 
     {
-        "pk": 457, 
+        "pk": 491, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 111728, 
@@ -4570,7 +4910,7 @@
         }
     }, 
     {
-        "pk": 458, 
+        "pk": 492, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 69937, 
@@ -4580,7 +4920,7 @@
         }
     }, 
     {
-        "pk": 459, 
+        "pk": 493, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 69660, 
@@ -4590,7 +4930,7 @@
         }
     }, 
     {
-        "pk": 460, 
+        "pk": 494, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 154296, 
@@ -4600,7 +4940,7 @@
         }
     }, 
     {
-        "pk": 461, 
+        "pk": 495, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 154296, 
@@ -4610,7 +4950,7 @@
         }
     }, 
     {
-        "pk": 462, 
+        "pk": 496, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 143899, 
@@ -4620,7 +4960,7 @@
         }
     }, 
     {
-        "pk": 463, 
+        "pk": 497, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 178938, 
@@ -4630,7 +4970,7 @@
         }
     }, 
     {
-        "pk": 464, 
+        "pk": 498, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 175673, 
@@ -4640,7 +4980,7 @@
         }
     }, 
     {
-        "pk": 465, 
+        "pk": 499, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 175673, 
@@ -4650,7 +4990,7 @@
         }
     }, 
     {
-        "pk": 466, 
+        "pk": 500, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 177419, 
@@ -4660,7 +5000,7 @@
         }
     }, 
     {
-        "pk": 467, 
+        "pk": 501, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190529, 
@@ -4670,7 +5010,7 @@
         }
     }, 
     {
-        "pk": 468, 
+        "pk": 502, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9691, 
@@ -4680,7 +5020,7 @@
         }
     }, 
     {
-        "pk": 469, 
+        "pk": 503, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 57576, 
@@ -4690,7 +5030,7 @@
         }
     }, 
     {
-        "pk": 470, 
+        "pk": 504, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 199845, 
@@ -4700,7 +5040,7 @@
         }
     }, 
     {
-        "pk": 471, 
+        "pk": 505, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 175, 
@@ -4710,7 +5050,7 @@
         }
     }, 
     {
-        "pk": 472, 
+        "pk": 506, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9477, 
@@ -4720,7 +5060,7 @@
         }
     }, 
     {
-        "pk": 473, 
+        "pk": 507, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 107610, 
@@ -4730,7 +5070,7 @@
         }
     }, 
     {
-        "pk": 474, 
+        "pk": 508, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 175, 
@@ -4740,7 +5080,7 @@
         }
     }, 
     {
-        "pk": 475, 
+        "pk": 509, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 42334, 
@@ -4750,7 +5090,7 @@
         }
     }, 
     {
-        "pk": 476, 
+        "pk": 510, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 202764, 
@@ -4760,7 +5100,7 @@
         }
     }, 
     {
-        "pk": 477, 
+        "pk": 511, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 33837, 
@@ -4770,7 +5110,7 @@
         }
     }, 
     {
-        "pk": 478, 
+        "pk": 512, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 39357, 
@@ -4780,7 +5120,7 @@
         }
     }, 
     {
-        "pk": 479, 
+        "pk": 513, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 36680, 
@@ -4790,7 +5130,7 @@
         }
     }, 
     {
-        "pk": 480, 
+        "pk": 514, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 380, 
@@ -4800,7 +5140,7 @@
         }
     }, 
     {
-        "pk": 481, 
+        "pk": 515, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2529, 
@@ -4810,7 +5150,7 @@
         }
     }, 
     {
-        "pk": 482, 
+        "pk": 516, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6439, 
@@ -4820,7 +5160,7 @@
         }
     }, 
     {
-        "pk": 483, 
+        "pk": 517, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6296, 
@@ -4830,7 +5170,7 @@
         }
     }, 
     {
-        "pk": 484, 
+        "pk": 518, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5211, 
@@ -4840,7 +5180,7 @@
         }
     }, 
     {
-        "pk": 485, 
+        "pk": 519, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 194271, 
@@ -4850,7 +5190,7 @@
         }
     }, 
     {
-        "pk": 486, 
+        "pk": 520, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 147807, 
@@ -4860,7 +5200,7 @@
         }
     }, 
     {
-        "pk": 487, 
+        "pk": 521, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 150956, 
@@ -4870,7 +5210,7 @@
         }
     }, 
     {
-        "pk": 488, 
+        "pk": 522, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2527, 
@@ -4880,7 +5220,7 @@
         }
     }, 
     {
-        "pk": 489, 
+        "pk": 523, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 939, 
@@ -4890,7 +5230,7 @@
         }
     }, 
     {
-        "pk": 490, 
+        "pk": 524, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 125415, 
@@ -4900,7 +5240,7 @@
         }
     }, 
     {
-        "pk": 491, 
+        "pk": 525, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 117229, 
@@ -4910,7 +5250,7 @@
         }
     }, 
     {
-        "pk": 492, 
+        "pk": 526, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 128783, 
@@ -4920,7 +5260,7 @@
         }
     }, 
     {
-        "pk": 493, 
+        "pk": 527, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 168300, 
@@ -4930,7 +5270,17 @@
         }
     }, 
     {
-        "pk": 494, 
+        "pk": 528, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 168300, 
+            "won": true, 
+            "award": 1221, 
+            "actor": 78
+        }
+    }, 
+    {
+        "pk": 529, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4065, 
@@ -4940,7 +5290,7 @@
         }
     }, 
     {
-        "pk": 495, 
+        "pk": 530, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6612, 
@@ -4950,7 +5300,7 @@
         }
     }, 
     {
-        "pk": 496, 
+        "pk": 531, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5179, 
@@ -4960,7 +5310,7 @@
         }
     }, 
     {
-        "pk": 497, 
+        "pk": 532, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 216600, 
@@ -4970,7 +5320,7 @@
         }
     }, 
     {
-        "pk": 498, 
+        "pk": 533, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 140564, 
@@ -4980,7 +5330,7 @@
         }
     }, 
     {
-        "pk": 499, 
+        "pk": 534, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 152304, 
@@ -4990,7 +5340,7 @@
         }
     }, 
     {
-        "pk": 500, 
+        "pk": 535, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 51008, 
@@ -5000,7 +5350,7 @@
         }
     }, 
     {
-        "pk": 501, 
+        "pk": 536, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 10904, 
@@ -5010,7 +5360,7 @@
         }
     }, 
     {
-        "pk": 502, 
+        "pk": 537, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 17581, 
@@ -5020,7 +5370,7 @@
         }
     }, 
     {
-        "pk": 503, 
+        "pk": 538, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 76532, 
@@ -5030,7 +5380,7 @@
         }
     }, 
     {
-        "pk": 504, 
+        "pk": 539, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 157725, 
@@ -5040,7 +5390,17 @@
         }
     }, 
     {
-        "pk": 505, 
+        "pk": 540, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 54293, 
+            "won": true, 
+            "award": 1225, 
+            "actor": 31864
+        }
+    }, 
+    {
+        "pk": 541, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 191083, 
@@ -5050,7 +5410,7 @@
         }
     }, 
     {
-        "pk": 506, 
+        "pk": 542, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 378, 
@@ -5060,7 +5420,7 @@
         }
     }, 
     {
-        "pk": 507, 
+        "pk": 543, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 34940, 
@@ -5070,7 +5430,7 @@
         }
     }, 
     {
-        "pk": 508, 
+        "pk": 544, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 137676, 
@@ -5080,7 +5440,7 @@
         }
     }, 
     {
-        "pk": 509, 
+        "pk": 545, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4923, 
@@ -5090,7 +5450,17 @@
         }
     }, 
     {
-        "pk": 510, 
+        "pk": 546, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 183945, 
+            "won": false, 
+            "award": 1227, 
+            "actor": 32491
+        }
+    }, 
+    {
+        "pk": 547, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3907, 
@@ -5100,7 +5470,7 @@
         }
     }, 
     {
-        "pk": 511, 
+        "pk": 548, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 8628, 
@@ -5110,7 +5480,7 @@
         }
     }, 
     {
-        "pk": 512, 
+        "pk": 549, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 863, 
@@ -5120,7 +5490,7 @@
         }
     }, 
     {
-        "pk": 513, 
+        "pk": 550, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1521, 
@@ -5130,7 +5500,17 @@
         }
     }, 
     {
-        "pk": 514, 
+        "pk": 551, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 110587, 
+            "won": false, 
+            "award": 1228, 
+            "actor": 5178
+        }
+    }, 
+    {
+        "pk": 552, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1775, 
@@ -5140,7 +5520,17 @@
         }
     }, 
     {
-        "pk": 515, 
+        "pk": 553, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 4088, 
+            "won": true, 
+            "award": 1228, 
+            "actor": 25481
+        }
+    }, 
+    {
+        "pk": 554, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 218153, 
@@ -5150,7 +5540,7 @@
         }
     }, 
     {
-        "pk": 516, 
+        "pk": 555, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 221920, 
@@ -5160,7 +5550,7 @@
         }
     }, 
     {
-        "pk": 517, 
+        "pk": 556, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 200766, 
@@ -5170,7 +5560,7 @@
         }
     }, 
     {
-        "pk": 518, 
+        "pk": 557, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 201282, 
@@ -5180,7 +5570,7 @@
         }
     }, 
     {
-        "pk": 519, 
+        "pk": 558, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 197699, 
@@ -5190,7 +5580,7 @@
         }
     }, 
     {
-        "pk": 520, 
+        "pk": 559, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 238530, 
@@ -5200,7 +5590,7 @@
         }
     }, 
     {
-        "pk": 521, 
+        "pk": 560, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 240648, 
@@ -5210,7 +5600,7 @@
         }
     }, 
     {
-        "pk": 522, 
+        "pk": 561, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 99747, 
@@ -5220,7 +5610,7 @@
         }
     }, 
     {
-        "pk": 523, 
+        "pk": 562, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 73032, 
@@ -5230,7 +5620,17 @@
         }
     }, 
     {
-        "pk": 524, 
+        "pk": 563, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 240035, 
+            "won": true, 
+            "award": 1232, 
+            "actor": 19641
+        }
+    }, 
+    {
+        "pk": 564, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 83535, 
@@ -5240,7 +5640,7 @@
         }
     }, 
     {
-        "pk": 525, 
+        "pk": 565, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 976, 
@@ -5250,7 +5650,27 @@
         }
     }, 
     {
-        "pk": 526, 
+        "pk": 566, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 68000, 
+            "won": false, 
+            "award": 1233, 
+            "actor": 31864
+        }
+    }, 
+    {
+        "pk": 567, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 191038, 
+            "won": false, 
+            "award": 1234, 
+            "actor": 31864
+        }
+    }, 
+    {
+        "pk": 568, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 36431, 
@@ -5260,7 +5680,7 @@
         }
     }, 
     {
-        "pk": 527, 
+        "pk": 569, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9628, 
@@ -5270,7 +5690,7 @@
         }
     }, 
     {
-        "pk": 528, 
+        "pk": 570, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 39305, 
@@ -5280,7 +5700,7 @@
         }
     }, 
     {
-        "pk": 529, 
+        "pk": 571, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2971, 
@@ -5290,7 +5710,7 @@
         }
     }, 
     {
-        "pk": 530, 
+        "pk": 572, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4585, 
@@ -5300,7 +5720,7 @@
         }
     }, 
     {
-        "pk": 531, 
+        "pk": 573, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 37569, 
@@ -5310,7 +5730,7 @@
         }
     }, 
     {
-        "pk": 532, 
+        "pk": 574, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6501, 
@@ -5320,7 +5740,17 @@
         }
     }, 
     {
-        "pk": 533, 
+        "pk": 575, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 1141, 
+            "won": false, 
+            "award": 1236, 
+            "actor": 22077
+        }
+    }, 
+    {
+        "pk": 576, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5262, 
@@ -5330,7 +5760,17 @@
         }
     }, 
     {
-        "pk": 534, 
+        "pk": 577, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 179003, 
+            "won": false, 
+            "award": 1236, 
+            "actor": 44263
+        }
+    }, 
+    {
+        "pk": 578, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 178302, 
@@ -5340,7 +5780,7 @@
         }
     }, 
     {
-        "pk": 535, 
+        "pk": 579, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 231406, 
@@ -5350,7 +5790,7 @@
         }
     }, 
     {
-        "pk": 536, 
+        "pk": 580, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4018, 
@@ -5360,7 +5800,7 @@
         }
     }, 
     {
-        "pk": 537, 
+        "pk": 581, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4274, 
@@ -5370,7 +5810,7 @@
         }
     }, 
     {
-        "pk": 538, 
+        "pk": 582, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1516, 
@@ -5380,7 +5820,7 @@
         }
     }, 
     {
-        "pk": 539, 
+        "pk": 583, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 240044, 
@@ -5390,7 +5830,7 @@
         }
     }, 
     {
-        "pk": 540, 
+        "pk": 584, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 29873, 
@@ -5400,7 +5840,7 @@
         }
     }, 
     {
-        "pk": 541, 
+        "pk": 585, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4878, 
@@ -5410,7 +5850,7 @@
         }
     }, 
     {
-        "pk": 542, 
+        "pk": 586, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 12668, 
@@ -5420,7 +5860,7 @@
         }
     }, 
     {
-        "pk": 543, 
+        "pk": 587, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9463, 
@@ -5430,7 +5870,7 @@
         }
     }, 
     {
-        "pk": 544, 
+        "pk": 588, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 103022, 
@@ -5440,17 +5880,17 @@
         }
     }, 
     {
-        "pk": 545, 
+        "pk": 589, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 63433, 
+            "movie": 2717, 
             "won": false, 
             "award": 1240, 
             "actor": 3113
         }
     }, 
     {
-        "pk": 546, 
+        "pk": 590, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 16373, 
@@ -5460,7 +5900,7 @@
         }
     }, 
     {
-        "pk": 547, 
+        "pk": 591, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 220132, 
@@ -5470,7 +5910,7 @@
         }
     }, 
     {
-        "pk": 548, 
+        "pk": 592, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239744, 
@@ -5480,7 +5920,7 @@
         }
     }, 
     {
-        "pk": 549, 
+        "pk": 593, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 25897, 
@@ -5490,7 +5930,7 @@
         }
     }, 
     {
-        "pk": 550, 
+        "pk": 594, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4197, 
@@ -5500,7 +5940,7 @@
         }
     }, 
     {
-        "pk": 551, 
+        "pk": 595, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 54450, 
@@ -5510,7 +5950,17 @@
         }
     }, 
     {
-        "pk": 552, 
+        "pk": 596, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 5901, 
+            "won": false, 
+            "award": 1242, 
+            "actor": 31864
+        }
+    }, 
+    {
+        "pk": 597, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4197, 
@@ -5520,7 +5970,7 @@
         }
     }, 
     {
-        "pk": 553, 
+        "pk": 598, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5411, 
@@ -5530,7 +5980,7 @@
         }
     }, 
     {
-        "pk": 554, 
+        "pk": 599, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3128, 
@@ -5540,7 +5990,17 @@
         }
     }, 
     {
-        "pk": 555, 
+        "pk": 600, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 5504, 
+            "won": false, 
+            "award": 1243, 
+            "actor": 42113
+        }
+    }, 
+    {
+        "pk": 601, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 135409, 
@@ -5550,7 +6010,7 @@
         }
     }, 
     {
-        "pk": 556, 
+        "pk": 602, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 26903, 
@@ -5560,7 +6020,7 @@
         }
     }, 
     {
-        "pk": 557, 
+        "pk": 603, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 191106, 
@@ -5570,7 +6030,7 @@
         }
     }, 
     {
-        "pk": 558, 
+        "pk": 604, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 238952, 
@@ -5580,7 +6040,7 @@
         }
     }, 
     {
-        "pk": 559, 
+        "pk": 605, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5841, 
@@ -5590,7 +6050,7 @@
         }
     }, 
     {
-        "pk": 560, 
+        "pk": 606, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 10917, 
@@ -5600,7 +6060,7 @@
         }
     }, 
     {
-        "pk": 561, 
+        "pk": 607, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 200194, 
@@ -5610,7 +6070,7 @@
         }
     }, 
     {
-        "pk": 562, 
+        "pk": 608, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 15940, 
@@ -5620,7 +6080,7 @@
         }
     }, 
     {
-        "pk": 563, 
+        "pk": 609, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 11744, 
@@ -5630,7 +6090,7 @@
         }
     }, 
     {
-        "pk": 564, 
+        "pk": 610, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 49208, 
@@ -5640,7 +6100,7 @@
         }
     }, 
     {
-        "pk": 565, 
+        "pk": 611, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 18865, 
@@ -5650,7 +6110,7 @@
         }
     }, 
     {
-        "pk": 566, 
+        "pk": 612, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 17818, 
@@ -5660,7 +6120,7 @@
         }
     }, 
     {
-        "pk": 567, 
+        "pk": 613, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 24174, 
@@ -5670,7 +6130,7 @@
         }
     }, 
     {
-        "pk": 568, 
+        "pk": 614, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 78770, 
@@ -5680,7 +6140,7 @@
         }
     }, 
     {
-        "pk": 569, 
+        "pk": 615, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 103065, 
@@ -5690,7 +6150,7 @@
         }
     }, 
     {
-        "pk": 570, 
+        "pk": 616, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 106287, 
@@ -5700,7 +6160,7 @@
         }
     }, 
     {
-        "pk": 571, 
+        "pk": 617, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 100423, 
@@ -5710,7 +6170,7 @@
         }
     }, 
     {
-        "pk": 572, 
+        "pk": 618, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 128072, 
@@ -5720,7 +6180,7 @@
         }
     }, 
     {
-        "pk": 573, 
+        "pk": 619, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 131328, 
@@ -5730,7 +6190,7 @@
         }
     }, 
     {
-        "pk": 574, 
+        "pk": 620, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 125495, 
@@ -5740,7 +6200,17 @@
         }
     }, 
     {
-        "pk": 575, 
+        "pk": 621, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 127906, 
+            "won": false, 
+            "award": 1249, 
+            "actor": 21843
+        }
+    }, 
+    {
+        "pk": 622, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 88563, 
@@ -5750,7 +6220,7 @@
         }
     }, 
     {
-        "pk": 576, 
+        "pk": 623, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 60158, 
@@ -5760,7 +6230,7 @@
         }
     }, 
     {
-        "pk": 577, 
+        "pk": 624, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 56679, 
@@ -5770,7 +6240,7 @@
         }
     }, 
     {
-        "pk": 578, 
+        "pk": 625, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 64576, 
@@ -5780,7 +6250,7 @@
         }
     }, 
     {
-        "pk": 579, 
+        "pk": 626, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 115, 
@@ -5790,7 +6260,7 @@
         }
     }, 
     {
-        "pk": 580, 
+        "pk": 627, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 27309, 
@@ -5800,7 +6270,7 @@
         }
     }, 
     {
-        "pk": 581, 
+        "pk": 628, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 77226, 
@@ -5810,7 +6280,7 @@
         }
     }, 
     {
-        "pk": 582, 
+        "pk": 629, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 151758, 
@@ -5820,7 +6290,7 @@
         }
     }, 
     {
-        "pk": 583, 
+        "pk": 630, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 154192, 
@@ -5830,7 +6300,7 @@
         }
     }, 
     {
-        "pk": 584, 
+        "pk": 631, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 155657, 
@@ -5840,7 +6310,7 @@
         }
     }, 
     {
-        "pk": 585, 
+        "pk": 632, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 179091, 
@@ -5850,7 +6320,7 @@
         }
     }, 
     {
-        "pk": 586, 
+        "pk": 633, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 175673, 
@@ -5860,7 +6330,7 @@
         }
     }, 
     {
-        "pk": 587, 
+        "pk": 634, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 178938, 
@@ -5870,7 +6340,7 @@
         }
     }, 
     {
-        "pk": 588, 
+        "pk": 635, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2617, 
@@ -5880,7 +6350,7 @@
         }
     }, 
     {
-        "pk": 589, 
+        "pk": 636, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1348, 
@@ -5890,7 +6360,7 @@
         }
     }, 
     {
-        "pk": 590, 
+        "pk": 637, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 853, 
@@ -5900,7 +6370,7 @@
         }
     }, 
     {
-        "pk": 591, 
+        "pk": 638, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 8905, 
@@ -5910,7 +6380,7 @@
         }
     }, 
     {
-        "pk": 592, 
+        "pk": 639, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 32191, 
@@ -5920,7 +6390,7 @@
         }
     }, 
     {
-        "pk": 593, 
+        "pk": 640, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 25979, 
@@ -5930,7 +6400,7 @@
         }
     }, 
     {
-        "pk": 594, 
+        "pk": 641, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 92839, 
@@ -5940,7 +6410,7 @@
         }
     }, 
     {
-        "pk": 595, 
+        "pk": 642, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 25979, 
@@ -5950,7 +6420,7 @@
         }
     }, 
     {
-        "pk": 596, 
+        "pk": 643, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 110640, 
@@ -5960,7 +6430,7 @@
         }
     }, 
     {
-        "pk": 597, 
+        "pk": 644, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9763, 
@@ -5970,7 +6440,7 @@
         }
     }, 
     {
-        "pk": 598, 
+        "pk": 645, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2764, 
@@ -5980,17 +6450,17 @@
         }
     }, 
     {
-        "pk": 599, 
+        "pk": 646, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 189006, 
+            "movie": 40569, 
             "won": false, 
             "award": 1257, 
             "actor": 14047
         }
     }, 
     {
-        "pk": 600, 
+        "pk": 647, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 34319, 
@@ -6000,7 +6470,7 @@
         }
     }, 
     {
-        "pk": 601, 
+        "pk": 648, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 111728, 
@@ -6010,7 +6480,7 @@
         }
     }, 
     {
-        "pk": 602, 
+        "pk": 649, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6743, 
@@ -6020,7 +6490,7 @@
         }
     }, 
     {
-        "pk": 603, 
+        "pk": 650, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 135124, 
@@ -6030,7 +6500,7 @@
         }
     }, 
     {
-        "pk": 604, 
+        "pk": 651, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 45470, 
@@ -6040,7 +6510,7 @@
         }
     }, 
     {
-        "pk": 605, 
+        "pk": 652, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 45470, 
@@ -6050,7 +6520,7 @@
         }
     }, 
     {
-        "pk": 606, 
+        "pk": 653, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9758, 
@@ -6060,7 +6530,7 @@
         }
     }, 
     {
-        "pk": 607, 
+        "pk": 654, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 66933, 
@@ -6070,7 +6540,7 @@
         }
     }, 
     {
-        "pk": 608, 
+        "pk": 655, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 19543, 
@@ -6080,7 +6550,7 @@
         }
     }, 
     {
-        "pk": 609, 
+        "pk": 656, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190668, 
@@ -6090,7 +6560,7 @@
         }
     }, 
     {
-        "pk": 610, 
+        "pk": 657, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 75506, 
@@ -6100,7 +6570,7 @@
         }
     }, 
     {
-        "pk": 611, 
+        "pk": 658, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 7309, 
@@ -6110,7 +6580,7 @@
         }
     }, 
     {
-        "pk": 612, 
+        "pk": 659, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 73469, 
@@ -6120,7 +6590,7 @@
         }
     }, 
     {
-        "pk": 613, 
+        "pk": 660, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 203118, 
@@ -6130,7 +6600,7 @@
         }
     }, 
     {
-        "pk": 614, 
+        "pk": 661, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 19288, 
@@ -6140,7 +6610,7 @@
         }
     }, 
     {
-        "pk": 615, 
+        "pk": 662, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5220, 
@@ -6150,7 +6620,7 @@
         }
     }, 
     {
-        "pk": 616, 
+        "pk": 663, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9691, 
@@ -6160,7 +6630,7 @@
         }
     }, 
     {
-        "pk": 617, 
+        "pk": 664, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190529, 
@@ -6170,7 +6640,7 @@
         }
     }, 
     {
-        "pk": 618, 
+        "pk": 665, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 33015, 
@@ -6180,7 +6650,7 @@
         }
     }, 
     {
-        "pk": 619, 
+        "pk": 666, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6109, 
@@ -6190,7 +6660,7 @@
         }
     }, 
     {
-        "pk": 620, 
+        "pk": 667, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 10232, 
@@ -6200,7 +6670,7 @@
         }
     }, 
     {
-        "pk": 621, 
+        "pk": 668, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5999, 
@@ -6210,7 +6680,7 @@
         }
     }, 
     {
-        "pk": 622, 
+        "pk": 669, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9777, 
@@ -6220,7 +6690,7 @@
         }
     }, 
     {
-        "pk": 623, 
+        "pk": 670, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 30757, 
@@ -6230,7 +6700,7 @@
         }
     }, 
     {
-        "pk": 624, 
+        "pk": 671, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 53433, 
@@ -6240,7 +6710,7 @@
         }
     }, 
     {
-        "pk": 625, 
+        "pk": 672, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127677, 
@@ -6250,7 +6720,7 @@
         }
     }, 
     {
-        "pk": 626, 
+        "pk": 673, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 93149, 
@@ -6260,7 +6730,7 @@
         }
     }, 
     {
-        "pk": 627, 
+        "pk": 674, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2268, 
@@ -6270,7 +6740,7 @@
         }
     }, 
     {
-        "pk": 628, 
+        "pk": 675, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 141828, 
@@ -6280,7 +6750,7 @@
         }
     }, 
     {
-        "pk": 629, 
+        "pk": 676, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 204536, 
@@ -6290,7 +6760,7 @@
         }
     }, 
     {
-        "pk": 630, 
+        "pk": 677, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4524, 
@@ -6300,7 +6770,7 @@
         }
     }, 
     {
-        "pk": 631, 
+        "pk": 678, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 210284, 
@@ -6310,7 +6780,7 @@
         }
     }, 
     {
-        "pk": 632, 
+        "pk": 679, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 92847, 
@@ -6320,7 +6790,7 @@
         }
     }, 
     {
-        "pk": 633, 
+        "pk": 680, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 100323, 
@@ -6330,7 +6800,7 @@
         }
     }, 
     {
-        "pk": 634, 
+        "pk": 681, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 50848, 
@@ -6340,7 +6810,7 @@
         }
     }, 
     {
-        "pk": 635, 
+        "pk": 682, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 227861, 
@@ -6350,7 +6820,7 @@
         }
     }, 
     {
-        "pk": 636, 
+        "pk": 683, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2409, 
@@ -6360,7 +6830,7 @@
         }
     }, 
     {
-        "pk": 637, 
+        "pk": 684, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3498, 
@@ -6370,7 +6840,7 @@
         }
     }, 
     {
-        "pk": 638, 
+        "pk": 685, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 52993, 
@@ -6380,7 +6850,7 @@
         }
     }, 
     {
-        "pk": 639, 
+        "pk": 686, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 214696, 
@@ -6390,7 +6860,7 @@
         }
     }, 
     {
-        "pk": 640, 
+        "pk": 687, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 99581, 
@@ -6400,7 +6870,7 @@
         }
     }, 
     {
-        "pk": 641, 
+        "pk": 688, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 99581, 
@@ -6410,7 +6880,7 @@
         }
     }, 
     {
-        "pk": 642, 
+        "pk": 689, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 201918, 
@@ -6420,7 +6890,7 @@
         }
     }, 
     {
-        "pk": 643, 
+        "pk": 690, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 256, 
@@ -6430,7 +6900,7 @@
         }
     }, 
     {
-        "pk": 644, 
+        "pk": 691, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 60406, 
@@ -6440,7 +6910,7 @@
         }
     }, 
     {
-        "pk": 645, 
+        "pk": 692, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 60979, 
@@ -6450,7 +6920,7 @@
         }
     }, 
     {
-        "pk": 646, 
+        "pk": 693, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 60046, 
@@ -6460,17 +6930,17 @@
         }
     }, 
     {
-        "pk": 647, 
+        "pk": 694, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 137006, 
+            "movie": 127685, 
             "won": false, 
             "award": 1276, 
             "actor": 11767
         }
     }, 
     {
-        "pk": 648, 
+        "pk": 695, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13580, 
@@ -6480,7 +6950,7 @@
         }
     }, 
     {
-        "pk": 649, 
+        "pk": 696, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 12053, 
@@ -6490,7 +6960,7 @@
         }
     }, 
     {
-        "pk": 650, 
+        "pk": 697, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 75511, 
@@ -6500,7 +6970,7 @@
         }
     }, 
     {
-        "pk": 651, 
+        "pk": 698, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 82207, 
@@ -6510,7 +6980,7 @@
         }
     }, 
     {
-        "pk": 652, 
+        "pk": 699, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 82207, 
@@ -6520,7 +6990,7 @@
         }
     }, 
     {
-        "pk": 653, 
+        "pk": 700, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 204498, 
@@ -6530,7 +7000,7 @@
         }
     }, 
     {
-        "pk": 654, 
+        "pk": 701, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 201895, 
@@ -6540,7 +7010,7 @@
         }
     }, 
     {
-        "pk": 655, 
+        "pk": 702, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 75549, 
@@ -6550,7 +7020,7 @@
         }
     }, 
     {
-        "pk": 656, 
+        "pk": 703, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4094, 
@@ -6560,7 +7030,7 @@
         }
     }, 
     {
-        "pk": 657, 
+        "pk": 704, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1673, 
@@ -6570,7 +7040,7 @@
         }
     }, 
     {
-        "pk": 658, 
+        "pk": 705, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 145754, 
@@ -6580,7 +7050,7 @@
         }
     }, 
     {
-        "pk": 659, 
+        "pk": 706, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 83732, 
@@ -6590,7 +7060,7 @@
         }
     }, 
     {
-        "pk": 660, 
+        "pk": 707, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127816, 
@@ -6600,7 +7070,7 @@
         }
     }, 
     {
-        "pk": 661, 
+        "pk": 708, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 204507, 
@@ -6610,7 +7080,7 @@
         }
     }, 
     {
-        "pk": 662, 
+        "pk": 709, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127816, 
@@ -6620,7 +7090,7 @@
         }
     }, 
     {
-        "pk": 663, 
+        "pk": 710, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127816, 
@@ -6630,7 +7100,7 @@
         }
     }, 
     {
-        "pk": 664, 
+        "pk": 711, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 145765, 
@@ -6640,7 +7110,7 @@
         }
     }, 
     {
-        "pk": 665, 
+        "pk": 712, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 69196, 
@@ -6650,7 +7120,7 @@
         }
     }, 
     {
-        "pk": 666, 
+        "pk": 713, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46875, 
@@ -6660,7 +7130,7 @@
         }
     }, 
     {
-        "pk": 667, 
+        "pk": 714, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 145750, 
@@ -6670,7 +7140,7 @@
         }
     }, 
     {
-        "pk": 668, 
+        "pk": 715, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 36738, 
@@ -6680,7 +7150,7 @@
         }
     }, 
     {
-        "pk": 669, 
+        "pk": 716, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2521, 
@@ -6690,7 +7160,7 @@
         }
     }, 
     {
-        "pk": 670, 
+        "pk": 717, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6667, 
@@ -6700,7 +7170,7 @@
         }
     }, 
     {
-        "pk": 671, 
+        "pk": 718, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13763, 
@@ -6710,7 +7180,7 @@
         }
     }, 
     {
-        "pk": 672, 
+        "pk": 719, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 64697, 
@@ -6720,7 +7190,7 @@
         }
     }, 
     {
-        "pk": 673, 
+        "pk": 720, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 203898, 
@@ -6730,7 +7200,7 @@
         }
     }, 
     {
-        "pk": 674, 
+        "pk": 721, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 54417, 
@@ -6740,7 +7210,7 @@
         }
     }, 
     {
-        "pk": 675, 
+        "pk": 722, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5140, 
@@ -6750,7 +7220,7 @@
         }
     }, 
     {
-        "pk": 676, 
+        "pk": 723, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 609, 
@@ -6760,7 +7230,7 @@
         }
     }, 
     {
-        "pk": 677, 
+        "pk": 724, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6874, 
@@ -6770,7 +7240,7 @@
         }
     }, 
     {
-        "pk": 678, 
+        "pk": 725, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 10272, 
@@ -6780,7 +7250,7 @@
         }
     }, 
     {
-        "pk": 679, 
+        "pk": 726, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1089, 
@@ -6790,7 +7260,7 @@
         }
     }, 
     {
-        "pk": 680, 
+        "pk": 727, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13574, 
@@ -6800,7 +7270,7 @@
         }
     }, 
     {
-        "pk": 681, 
+        "pk": 728, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3863, 
@@ -6810,7 +7280,7 @@
         }
     }, 
     {
-        "pk": 682, 
+        "pk": 729, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3863, 
@@ -6820,27 +7290,27 @@
         }
     }, 
     {
-        "pk": 683, 
+        "pk": 730, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 201282, 
+            "movie": 52744, 
             "won": true, 
             "award": 1288, 
             "actor": 44399
         }
     }, 
     {
-        "pk": 684, 
+        "pk": 731, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 36738, 
+            "movie": 147738, 
             "won": false, 
             "award": 1288, 
             "actor": 32812
         }
     }, 
     {
-        "pk": 685, 
+        "pk": 732, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 237926, 
@@ -6850,7 +7320,7 @@
         }
     }, 
     {
-        "pk": 686, 
+        "pk": 733, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1674, 
@@ -6860,7 +7330,7 @@
         }
     }, 
     {
-        "pk": 687, 
+        "pk": 734, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127792, 
@@ -6870,7 +7340,7 @@
         }
     }, 
     {
-        "pk": 688, 
+        "pk": 735, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 45413, 
@@ -6880,7 +7350,7 @@
         }
     }, 
     {
-        "pk": 689, 
+        "pk": 736, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 66972, 
@@ -6890,7 +7360,7 @@
         }
     }, 
     {
-        "pk": 690, 
+        "pk": 737, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1171, 
@@ -6900,7 +7370,7 @@
         }
     }, 
     {
-        "pk": 691, 
+        "pk": 738, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 16380, 
@@ -6910,7 +7380,7 @@
         }
     }, 
     {
-        "pk": 692, 
+        "pk": 739, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 21628, 
@@ -6920,7 +7390,7 @@
         }
     }, 
     {
-        "pk": 693, 
+        "pk": 740, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 69949, 
@@ -6930,7 +7400,7 @@
         }
     }, 
     {
-        "pk": 694, 
+        "pk": 741, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3414, 
@@ -6940,7 +7410,7 @@
         }
     }, 
     {
-        "pk": 695, 
+        "pk": 742, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 143744, 
@@ -6950,7 +7420,7 @@
         }
     }, 
     {
-        "pk": 696, 
+        "pk": 743, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 15598, 
@@ -6960,7 +7430,7 @@
         }
     }, 
     {
-        "pk": 697, 
+        "pk": 744, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 15598, 
@@ -6970,7 +7440,7 @@
         }
     }, 
     {
-        "pk": 698, 
+        "pk": 745, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 113980, 
@@ -6980,7 +7450,7 @@
         }
     }, 
     {
-        "pk": 699, 
+        "pk": 746, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 42521, 
@@ -6990,7 +7460,7 @@
         }
     }, 
     {
-        "pk": 700, 
+        "pk": 747, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 29221, 
@@ -7000,7 +7470,7 @@
         }
     }, 
     {
-        "pk": 701, 
+        "pk": 748, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239926, 
@@ -7010,7 +7480,17 @@
         }
     }, 
     {
-        "pk": 702, 
+        "pk": 749, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 153837, 
+            "won": true, 
+            "award": 1296, 
+            "actor": 38378
+        }
+    }, 
+    {
+        "pk": 750, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2229, 
@@ -7020,7 +7500,7 @@
         }
     }, 
     {
-        "pk": 703, 
+        "pk": 751, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 215604, 
@@ -7030,7 +7510,7 @@
         }
     }, 
     {
-        "pk": 704, 
+        "pk": 752, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 28417, 
@@ -7040,7 +7520,7 @@
         }
     }, 
     {
-        "pk": 705, 
+        "pk": 753, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 20159, 
@@ -7050,7 +7530,7 @@
         }
     }, 
     {
-        "pk": 706, 
+        "pk": 754, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 164673, 
@@ -7060,7 +7540,7 @@
         }
     }, 
     {
-        "pk": 707, 
+        "pk": 755, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 41285, 
@@ -7070,7 +7550,7 @@
         }
     }, 
     {
-        "pk": 708, 
+        "pk": 756, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 28417, 
@@ -7080,7 +7560,7 @@
         }
     }, 
     {
-        "pk": 709, 
+        "pk": 757, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 114843, 
@@ -7090,7 +7570,7 @@
         }
     }, 
     {
-        "pk": 710, 
+        "pk": 758, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 69660, 
@@ -7100,7 +7580,7 @@
         }
     }, 
     {
-        "pk": 711, 
+        "pk": 759, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9477, 
@@ -7110,7 +7590,7 @@
         }
     }, 
     {
-        "pk": 712, 
+        "pk": 760, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 89240, 
@@ -7120,17 +7600,17 @@
         }
     }, 
     {
-        "pk": 713, 
+        "pk": 761, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 36431, 
+            "movie": 159360, 
             "won": true, 
             "award": 1301, 
             "actor": 14047
         }
     }, 
     {
-        "pk": 714, 
+        "pk": 762, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46922, 
@@ -7140,7 +7620,7 @@
         }
     }, 
     {
-        "pk": 715, 
+        "pk": 763, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 38925, 
@@ -7150,7 +7630,7 @@
         }
     }, 
     {
-        "pk": 716, 
+        "pk": 764, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 38930, 
@@ -7160,7 +7640,7 @@
         }
     }, 
     {
-        "pk": 717, 
+        "pk": 765, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4031, 
@@ -7170,7 +7650,7 @@
         }
     }, 
     {
-        "pk": 718, 
+        "pk": 766, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 32025, 
@@ -7180,7 +7660,7 @@
         }
     }, 
     {
-        "pk": 719, 
+        "pk": 767, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 380, 
@@ -7190,7 +7670,7 @@
         }
     }, 
     {
-        "pk": 720, 
+        "pk": 768, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 228997, 
@@ -7200,7 +7680,7 @@
         }
     }, 
     {
-        "pk": 721, 
+        "pk": 769, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4519, 
@@ -7210,7 +7690,7 @@
         }
     }, 
     {
-        "pk": 722, 
+        "pk": 770, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 37267, 
@@ -7220,7 +7700,7 @@
         }
     }, 
     {
-        "pk": 723, 
+        "pk": 771, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 147807, 
@@ -7230,7 +7710,7 @@
         }
     }, 
     {
-        "pk": 724, 
+        "pk": 772, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 200767, 
@@ -7240,7 +7720,7 @@
         }
     }, 
     {
-        "pk": 725, 
+        "pk": 773, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 38109, 
@@ -7250,7 +7730,7 @@
         }
     }, 
     {
-        "pk": 726, 
+        "pk": 774, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 939, 
@@ -7260,7 +7740,7 @@
         }
     }, 
     {
-        "pk": 727, 
+        "pk": 775, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 150956, 
@@ -7270,7 +7750,7 @@
         }
     }, 
     {
-        "pk": 728, 
+        "pk": 776, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 240073, 
@@ -7280,7 +7760,7 @@
         }
     }, 
     {
-        "pk": 729, 
+        "pk": 777, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 195779, 
@@ -7290,7 +7770,7 @@
         }
     }, 
     {
-        "pk": 730, 
+        "pk": 778, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 37158, 
@@ -7300,7 +7780,7 @@
         }
     }, 
     {
-        "pk": 731, 
+        "pk": 779, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13294, 
@@ -7310,7 +7790,7 @@
         }
     }, 
     {
-        "pk": 732, 
+        "pk": 780, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 17205, 
@@ -7320,7 +7800,7 @@
         }
     }, 
     {
-        "pk": 733, 
+        "pk": 781, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 229011, 
@@ -7330,7 +7810,7 @@
         }
     }, 
     {
-        "pk": 734, 
+        "pk": 782, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5842, 
@@ -7340,7 +7820,7 @@
         }
     }, 
     {
-        "pk": 735, 
+        "pk": 783, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 17543, 
@@ -7350,7 +7830,7 @@
         }
     }, 
     {
-        "pk": 736, 
+        "pk": 784, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5557, 
@@ -7360,7 +7840,7 @@
         }
     }, 
     {
-        "pk": 737, 
+        "pk": 785, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 173114, 
@@ -7370,7 +7850,7 @@
         }
     }, 
     {
-        "pk": 738, 
+        "pk": 786, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 51008, 
@@ -7380,7 +7860,7 @@
         }
     }, 
     {
-        "pk": 739, 
+        "pk": 787, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239599, 
@@ -7390,7 +7870,7 @@
         }
     }, 
     {
-        "pk": 740, 
+        "pk": 788, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 30804, 
@@ -7400,7 +7880,7 @@
         }
     }, 
     {
-        "pk": 741, 
+        "pk": 789, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239599, 
@@ -7410,7 +7890,7 @@
         }
     }, 
     {
-        "pk": 742, 
+        "pk": 790, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46208, 
@@ -7420,7 +7900,7 @@
         }
     }, 
     {
-        "pk": 743, 
+        "pk": 791, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 76532, 
@@ -7430,7 +7910,7 @@
         }
     }, 
     {
-        "pk": 744, 
+        "pk": 792, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4845, 
@@ -7440,7 +7920,7 @@
         }
     }, 
     {
-        "pk": 745, 
+        "pk": 793, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 185705, 
@@ -7450,7 +7930,7 @@
         }
     }, 
     {
-        "pk": 746, 
+        "pk": 794, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 25688, 
@@ -7460,7 +7940,7 @@
         }
     }, 
     {
-        "pk": 747, 
+        "pk": 795, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 25367, 
@@ -7470,7 +7950,17 @@
         }
     }, 
     {
-        "pk": 748, 
+        "pk": 796, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 9537, 
+            "won": false, 
+            "award": 1495, 
+            "actor": 30356
+        }
+    }, 
+    {
+        "pk": 797, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 34940, 
@@ -7480,7 +7970,7 @@
         }
     }, 
     {
-        "pk": 749, 
+        "pk": 798, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 137676, 
@@ -7490,7 +7980,7 @@
         }
     }, 
     {
-        "pk": 750, 
+        "pk": 799, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2539, 
@@ -7500,7 +7990,7 @@
         }
     }, 
     {
-        "pk": 751, 
+        "pk": 800, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 97390, 
@@ -7510,7 +8000,7 @@
         }
     }, 
     {
-        "pk": 752, 
+        "pk": 801, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1461, 
@@ -7520,7 +8010,7 @@
         }
     }, 
     {
-        "pk": 753, 
+        "pk": 802, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 103155, 
@@ -7530,7 +8020,7 @@
         }
     }, 
     {
-        "pk": 754, 
+        "pk": 803, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 26174, 
@@ -7540,7 +8030,7 @@
         }
     }, 
     {
-        "pk": 755, 
+        "pk": 804, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1775, 
@@ -7550,7 +8040,7 @@
         }
     }, 
     {
-        "pk": 756, 
+        "pk": 805, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 221335, 
@@ -7560,7 +8050,7 @@
         }
     }, 
     {
-        "pk": 757, 
+        "pk": 806, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 224253, 
@@ -7570,7 +8060,7 @@
         }
     }, 
     {
-        "pk": 758, 
+        "pk": 807, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 198548, 
@@ -7580,7 +8070,7 @@
         }
     }, 
     {
-        "pk": 759, 
+        "pk": 808, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 199079, 
@@ -7590,7 +8080,7 @@
         }
     }, 
     {
-        "pk": 760, 
+        "pk": 809, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 198279, 
@@ -7600,7 +8090,7 @@
         }
     }, 
     {
-        "pk": 761, 
+        "pk": 810, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 187396, 
@@ -7610,7 +8100,7 @@
         }
     }, 
     {
-        "pk": 762, 
+        "pk": 811, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 241198, 
@@ -7620,7 +8110,7 @@
         }
     }, 
     {
-        "pk": 763, 
+        "pk": 812, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 79067, 
@@ -7630,7 +8120,7 @@
         }
     }, 
     {
-        "pk": 764, 
+        "pk": 813, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 99747, 
@@ -7640,7 +8130,7 @@
         }
     }, 
     {
-        "pk": 765, 
+        "pk": 814, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 82322, 
@@ -7650,7 +8140,7 @@
         }
     }, 
     {
-        "pk": 766, 
+        "pk": 815, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 77979, 
@@ -7660,7 +8150,7 @@
         }
     }, 
     {
-        "pk": 767, 
+        "pk": 816, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 16524, 
@@ -7670,7 +8160,7 @@
         }
     }, 
     {
-        "pk": 768, 
+        "pk": 817, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5967, 
@@ -7680,7 +8170,7 @@
         }
     }, 
     {
-        "pk": 769, 
+        "pk": 818, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9969, 
@@ -7690,7 +8180,7 @@
         }
     }, 
     {
-        "pk": 770, 
+        "pk": 819, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5967, 
@@ -7700,7 +8190,7 @@
         }
     }, 
     {
-        "pk": 771, 
+        "pk": 820, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 10748, 
@@ -7710,7 +8200,7 @@
         }
     }, 
     {
-        "pk": 772, 
+        "pk": 821, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 24040, 
@@ -7720,7 +8210,7 @@
         }
     }, 
     {
-        "pk": 773, 
+        "pk": 822, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3902, 
@@ -7730,7 +8220,7 @@
         }
     }, 
     {
-        "pk": 774, 
+        "pk": 823, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 149418, 
@@ -7740,7 +8230,7 @@
         }
     }, 
     {
-        "pk": 775, 
+        "pk": 824, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6919, 
@@ -7750,7 +8240,7 @@
         }
     }, 
     {
-        "pk": 776, 
+        "pk": 825, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6501, 
@@ -7760,7 +8250,7 @@
         }
     }, 
     {
-        "pk": 777, 
+        "pk": 826, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5372, 
@@ -7770,7 +8260,7 @@
         }
     }, 
     {
-        "pk": 778, 
+        "pk": 827, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 38922, 
@@ -7780,7 +8270,7 @@
         }
     }, 
     {
-        "pk": 779, 
+        "pk": 828, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4485, 
@@ -7790,7 +8280,7 @@
         }
     }, 
     {
-        "pk": 780, 
+        "pk": 829, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 8906, 
@@ -7800,7 +8290,7 @@
         }
     }, 
     {
-        "pk": 781, 
+        "pk": 830, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2986, 
@@ -7810,7 +8300,7 @@
         }
     }, 
     {
-        "pk": 782, 
+        "pk": 831, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2879, 
@@ -7820,7 +8310,7 @@
         }
     }, 
     {
-        "pk": 783, 
+        "pk": 832, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 87895, 
@@ -7830,7 +8320,7 @@
         }
     }, 
     {
-        "pk": 784, 
+        "pk": 833, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1516, 
@@ -7840,7 +8330,7 @@
         }
     }, 
     {
-        "pk": 785, 
+        "pk": 834, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 231406, 
@@ -7850,7 +8340,7 @@
         }
     }, 
     {
-        "pk": 786, 
+        "pk": 835, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1076, 
@@ -7860,17 +8350,17 @@
         }
     }, 
     {
-        "pk": 787, 
+        "pk": 836, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 186316, 
+            "movie": 3552, 
             "won": false, 
             "award": 1508, 
             "actor": 37427
         }
     }, 
     {
-        "pk": 788, 
+        "pk": 837, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 37321, 
@@ -7880,7 +8370,7 @@
         }
     }, 
     {
-        "pk": 789, 
+        "pk": 838, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 27267, 
@@ -7890,7 +8380,7 @@
         }
     }, 
     {
-        "pk": 790, 
+        "pk": 839, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9332, 
@@ -7900,7 +8390,7 @@
         }
     }, 
     {
-        "pk": 791, 
+        "pk": 840, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 78554, 
@@ -7910,7 +8400,7 @@
         }
     }, 
     {
-        "pk": 792, 
+        "pk": 841, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9980, 
@@ -7920,7 +8410,7 @@
         }
     }, 
     {
-        "pk": 793, 
+        "pk": 842, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 63121, 
@@ -7930,7 +8420,7 @@
         }
     }, 
     {
-        "pk": 794, 
+        "pk": 843, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 38928, 
@@ -7940,7 +8430,7 @@
         }
     }, 
     {
-        "pk": 795, 
+        "pk": 844, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 410, 
@@ -7950,7 +8440,7 @@
         }
     }, 
     {
-        "pk": 796, 
+        "pk": 845, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6762, 
@@ -7960,7 +8450,7 @@
         }
     }, 
     {
-        "pk": 797, 
+        "pk": 846, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 16373, 
@@ -7970,7 +8460,7 @@
         }
     }, 
     {
-        "pk": 798, 
+        "pk": 847, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 61983, 
@@ -7980,7 +8470,7 @@
         }
     }, 
     {
-        "pk": 799, 
+        "pk": 848, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 220132, 
@@ -7990,17 +8480,17 @@
         }
     }, 
     {
-        "pk": 800, 
+        "pk": 849, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 53838, 
+            "movie": 1056, 
             "won": false, 
             "award": 1512, 
             "actor": 40099
         }
     }, 
     {
-        "pk": 801, 
+        "pk": 850, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 207283, 
@@ -8010,7 +8500,7 @@
         }
     }, 
     {
-        "pk": 802, 
+        "pk": 851, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 54450, 
@@ -8020,7 +8510,7 @@
         }
     }, 
     {
-        "pk": 803, 
+        "pk": 852, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4197, 
@@ -8030,7 +8520,7 @@
         }
     }, 
     {
-        "pk": 804, 
+        "pk": 853, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6929, 
@@ -8040,7 +8530,7 @@
         }
     }, 
     {
-        "pk": 805, 
+        "pk": 854, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6830, 
@@ -8050,7 +8540,7 @@
         }
     }, 
     {
-        "pk": 806, 
+        "pk": 855, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 56009, 
@@ -8060,7 +8550,7 @@
         }
     }, 
     {
-        "pk": 807, 
+        "pk": 856, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3763, 
@@ -8070,7 +8560,7 @@
         }
     }, 
     {
-        "pk": 808, 
+        "pk": 857, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 146994, 
@@ -8080,7 +8570,7 @@
         }
     }, 
     {
-        "pk": 809, 
+        "pk": 858, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 101602, 
@@ -8090,7 +8580,7 @@
         }
     }, 
     {
-        "pk": 810, 
+        "pk": 859, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 24215, 
@@ -8100,7 +8590,7 @@
         }
     }, 
     {
-        "pk": 811, 
+        "pk": 860, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 27039, 
@@ -8110,7 +8600,7 @@
         }
     }, 
     {
-        "pk": 812, 
+        "pk": 861, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 202501, 
@@ -8120,7 +8610,7 @@
         }
     }, 
     {
-        "pk": 813, 
+        "pk": 862, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6221, 
@@ -8130,7 +8620,7 @@
         }
     }, 
     {
-        "pk": 814, 
+        "pk": 863, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 238952, 
@@ -8140,7 +8630,7 @@
         }
     }, 
     {
-        "pk": 815, 
+        "pk": 864, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 887, 
@@ -8150,7 +8640,7 @@
         }
     }, 
     {
-        "pk": 816, 
+        "pk": 865, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 11760, 
@@ -8160,7 +8650,7 @@
         }
     }, 
     {
-        "pk": 817, 
+        "pk": 866, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 7253, 
@@ -8170,7 +8660,7 @@
         }
     }, 
     {
-        "pk": 818, 
+        "pk": 867, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 10957, 
@@ -8180,7 +8670,7 @@
         }
     }, 
     {
-        "pk": 819, 
+        "pk": 868, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 11444, 
@@ -8190,7 +8680,7 @@
         }
     }, 
     {
-        "pk": 820, 
+        "pk": 869, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 189006, 
@@ -8200,7 +8690,7 @@
         }
     }, 
     {
-        "pk": 821, 
+        "pk": 870, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 143863, 
@@ -8210,7 +8700,7 @@
         }
     }, 
     {
-        "pk": 822, 
+        "pk": 871, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 18736, 
@@ -8220,7 +8710,7 @@
         }
     }, 
     {
-        "pk": 823, 
+        "pk": 872, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 18865, 
@@ -8230,7 +8720,7 @@
         }
     }, 
     {
-        "pk": 824, 
+        "pk": 873, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 202647, 
@@ -8240,7 +8730,7 @@
         }
     }, 
     {
-        "pk": 825, 
+        "pk": 874, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 158335, 
@@ -8250,7 +8740,7 @@
         }
     }, 
     {
-        "pk": 826, 
+        "pk": 875, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 104259, 
@@ -8260,7 +8750,7 @@
         }
     }, 
     {
-        "pk": 827, 
+        "pk": 876, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 104527, 
@@ -8270,7 +8760,7 @@
         }
     }, 
     {
-        "pk": 828, 
+        "pk": 877, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 131949, 
@@ -8280,7 +8770,7 @@
         }
     }, 
     {
-        "pk": 829, 
+        "pk": 878, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127109, 
@@ -8290,7 +8780,7 @@
         }
     }, 
     {
-        "pk": 830, 
+        "pk": 879, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 126930, 
@@ -8300,7 +8790,7 @@
         }
     }, 
     {
-        "pk": 831, 
+        "pk": 880, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46246, 
@@ -8310,7 +8800,7 @@
         }
     }, 
     {
-        "pk": 832, 
+        "pk": 881, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 59765, 
@@ -8320,7 +8810,7 @@
         }
     }, 
     {
-        "pk": 833, 
+        "pk": 882, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 58046, 
@@ -8330,7 +8820,7 @@
         }
     }, 
     {
-        "pk": 834, 
+        "pk": 883, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 64576, 
@@ -8340,7 +8830,17 @@
         }
     }, 
     {
-        "pk": 835, 
+        "pk": 884, 
+        "model": "movieapp.actornomination", 
+        "fields": {
+            "movie": 48815, 
+            "won": false, 
+            "award": 1520, 
+            "actor": 55770
+        }
+    }, 
+    {
+        "pk": 885, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2777, 
@@ -8350,7 +8850,7 @@
         }
     }, 
     {
-        "pk": 836, 
+        "pk": 886, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5382, 
@@ -8360,7 +8860,7 @@
         }
     }, 
     {
-        "pk": 837, 
+        "pk": 887, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 113296, 
@@ -8370,7 +8870,7 @@
         }
     }, 
     {
-        "pk": 838, 
+        "pk": 888, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1106, 
@@ -8380,7 +8880,7 @@
         }
     }, 
     {
-        "pk": 839, 
+        "pk": 889, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4384, 
@@ -8390,7 +8890,7 @@
         }
     }, 
     {
-        "pk": 840, 
+        "pk": 890, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 152737, 
@@ -8400,7 +8900,7 @@
         }
     }, 
     {
-        "pk": 841, 
+        "pk": 891, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 154296, 
@@ -8410,7 +8910,7 @@
         }
     }, 
     {
-        "pk": 842, 
+        "pk": 892, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 150953, 
@@ -8420,7 +8920,7 @@
         }
     }, 
     {
-        "pk": 843, 
+        "pk": 893, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 149217, 
@@ -8430,7 +8930,7 @@
         }
     }, 
     {
-        "pk": 844, 
+        "pk": 894, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 168852, 
@@ -8440,7 +8940,7 @@
         }
     }, 
     {
-        "pk": 845, 
+        "pk": 895, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2617, 
@@ -8450,7 +8950,7 @@
         }
     }, 
     {
-        "pk": 846, 
+        "pk": 896, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 853, 
@@ -8460,7 +8960,7 @@
         }
     }, 
     {
-        "pk": 847, 
+        "pk": 897, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 83724, 
@@ -8470,7 +8970,7 @@
         }
     }, 
     {
-        "pk": 848, 
+        "pk": 898, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 21270, 
@@ -8480,7 +8980,7 @@
         }
     }, 
     {
-        "pk": 849, 
+        "pk": 899, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 25979, 
@@ -8490,7 +8990,7 @@
         }
     }, 
     {
-        "pk": 850, 
+        "pk": 900, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 200573, 
@@ -8500,7 +9000,7 @@
         }
     }, 
     {
-        "pk": 851, 
+        "pk": 901, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 27152, 
@@ -8510,7 +9010,7 @@
         }
     }, 
     {
-        "pk": 852, 
+        "pk": 902, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 7220, 
@@ -8520,7 +9020,7 @@
         }
     }, 
     {
-        "pk": 853, 
+        "pk": 903, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 45195, 
@@ -8530,7 +9030,7 @@
         }
     }, 
     {
-        "pk": 854, 
+        "pk": 904, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 117817, 
@@ -8540,7 +9040,7 @@
         }
     }, 
     {
-        "pk": 855, 
+        "pk": 905, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5792, 
@@ -8550,7 +9050,7 @@
         }
     }, 
     {
-        "pk": 856, 
+        "pk": 906, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 34319, 
@@ -8560,7 +9060,7 @@
         }
     }, 
     {
-        "pk": 857, 
+        "pk": 907, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 33696, 
@@ -8570,7 +9070,7 @@
         }
     }, 
     {
-        "pk": 858, 
+        "pk": 908, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 187402, 
@@ -8580,7 +9080,7 @@
         }
     }, 
     {
-        "pk": 859, 
+        "pk": 909, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 221179, 
@@ -8590,7 +9090,7 @@
         }
     }, 
     {
-        "pk": 860, 
+        "pk": 910, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 149917, 
@@ -8600,7 +9100,7 @@
         }
     }, 
     {
-        "pk": 861, 
+        "pk": 911, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 77073, 
@@ -8610,7 +9110,7 @@
         }
     }, 
     {
-        "pk": 862, 
+        "pk": 912, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 232396, 
@@ -8620,7 +9120,7 @@
         }
     }, 
     {
-        "pk": 863, 
+        "pk": 913, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190668, 
@@ -8630,7 +9130,7 @@
         }
     }, 
     {
-        "pk": 864, 
+        "pk": 914, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190518, 
@@ -8640,7 +9140,7 @@
         }
     }, 
     {
-        "pk": 865, 
+        "pk": 915, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 9838, 
@@ -8650,7 +9150,7 @@
         }
     }, 
     {
-        "pk": 866, 
+        "pk": 916, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 75506, 
@@ -8660,7 +9160,7 @@
         }
     }, 
     {
-        "pk": 867, 
+        "pk": 917, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 50755, 
@@ -8670,7 +9170,7 @@
         }
     }, 
     {
-        "pk": 868, 
+        "pk": 918, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 41390, 
@@ -8680,7 +9180,7 @@
         }
     }, 
     {
-        "pk": 869, 
+        "pk": 919, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 17036, 
@@ -8690,7 +9190,7 @@
         }
     }, 
     {
-        "pk": 870, 
+        "pk": 920, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 52389, 
@@ -8700,7 +9200,7 @@
         }
     }, 
     {
-        "pk": 871, 
+        "pk": 921, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 238655, 
@@ -8710,7 +9210,7 @@
         }
     }, 
     {
-        "pk": 872, 
+        "pk": 922, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 220711, 
@@ -8720,7 +9220,7 @@
         }
     }, 
     {
-        "pk": 873, 
+        "pk": 923, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190529, 
@@ -8730,7 +9230,7 @@
         }
     }, 
     {
-        "pk": 874, 
+        "pk": 924, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 64308, 
@@ -8740,7 +9240,7 @@
         }
     }, 
     {
-        "pk": 875, 
+        "pk": 925, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 12046, 
@@ -8750,7 +9250,7 @@
         }
     }, 
     {
-        "pk": 876, 
+        "pk": 926, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5999, 
@@ -8760,7 +9260,7 @@
         }
     }, 
     {
-        "pk": 877, 
+        "pk": 927, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 33015, 
@@ -8770,7 +9270,7 @@
         }
     }, 
     {
-        "pk": 878, 
+        "pk": 928, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 66034, 
@@ -8780,7 +9280,7 @@
         }
     }, 
     {
-        "pk": 879, 
+        "pk": 929, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6627, 
@@ -8790,7 +9290,7 @@
         }
     }, 
     {
-        "pk": 880, 
+        "pk": 930, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127677, 
@@ -8800,7 +9300,7 @@
         }
     }, 
     {
-        "pk": 881, 
+        "pk": 931, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 62755, 
@@ -8810,7 +9310,7 @@
         }
     }, 
     {
-        "pk": 882, 
+        "pk": 932, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2268, 
@@ -8820,7 +9320,7 @@
         }
     }, 
     {
-        "pk": 883, 
+        "pk": 933, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 93149, 
@@ -8830,7 +9330,7 @@
         }
     }, 
     {
-        "pk": 884, 
+        "pk": 934, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 75504, 
@@ -8840,7 +9340,7 @@
         }
     }, 
     {
-        "pk": 885, 
+        "pk": 935, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 141828, 
@@ -8850,7 +9350,7 @@
         }
     }, 
     {
-        "pk": 886, 
+        "pk": 936, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 39897, 
@@ -8860,7 +9360,7 @@
         }
     }, 
     {
-        "pk": 887, 
+        "pk": 937, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46321, 
@@ -8870,7 +9370,7 @@
         }
     }, 
     {
-        "pk": 888, 
+        "pk": 938, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 489, 
@@ -8880,7 +9380,7 @@
         }
     }, 
     {
-        "pk": 889, 
+        "pk": 939, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 141229, 
@@ -8890,7 +9390,7 @@
         }
     }, 
     {
-        "pk": 890, 
+        "pk": 940, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 39290, 
@@ -8900,7 +9400,7 @@
         }
     }, 
     {
-        "pk": 891, 
+        "pk": 941, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2409, 
@@ -8910,7 +9410,7 @@
         }
     }, 
     {
-        "pk": 892, 
+        "pk": 942, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 62878, 
@@ -8920,7 +9420,7 @@
         }
     }, 
     {
-        "pk": 893, 
+        "pk": 943, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 52993, 
@@ -8930,7 +9430,7 @@
         }
     }, 
     {
-        "pk": 894, 
+        "pk": 944, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 62741, 
@@ -8940,7 +9440,7 @@
         }
     }, 
     {
-        "pk": 895, 
+        "pk": 945, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46870, 
@@ -8950,7 +9450,7 @@
         }
     }, 
     {
-        "pk": 896, 
+        "pk": 946, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 214696, 
@@ -8960,7 +9460,7 @@
         }
     }, 
     {
-        "pk": 897, 
+        "pk": 947, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1705, 
@@ -8970,7 +9470,7 @@
         }
     }, 
     {
-        "pk": 898, 
+        "pk": 948, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 201913, 
@@ -8980,7 +9480,7 @@
         }
     }, 
     {
-        "pk": 899, 
+        "pk": 949, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 62897, 
@@ -8990,7 +9490,7 @@
         }
     }, 
     {
-        "pk": 900, 
+        "pk": 950, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 57137, 
@@ -9000,7 +9500,7 @@
         }
     }, 
     {
-        "pk": 901, 
+        "pk": 951, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 202182, 
@@ -9010,7 +9510,7 @@
         }
     }, 
     {
-        "pk": 902, 
+        "pk": 952, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5805, 
@@ -9020,7 +9520,7 @@
         }
     }, 
     {
-        "pk": 903, 
+        "pk": 953, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 117827, 
@@ -9030,17 +9530,17 @@
         }
     }, 
     {
-        "pk": 904, 
+        "pk": 954, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 137006, 
+            "movie": 127685, 
             "won": false, 
             "award": 1546, 
             "actor": 12519
         }
     }, 
     {
-        "pk": 905, 
+        "pk": 955, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 107709, 
@@ -9050,7 +9550,7 @@
         }
     }, 
     {
-        "pk": 906, 
+        "pk": 956, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 40333, 
@@ -9060,17 +9560,17 @@
         }
     }, 
     {
-        "pk": 907, 
+        "pk": 957, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 186286, 
+            "movie": 25601, 
             "won": true, 
             "award": 1548, 
             "actor": 3686
         }
     }, 
     {
-        "pk": 908, 
+        "pk": 958, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 79987, 
@@ -9080,7 +9580,7 @@
         }
     }, 
     {
-        "pk": 909, 
+        "pk": 959, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5701, 
@@ -9090,7 +9590,7 @@
         }
     }, 
     {
-        "pk": 910, 
+        "pk": 960, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 111725, 
@@ -9100,7 +9600,7 @@
         }
     }, 
     {
-        "pk": 911, 
+        "pk": 961, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4094, 
@@ -9110,7 +9610,7 @@
         }
     }, 
     {
-        "pk": 912, 
+        "pk": 962, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 42773, 
@@ -9120,7 +9620,7 @@
         }
     }, 
     {
-        "pk": 913, 
+        "pk": 963, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 140020, 
@@ -9130,7 +9630,7 @@
         }
     }, 
     {
-        "pk": 914, 
+        "pk": 964, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 24267, 
@@ -9140,7 +9640,7 @@
         }
     }, 
     {
-        "pk": 915, 
+        "pk": 965, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 11227, 
@@ -9150,7 +9650,7 @@
         }
     }, 
     {
-        "pk": 916, 
+        "pk": 966, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 145765, 
@@ -9160,7 +9660,7 @@
         }
     }, 
     {
-        "pk": 917, 
+        "pk": 967, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13706, 
@@ -9170,7 +9670,7 @@
         }
     }, 
     {
-        "pk": 918, 
+        "pk": 968, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 149333, 
@@ -9180,7 +9680,7 @@
         }
     }, 
     {
-        "pk": 919, 
+        "pk": 969, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1476, 
@@ -9190,7 +9690,7 @@
         }
     }, 
     {
-        "pk": 920, 
+        "pk": 970, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3609, 
@@ -9200,7 +9700,7 @@
         }
     }, 
     {
-        "pk": 921, 
+        "pk": 971, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 66074, 
@@ -9210,7 +9710,7 @@
         }
     }, 
     {
-        "pk": 922, 
+        "pk": 972, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 2521, 
@@ -9220,7 +9720,7 @@
         }
     }, 
     {
-        "pk": 923, 
+        "pk": 973, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 36738, 
@@ -9230,7 +9730,7 @@
         }
     }, 
     {
-        "pk": 924, 
+        "pk": 974, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 64697, 
@@ -9240,7 +9740,7 @@
         }
     }, 
     {
-        "pk": 925, 
+        "pk": 975, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 3137, 
@@ -9250,7 +9750,7 @@
         }
     }, 
     {
-        "pk": 926, 
+        "pk": 976, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 199996, 
@@ -9260,7 +9760,7 @@
         }
     }, 
     {
-        "pk": 927, 
+        "pk": 977, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 90476, 
@@ -9270,7 +9770,7 @@
         }
     }, 
     {
-        "pk": 928, 
+        "pk": 978, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 5140, 
@@ -9280,7 +9780,7 @@
         }
     }, 
     {
-        "pk": 929, 
+        "pk": 979, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 38991, 
@@ -9290,7 +9790,7 @@
         }
     }, 
     {
-        "pk": 930, 
+        "pk": 980, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 70672, 
@@ -9300,7 +9800,7 @@
         }
     }, 
     {
-        "pk": 931, 
+        "pk": 981, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 190553, 
@@ -9310,7 +9810,7 @@
         }
     }, 
     {
-        "pk": 932, 
+        "pk": 982, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 13574, 
@@ -9320,7 +9820,7 @@
         }
     }, 
     {
-        "pk": 933, 
+        "pk": 983, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1089, 
@@ -9330,7 +9830,7 @@
         }
     }, 
     {
-        "pk": 934, 
+        "pk": 984, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 46872, 
@@ -9340,7 +9840,7 @@
         }
     }, 
     {
-        "pk": 935, 
+        "pk": 985, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 14708, 
@@ -9350,7 +9850,7 @@
         }
     }, 
     {
-        "pk": 936, 
+        "pk": 986, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 10593, 
@@ -9360,7 +9860,7 @@
         }
     }, 
     {
-        "pk": 937, 
+        "pk": 987, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 147665, 
@@ -9370,17 +9870,17 @@
         }
     }, 
     {
-        "pk": 938, 
+        "pk": 988, 
         "model": "movieapp.actornomination", 
         "fields": {
-            "movie": 1947, 
+            "movie": 204372, 
             "won": false, 
             "award": 1560, 
             "actor": 12256
         }
     }, 
     {
-        "pk": 939, 
+        "pk": 989, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 127792, 
@@ -9390,7 +9890,7 @@
         }
     }, 
     {
-        "pk": 940, 
+        "pk": 990, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 6115, 
@@ -9400,7 +9900,7 @@
         }
     }, 
     {
-        "pk": 941, 
+        "pk": 991, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 51916, 
@@ -9410,7 +9910,7 @@
         }
     }, 
     {
-        "pk": 942, 
+        "pk": 992, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 16380, 
@@ -9420,7 +9920,7 @@
         }
     }, 
     {
-        "pk": 943, 
+        "pk": 993, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 44475, 
@@ -9430,7 +9930,7 @@
         }
     }, 
     {
-        "pk": 944, 
+        "pk": 994, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 24050, 
@@ -9440,7 +9940,7 @@
         }
     }, 
     {
-        "pk": 945, 
+        "pk": 995, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 1171, 
@@ -9450,7 +9950,7 @@
         }
     }, 
     {
-        "pk": 946, 
+        "pk": 996, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 215672, 
@@ -9460,7 +9960,7 @@
         }
     }, 
     {
-        "pk": 947, 
+        "pk": 997, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 101356, 
@@ -9470,7 +9970,7 @@
         }
     }, 
     {
-        "pk": 948, 
+        "pk": 998, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 237699, 
@@ -9480,7 +9980,7 @@
         }
     }, 
     {
-        "pk": 949, 
+        "pk": 999, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239917, 
@@ -9490,7 +9990,7 @@
         }
     }, 
     {
-        "pk": 950, 
+        "pk": 1000, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 217266, 
@@ -9500,7 +10000,7 @@
         }
     }, 
     {
-        "pk": 951, 
+        "pk": 1001, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 143744, 
@@ -9510,7 +10010,7 @@
         }
     }, 
     {
-        "pk": 952, 
+        "pk": 1002, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 29221, 
@@ -9520,7 +10020,7 @@
         }
     }, 
     {
-        "pk": 953, 
+        "pk": 1003, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 14999, 
@@ -9530,7 +10030,7 @@
         }
     }, 
     {
-        "pk": 954, 
+        "pk": 1004, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 4223, 
@@ -9540,7 +10040,7 @@
         }
     }, 
     {
-        "pk": 955, 
+        "pk": 1005, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 76321, 
@@ -9550,7 +10050,7 @@
         }
     }, 
     {
-        "pk": 956, 
+        "pk": 1006, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 239926, 
@@ -9560,7 +10060,7 @@
         }
     }, 
     {
-        "pk": 957, 
+        "pk": 1007, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 51013, 
@@ -9570,7 +10070,7 @@
         }
     }, 
     {
-        "pk": 958, 
+        "pk": 1008, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 20408, 
@@ -9580,7 +10080,7 @@
         }
     }, 
     {
-        "pk": 959, 
+        "pk": 1009, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 68630, 
@@ -9590,7 +10090,7 @@
         }
     }, 
     {
-        "pk": 960, 
+        "pk": 1010, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 69937, 
@@ -9600,7 +10100,7 @@
         }
     }, 
     {
-        "pk": 961, 
+        "pk": 1011, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 105907, 
@@ -9610,7 +10110,7 @@
         }
     }, 
     {
-        "pk": 962, 
+        "pk": 1012, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 221354, 
@@ -9620,7 +10120,7 @@
         }
     }, 
     {
-        "pk": 963, 
+        "pk": 1013, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 175, 
@@ -9630,7 +10130,7 @@
         }
     }, 
     {
-        "pk": 964, 
+        "pk": 1014, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 175, 
@@ -9640,7 +10140,7 @@
         }
     }, 
     {
-        "pk": 965, 
+        "pk": 1015, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 867, 
@@ -9650,7 +10150,7 @@
         }
     }, 
     {
-        "pk": 966, 
+        "pk": 1016, 
         "model": "movieapp.actornomination", 
         "fields": {
             "movie": 107610, 

@@ -16,11 +16,18 @@ DATABASES = {
         'NAME': 'db',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': 'root',
-        'PASSWORD': '--',
+        'PASSWORD': 'baylork09',
         'HOST': '127.0.0.1',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '3306',                      # Set to empty string for default.
     }
 }
+
+# User model referenced that will extend django's user model and add extra fields
+AUTH_USER_MODEL = 'registration.MovienetUser'
+
+LOGIN_REDIRECT_URL = '/movieapp'
+
+LOGIN_URL = '/login'
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
@@ -73,6 +80,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    'C:/Users/Owner/git/movienet/MovieNet/MovieNet/static',
 )
 
 # List of finder classes that know how to find static files in
@@ -112,17 +120,22 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+<<<<<<< HEAD
    "C:/Users/Aashish/BitNami DjangoStack projects/movienet/MovieNet/movieapp/templates"
+=======
+    'C:/Users/Owner/git/movienet/MovieNet/MovieNet/templates',
+>>>>>>> origin/master
 )
 
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.sites',
+    #'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'movieapp',
+    'registration',
     # Uncomment the next line to enable the admin:
      'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

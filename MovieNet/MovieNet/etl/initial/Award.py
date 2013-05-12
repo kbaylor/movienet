@@ -7,10 +7,8 @@ from movieapp.models import Actor
 from movieapp.models import Director
 from datetime import datetime
 
-def _getId(name, awardType, idHash, year=None):
-	if name in idHash:
-		return (idHash[name], idHash)
-	
+def _getId(name, awardType, year=None):
+
 	if awardType == "movie":
 		# If it is a movie, then check if the movie is a substring of some query. Then find the shortest result of all matches
 		matches = Movie.objects.filter(title__istartswith=name, year__exact=year)
@@ -25,12 +23,6 @@ def _getId(name, awardType, idHash, year=None):
 					match = result.title
 					bestLength = result_length
 	else:
-		if '(' in name:
-			index = name.index('(')
-			name = name[:index-1]
-		if ' ' in name:
-			index = name.index(' ')
-			name = name[(index + 1):] + ', ' + name[:index]
 		if awardType == "actor":
 			match = Actor.objects.filter(name__iexact=name)
 		else:
@@ -39,11 +31,9 @@ def _getId(name, awardType, idHash, year=None):
 			match_id = match[0].id
 	
 	if not match:
-		idHash[name] = None
-		return (None, idHash)
+		return None
 	else:
-		idHash[name] = match_id
-		return (match_id, idHash)
+		return match_id
 
 if __name__ == '__main__':
 	start = datetime.now()
@@ -65,7 +55,6 @@ if __name__ == '__main__':
 	
 	json_dict = [[], [], [], []]
 	count = [1, 1, 1, 1]
-	idHash = {}
 	for awardHeader, awardNameDict in awards.items():
 		for awardName, yearDict in awardNameDict.items():
 			if awardName in ILLEGAL_AWARDS:
@@ -79,7 +68,7 @@ if __name__ == '__main__':
 				nominationsSeen = []
 				for nomination, won in nominationDict.items():
 					names = nomination[0]
-					movieId, idHash = _getId(nomination[1], "movie", idHash, int(year))
+					movieId = _getId(nomination[1], "movie", int(year))
 					if not movieId:
 						continue
 					if ((not names or (awardHeader not in actorHeaders and awardHeader not in directorHeaders)) 
@@ -90,14 +79,14 @@ if __name__ == '__main__':
 					else:
 						for name in names:
 							if awardHeader in actorHeaders:
-								actorId, idHash = _getId(name, "actor", idHash)
+								actorId = _getId(name, "actor")
 								if actorId:
 									json_dict[ACTOR_INDEX].append({'model':'movieapp.actornomination', 
 											'pk':count[ACTOR_INDEX], 'fields':{'movie':movieId, 'actor':actorId, 
 											'award':count[AWARD_INDEX]-1, 'won':won}})
 									count[ACTOR_INDEX] += 1
 							elif awardHeader in directorHeaders:
-								directorId, idHash = _getId(name, "director", idHash)
+								directorId = _getId(name, "director")
 								if directorId:
 									json_dict[DIR_INDEX].append({'model':'movieapp.directornomination', 
 											'pk':count[DIR_INDEX], 'fields':{'movie':movieId, 'director':directorId, 

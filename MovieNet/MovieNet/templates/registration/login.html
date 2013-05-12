@@ -1,0 +1,14 @@
+{% extends 'registration/register.html' %}
+
+{% if form.errors %}
+<p>Your username and password didn't match. Please try again.</p>
+{% endif %}
+
+{% block form_type %}
+<form action="{% url 'django.contrib.auth.views.login' %}" method="post">
+{% endblock %}
+
+{% block register %}
+<br/>
+<a href="register"> First time user? Sign up here </a>
+{% endblock %}

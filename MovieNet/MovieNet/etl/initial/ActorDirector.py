@@ -6,6 +6,22 @@ Created on Apr 22, 2013
 
 import csv
 import json
+import re
+
+def parse_name(name):
+    pattern = "^(?P<lastname>.*?), (?P<other>.*$)"
+    match = re.match(pattern, name)
+    if match:
+        other = match.group('other')
+        other_match = re.match("(?P<firstname>.*), (?P<qualifier>Jr\.|Sr\.)$", other)
+        if other_match:
+            name_string = other_match.group('firstname') + " " + match.group('lastname') + " "  + \
+                                other_match.group('qualifier')
+        else:
+            name_string = match.group('other') + " " + match.group('lastname')
+        return name_string
+    else:
+        return name    
 
 def getValidJson(index_file, name_file, model_name):
     id_to_movies = {}
@@ -26,18 +42,18 @@ def getValidJson(index_file, name_file, model_name):
         else:
             movies = []
         json_struct.append({'pk':int(line[0]), 'model':model_name, 'fields': {
-                    'name':unicode(line[1]), 'movies':movies}})
+                    'name':unicode(parse_name(line[1])), 'movies':movies}})
     return json_struct
 
 if __name__ == '__main__':
     with open("./sources/director_index.csv", 'r') as index_file:
-        with open("../sources/directors.csv", 'r') as csvfile:
+        with open("./sources/directors.csv", 'r') as csvfile:
             directors = getValidJson(index_file, csvfile, 'movieapp.director')
     with open("../../../movieapp/fixtures/director.json", 'w') as director_file:
         director_file.write(json.dumps(directors, indent=4))
         
     with open("./sources/actor_index.csv", 'r') as index_file:
-        with open("../sources/actors.csv", 'r') as csvfile:
+        with open("./sources/actors.csv", 'r') as csvfile:
             actors = getValidJson(index_file, csvfile, 'movieapp.actor')
     with open("../../../movieapp/fixtures/actor.json", 'w') as director_file:
         director_file.write(json.dumps(actors, indent=4))
