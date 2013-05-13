@@ -1,11 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h4><b>Add a Movie</b></h4>
+<h3><b>Add a Movie</b></h3>
 </br>
 <form action="/movieapp/add" method="post">{% csrf_token %}
 	IMDB URL <input type="url" name="url"/> (This must be the URL for a single movie page)
-	</br></br>
-	<input type="submit"/>
+	<p><input type="submit" value="Submit"></p>
 </form>
 {% endblock %}

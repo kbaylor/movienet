@@ -1,8 +1,27 @@
-{% extends 'base.html' %}
+{% extends 'include_ratings.html' %}
+
+{% block more_javascript %}
+{% if rating %}
+    <script type="text/javascript">
+		$(document).ready(function(){
+			$(':submit').hide();
+		});
+	</script>
+{% endif %} 
+{% endblock %}  
 
 {% block content %}
 {% if movie %}
-    <h3>{{ movie.title }} ({{ movie.year }})</h2>
+    <h3>{{ movie.title }} ({{ movie.year }})</h2></br>
+	<p><b>{% if rating %}Your Rating{% else %}Rate Movie{% endif %}</b>:
+	<form action="/movieapp/rate/{{ movie.id }}" method="post">{% csrf_token %}
+		{% if rating %}
+			{% include "star.html" with num='1' read_only=rating split=1 %}
+		{% else %}
+			{% include "star.html" with num='1' split=1 %}
+		{% endif %}
+        <input type="submit" value="Submit">
+	</form></p></br>	
 	<h4>Directed by: </h4>
 	<ul>	
 		{% for director in movie.directors.all %}
@@ -16,8 +35,7 @@
 		<li><a href="/movieapp/actor/{{ actor.id }}/">{{ actor.name }}</a></li>
 	
 	{% endfor %}
-    </ul>
-    
+    </ul> 
 {% else %}
     <p>No movie is available.</p>
 {% endif %}

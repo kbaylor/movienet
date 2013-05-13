@@ -25,7 +25,7 @@ DATABASES = {
 # User model referenced that will extend django's user model and add extra fields
 AUTH_USER_MODEL = 'registration.MovienetUser'
 
-LOGIN_REDIRECT_URL = '/movieapp'
+LOGIN_REDIRECT_URL = '/account'
 
 LOGIN_URL = '/login'
 

@@ -1,0 +1,5 @@
+{% load extra_filters %}
+
+{% for i in 10|get_range %}
+	<input name="star{{ num }}" type="radio" value="{{ i }}" class="star{% if split != 1%}{% templatetag openbrace %}{{ split }}{% templatetag closebrace %}{% endif %}"{% if read_only %} disabled="disabled"{% if read_only == i %} checked="checked"{% endif%}{% endif %}/>
+{% endfor %}

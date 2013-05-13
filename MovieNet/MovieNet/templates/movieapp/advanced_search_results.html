@@ -1,3 +1,6 @@
+{% extends "base.html" %}
+
+{% block content %}
 <p>You searched for: <strong>{{ query }}</strong></p>
 
 {% if movies %}
@@ -68,3 +71,4 @@
 {% else %}
     <p>No movies matched your search criteria.</p>
 {% endif %}
+{% endblock %}

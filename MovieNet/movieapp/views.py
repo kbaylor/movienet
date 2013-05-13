@@ -1,21 +1,15 @@
-'''
-Created on Apr 29, 2013
-
-@author: Aashish
-'''
 from django.http import HttpResponse
 from django.db.models import Count
-
+from datetime import datetime
 from movieapp.forms import SearchForm, BasicSearchForm
 from django.shortcuts import render_to_response
 from MovieNet.etl.imdb import IMDBParser as parser
-from movieapp.models import Movie, MovieGenre
 from django.contrib.auth.decorators import login_required
 from django.core.context_processors import csrf
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
-
-from movieapp.models import Director, Movie, Actor, MovieNomination, ActorNomination, DirectorNomination, Rated
-
+from movieapp.models import Director, Movie, Actor, MovieNomination, ActorNomination, DirectorNomination, Rated, MovieGenre
+from registration.models import MovienetUser
   
 @login_required
 def add_movie(request):
@@ -62,12 +56,23 @@ def add_movie(request):
         return render_to_response('movieapp/add.html', csrf(request))
     
 @login_required
+def rate(request, movieid):
+    if request.method == 'POST':
+        #get submitted rating
+        rating = int(float(request.POST['star1']))
+    movie = Movie.objects.get(id=movieid)
+    Rated.objects.create(user=request.user, movie=movie, rating=rating, date_rated=datetime.now())
+    return HttpResponseRedirect('/movieapp/movie/' + str(movieid))
+
+@login_required
 def movie(request, movieid):
     movie = get_object_or_404(Movie, id=movieid)
     try:
         rating = Rated.objects.get(movie=movieid, user=request.user.pk)
     except Rated.DoesNotExist:
         rating = None
+    else:
+        rating = int(rating.rating)
     return render(request, 'movieapp/movie.html', {'movie':movie, 'rating':rating})
 
 @login_required
@@ -131,9 +136,6 @@ def advancedfind(request):
             end = cd['end_year']
             ratings_start = cd['min_rating']
             ratings_end = cd['max_rating']
-            #movie_award = cd['show_movie_oscars']
-            #actor_award = cd['show_actor_oscars']
-            #director_award = cd['show_director_oscars']
             show_oscars = cd['show_oscars']
             movies = Movie.objects.filter(title__icontains=movie_title)
 
