@@ -5,11 +5,11 @@
     <ul>
         {% for movie in movies %}
     		<li><a href="/movieapp/movie/{{ movie.id }}/">{{ movie.title }}</a> ({{ movie.year }})</li>			
-			{% for rating in ratings %}
-    			{% if movie.id == rating.movie %}  
-    				<p>Average rating of {{rating.avg_rating}} from {{rating.count}} users</p>
-    			{% endif %}
-    		{% endfor %} 		
+			{% if movie.avg_rating %}
+			<p> Average rating of {{movie.avg_rating}} from {{movie.count}} users </p>
+			{% else %}
+			<p> No one has rated this movie yet </p>
+			{% endif %}
     			
     			{% if show_oscars %}
 	    			<ul>

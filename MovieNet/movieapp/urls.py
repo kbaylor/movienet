@@ -16,6 +16,7 @@ urlpatterns = patterns('',
     url(r'^director/(?P<did>\d+)/$', views.director, name='director'),
     url(r'^find/$', views.find),
     url(r'^movies/top/$', views.top_movies),
+    url(r'^users/top/$', views.top_users),
     
     url(r'^find/advanced/$', views.advancedfind),
 
