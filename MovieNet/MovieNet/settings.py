@@ -13,7 +13,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'movienet',                      # Or path to database file if using sqlite3.
+        'NAME': 'db',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': 'root',
         'PASSWORD': 'baylork09',
@@ -25,7 +25,7 @@ DATABASES = {
 # User model referenced that will extend django's user model and add extra fields
 AUTH_USER_MODEL = 'registration.MovienetUser'
 
-LOGIN_REDIRECT_URL = '/account'
+LOGIN_REDIRECT_URL = '/movieapp'
 
 LOGIN_URL = '/login'
 
@@ -120,7 +120,11 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+<<<<<<< HEAD
+   "C:/Users/Aashish/BitNami DjangoStack projects/movienet/MovieNet/movieapp/templates"
+=======
     'C:/Users/Owner/git/movienet/MovieNet/MovieNet/templates',
+>>>>>>> origin/master
 )
 
 INSTALLED_APPS = (

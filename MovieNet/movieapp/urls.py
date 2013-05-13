@@ -14,5 +14,5 @@ urlpatterns = patterns('',
     url(r'^director/(?P<did>\d+)/$', views.director, name='director'),
     url(r'^find/$', views.find),
     url(r'^find/advanced/$', views.advancedfind),
-    url(r'^rate/(?P<movieid>\d+)$', views.rate, name='rate'),
+    url(r'^rate/(?P<movieid>\d+)$', views.rate, name='rate')
 )

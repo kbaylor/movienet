@@ -1,6 +1,13 @@
 from django.http import HttpResponse
 from django.db.models import Count
 from datetime import datetime
+'''
+Created on Apr 29, 2013
+
+@author: Aashish
+'''
+from django.http import HttpResponse
+from django.db.models import Count
 from movieapp.forms import SearchForm, BasicSearchForm
 from django.shortcuts import render_to_response
 from MovieNet.etl.imdb import IMDBParser as parser
@@ -122,7 +129,6 @@ def find(request):
     else:
         form = BasicSearchForm()
     return render(request, 'movieapp/find_form.html', {'form': form})
-
 
 def advancedfind(request):
     if request.method == 'POST':
