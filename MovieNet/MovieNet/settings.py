@@ -16,9 +16,9 @@ DATABASES = {
         'NAME': 'db',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': 'root',
-        'PASSWORD': 'baylork09',
+        'PASSWORD': 'aashish',
         'HOST': '127.0.0.1',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT': '3306',                      # Set to empty string for default.
+        'PORT': '3300',                      # Set to empty string for default.
     }
 }
 
@@ -80,7 +80,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    'C:/Users/Owner/git/movienet/MovieNet/MovieNet/static',
+    "C:/Users/Aashish/BitNami DjangoStack projects/movienet/MovieNet/MovieNet/static",
 )
 
 # List of finder classes that know how to find static files in
@@ -120,12 +120,12 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-<<<<<<< HEAD
-   "C:/Users/Aashish/BitNami DjangoStack projects/movienet/MovieNet/movieapp/templates"
-=======
-    'C:/Users/Owner/git/movienet/MovieNet/MovieNet/templates',
->>>>>>> origin/master
+   "C:/Users/Aashish/BitNami DjangoStack projects/movienet/MovieNet/MovieNet/templates",
+      "C:/Users/Aashish/BitNami DjangoStack projects/movienet/MovieNet/MovieNet/templates/movieapp",
+      "C:/Users/Aashish/BitNami DjangoStack projects/movienet/MovieNet/MovieNet/templates/registration"
+
 )
+
 
 INSTALLED_APPS = (
     'django.contrib.auth',
