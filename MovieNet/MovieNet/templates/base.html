@@ -33,11 +33,13 @@ Released   : 20100729
                     <div id="menu">
                         <ul>
                         	{% block menu %}
-                            <li class="current_page_item"><a title="Home" href="/">User Home</a></li>
+                            <li class="current_page_item"><a title="Home" href="/account">User Home</a></li>
                             <li><a title="Search" href="/movieapp/find">Search</a></li>
                             <li><a href='/movieapp/add' title="Add Movie" href="/add">Add Movie</a></li>
                             <li><a title="Top Users" href="/movieapp/users/top">Top Users</a></li>
                             <li><a title="Top Rated Movies" href="/movieapp/movies/top">Top Rated</a></li>
+                            <li><a title="Logout" href="/logout">Logout</a></li>
+                            {% block logout %}{% endblock %}
                             {% endblock %}
                         </ul>
                     </div>

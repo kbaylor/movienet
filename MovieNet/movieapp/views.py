@@ -1,3 +1,6 @@
+from django.http import HttpResponse
+from django.db.models import Count
+from datetime import datetime
 '''
 Created on Apr 29, 2013
 
@@ -5,15 +8,15 @@ Created on Apr 29, 2013
 '''
 from django.http import HttpResponse
 from django.db.models import Count, Avg
-
 from movieapp.forms import SearchForm, BasicSearchForm
 from django.shortcuts import render_to_response
 from MovieNet.etl.imdb import IMDBParser as parser
-from movieapp.models import Movie, MovieGenre
 from django.contrib.auth.decorators import login_required
 from django.core.context_processors import csrf
-from django.shortcuts import render, get_object_or_404
-from movieapp.models import Director, Movie, Actor, MovieNomination, ActorNomination, DirectorNomination, Rated
+from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import render, get_object_or_404\
+
+from movieapp.models import Director, Movie, Actor, MovieNomination, ActorNomination, DirectorNomination, Rated, MovieGenre
 from registration.models import MovienetUser
 import datetime
 
@@ -63,12 +66,23 @@ def add_movie(request):
         return render_to_response('movieapp/add.html', csrf(request))
     
 @login_required
+def rate(request, movieid):
+    if request.method == 'POST':
+        #get submitted rating
+        rating = int(float(request.POST['star1']))
+    movie = Movie.objects.get(id=movieid)
+    Rated.objects.create(user=request.user, movie=movie, rating=rating, date_rated=datetime.now())
+    return HttpResponseRedirect('/movieapp/movie/' + str(movieid))
+
+@login_required
 def movie(request, movieid):
     movie = get_object_or_404(Movie, id=movieid)
     try:
         rating = Rated.objects.get(movie=movieid, user=request.user.pk)
     except Rated.DoesNotExist:
         rating = None
+    else:
+        rating = int(rating.rating)
     return render(request, 'movieapp/movie.html', {'movie':movie, 'rating':rating})
 
 @login_required
@@ -87,12 +101,13 @@ def actor(request, actorid):
         costar_list.append([Actor.objects.get(id=actor_dict['actors']), actor_dict['num_movies']])
     #return HttpResponse(costars_id)
     #costars = Actor.objects.filter(id__in=ids)
-    return render(request, 'actor.html', {'actor':actor, 'costars':costar_list})
+    return render(request, 'movieapp/actor.html', {'actor':actor, 'costars':costar_list});
+
 
 @login_required
 def director(request, did):
     director = get_object_or_404(Director, id=did)
-    return render(request, 'director.html', {'director':director})
+    return render(request, 'movieapp/director.html', {'director':director})
 
 def top_movies(request):
     #movies =Movie.objects.all().annotate(avg_rating=Avg('ratings')).order_by('-avg_rating')[0:50]
@@ -130,12 +145,11 @@ def find(request):
 
             if search_type=='director':
                 return_set = Director.objects.filter(name__icontains=text)
-            return render(request, 'basic_search_results.html',
+            return render(request, 'movieapp/basic_search_results.html',
                            {'return_set': return_set, 'query': text, 'search_type':search_type})
     else:
         form = BasicSearchForm()
-    return render(request, 'find_form.html', {'form': form})
-
+    return render(request, 'movieapp/find_form.html', {'form': form})
 
 def advancedfind(request):
     if request.method == 'POST':
@@ -149,9 +163,7 @@ def advancedfind(request):
             end = cd['end_year']
             ratings_start = cd['min_rating']
             ratings_end = cd['max_rating']
-            #movie_award = cd['show_movie_oscars']
-            #actor_award = cd['show_actor_oscars']
-            #director_award = cd['show_director_oscars']
+
             show_oscars = cd['show_oscars']
             movies = Movie.objects.filter(title__icontains=movie_title)
 
@@ -190,20 +202,3 @@ def advancedfind(request):
     else:
         form = SearchForm()
     return render(request, 'movieapp/find_form.html', {'form': form})
-
-
-@login_required
-def add_movie(request):
-    if request.method == 'POST':
-        url = request.POST['url']
-        movie_info = parser.parse_page(url)
-        if movie_info == None:
-            pass
-        m = Movie.objects.create(title=movie_info['title'], year=movie_info['year'], imdb_rating=movie_info['rating'])
-        for genre in movie_info['genres']:
-            MovieGenre.objects.create(movie=m.id, genre=genre)
-        return render_to_response('movieapp/add_confirmation.html', {'movie_info':movie_info})
-    else:
-        return render_to_response('movieapp/add.html', csrf(request))
-    
-

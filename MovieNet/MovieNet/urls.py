@@ -1,7 +1,7 @@
 from django.conf.urls import patterns, include, url
 from django.contrib.auth.views import login, logout
 
-from registration.views import register
+from registration.views import register, user_profile
 
 
 # Uncomment the next two lines to enable the admin:
@@ -20,7 +20,8 @@ urlpatterns = patterns('',
      url(r'^admin/', include(admin.site.urls)),
      url(r'^$', login, {'template_name':'registration/login.html'}),
      url(r'^login$', login, {'template_name':'registration/login.html'}),
-     url(r'^logout', logout),
+     url(r'^logout', logout, {'next_page': '/login'}),
+     url(r'^account$', user_profile),
      url(r'^register$', register),
      url(r'^movieapp/', include('movieapp.urls'))
 )
