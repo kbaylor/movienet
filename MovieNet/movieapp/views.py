@@ -4,7 +4,7 @@ Created on Apr 29, 2013
 @author: Aashish
 '''
 from django.http import HttpResponse
-from django.db.models import Count
+from django.db.models import Count, Avg
 
 from movieapp.forms import SearchForm, BasicSearchForm
 from django.shortcuts import render_to_response
@@ -93,6 +93,14 @@ def director(request, did):
     director = get_object_or_404(Director, id=did)
     return render(request, 'director.html', {'director':director})
 
+def top_movies(request):
+    #movies =Movie.objects.all().annotate(avg_rating=Avg('ratings')).order_by('-avg_rating')[0:50]
+    ratings=Rated.objects.all().values('movie').annotate(avg_rating=Avg('rating'), count=Count('rating')).order_by('-avg_rating')[0:50]
+    movies = []
+    for r in ratings:
+        movies.append([Movie.objects.get(pk=r['movie']),r['avg_rating']])
+    return render(request, 'top_movies.html',{'return_set': movies});
+    
 
 @login_required
 def find(request):
@@ -105,8 +113,6 @@ def find(request):
             
             if search_type=='movie':
                 return_set = Movie.objects.filter(title__icontains=text)
-                
-
             if search_type=='actor': 
                 return_set = Actor.objects.filter(name__icontains=text)
 
@@ -129,8 +135,8 @@ def advancedfind(request):
             director_name = cd['director_name']
             start = cd['start_year']
             end = cd['end_year']
-            ratings_start = cd['min_rating']
-            ratings_end = cd['max_rating']
+            #ratings_start = cd['min_rating']
+            #ratings_end = cd['max_rating']
             #movie_award = cd['show_movie_oscars']
             #actor_award = cd['show_actor_oscars']
             #director_award = cd['show_director_oscars']
@@ -148,22 +154,24 @@ def advancedfind(request):
                 movies = movies.filter(year__range=(start,end))
            
                 
-           ## ratings=Rated.objects.filter(movie__in=movies).annotate(avg_rating=Avg('rating'))
-            #ratings.annotate(Avg('rating'))
+            ratings=Rated.objects.filter(movie__in=movies).values('movie').annotate(avg_rating=Avg('rating'), count=Count('rating'))
+            #ratings.annotate(avg_rating=Avg('rating'))
+            movies.annotate(avg_rating=Avg('ratings'));
             
-           ## if rating_start and rating_end:
-           ##     ratings = ratings.filter(avg_rating__range=(rating_start,rating_end))
-           ##     movies = movies.filter(pk__in=ratings)
+            #if ratings_start and ratings_end:    
+            #    ratings = ratings.filter(avg_rating__range=(ratings_start,ratings_end))
+            #    return HttpResponse(ratings);
+            #    movies = movies.filter(pk__in=ratings.movie)
             if show_oscars: 
                 movie_oscars = MovieNomination.objects.filter(movie__in=movies)
                 actor_oscars = ActorNomination.objects.filter(movie__in=movies)
                 director_oscars = DirectorNomination.objects.filter(movie__in=movies)
                 return render(request, 'advanced_search_results.html',
-                           {'movies': movies, 'query': movie_title, 'show_oscars':show_oscars, 
+                           {'movies': movies, 'query': movie_title, 'ratings':ratings, 'show_oscars':show_oscars, 
                                 'movie_oscars': movie_oscars, 'actor_oscars':actor_oscars, 'director_oscars':director_oscars})
             else:
                 return render(request, 'advanced_search_results.html',
-                           {'movies': movies, 'query': movie_title, 'show_oscars':show_oscars})
+                           {'movies': movies, 'query': movie_title, 'ratings':ratings, 'show_oscars':show_oscars})
     else:
         form = SearchForm()
     return render(request, 'movieapp/find_form.html', {'form': form})

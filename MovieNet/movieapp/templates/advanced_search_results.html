@@ -4,7 +4,13 @@
     <p>Found {{ movies|length }} movies{{ movies|pluralize }}.</p>
     <ul>
         {% for movie in movies %}
-    		<li><a href="/movieapp/movie/{{ movie.id }}/">{{ movie.title }}</a> ({{ movie.year }})</li>
+    		<li><a href="/movieapp/movie/{{ movie.id }}/">{{ movie.title }}</a> ({{ movie.year }})</li>			
+			{% for rating in ratings %}
+    			{% if movie.id == rating.movie %}  
+    				<p>Average rating of {{rating.avg_rating}} from {{rating.count}} users</p>
+    			{% endif %}
+    		{% endfor %} 		
+    			
     			{% if show_oscars %}
 	    			<ul>
 		    		{% for oscar in movie_oscars %}
