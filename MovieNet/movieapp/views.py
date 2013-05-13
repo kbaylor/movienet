@@ -91,10 +91,7 @@ def actor(request, actorid):
     costars_id = Movie.objects.filter(pk__in=actor.movies.all).values('actors')
     costars_id = costars_id.annotate(num_movies=Count('actors')).order_by('-num_movies')[1:6]
     print costars_id
-    #id_values = costars_id.values_list('actors', flat=True)
-    # id_values = [a.actors for a in costars_id]
-    
-    #ids = []
+
     costar_list = []
     for actor_dict in costars_id:
         #ids.append(actor_dict['actors'])
@@ -107,11 +104,19 @@ def actor(request, actorid):
 @login_required
 def director(request, did):
     director = get_object_or_404(Director, id=did)
-    return render(request, 'movieapp/director.html', {'director':director})
+    fav_actors_id = Movie.objects.filter(pk__in=director.movies.all).values('actors')
+    fav_actors_id = fav_actors_id.annotate(num_movies=Count('actors')).order_by('-num_movies')[1:6]
+    fav_actors_list = []
+    for actor_dict in fav_actors_id:
+        #ids.append(actor_dict['actors'])
+        fav_actors_list.append([Actor.objects.get(id=actor_dict['actors']), actor_dict['num_movies']])
+    return render(request, 'movieapp/director.html', {'director':director, 'fav_actors':fav_actors_list})
 
 def top_movies(request):
     #movies =Movie.objects.all().annotate(avg_rating=Avg('ratings')).order_by('-avg_rating')[0:50]
+    total_rating = Rated.objects.all().aggregate(Avg('rating'))
     ratings=Rated.objects.all().values('movie').annotate(avg_rating=Avg('rating'), count=Count('rating')).order_by('-avg_rating')[0:50]
+    
     movies = []
     for r in ratings:
         movies.append([Movie.objects.get(pk=r['movie']),r['avg_rating']])
@@ -193,6 +198,7 @@ def advancedfind(request):
                 movie_oscars = MovieNomination.objects.filter(movie__in=movies)
                 actor_oscars = ActorNomination.objects.filter(movie__in=movies)
                 director_oscars = DirectorNomination.objects.filter(movie__in=movies)
+                return HttpResponse(movie_oscars)
                 return render(request, 'advanced_search_results.html',
                            {'movies': movies, 'query': movie_title, 'show_oscars':show_oscars, 
                                 'movie_oscars': movie_oscars, 'actor_oscars':actor_oscars, 'director_oscars':director_oscars})

@@ -4,10 +4,9 @@
 <p>You searched for: <strong>{{ query }}</strong></p>
 
 {% if movies %}
-    <p>Found {{ movies|length }} movies{{ movies|pluralize }}.</p>
-    <ul>
+    <p>Found {{ movies|length }} movie{{ movies|pluralize }}.</p>
         {% for movie in movies %}
-    		<li><a href="/movieapp/movie/{{ movie.id }}/">{{ movie.title }}</a> ({{ movie.year }})</li>			
+    		<h3><a href="/movieapp/movie/{{ movie.id }}/">{{ movie.title }}</a> ({{ movie.year }})</h3>			
 			{% if movie.avg_rating %}
 			<p> Average rating of {{movie.avg_rating}} from {{movie.count}} users </p>
 			{% else %}
@@ -30,7 +29,7 @@
 		    		</ul>
 	    		{% endif %}
 	    		{% if movie.directors.all|length > 0 %}
-		    		<p> Directed by:</p>
+		    		<strong>Directed by:</strong>
 		    		<ul>
 		    		{% for director in movie.directors.all %}
 		    		<li><a href="/movieapp/director/{{ director.id }}/">{{ director.name }}</a></li>
@@ -52,7 +51,7 @@
 	    		
 	    		{% if movie.actors.all|length > 0 %}
 		    		
-		    		<p> Starring: </p>
+		    		 <strong>Starring:</strong>
 		    		<ul>
 		    		{% for actor in movie.actors.all %}
 		    		<li><a href="/movieapp/actor/{{ actor.id }}/">{{ actor.name }}</a></li>
@@ -71,9 +70,8 @@
 		    		{% endfor %}
 		    		</ul>
 	    		{% endif %}
-    		    		
+    	<hr />
         {% endfor %}
-    </ul>
 {% else %}
     <p>No movies matched your search criteria.</p>
 {% endif %}
