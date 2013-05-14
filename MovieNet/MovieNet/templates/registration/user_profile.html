@@ -12,15 +12,19 @@
 <h3 style="color:black">Movies Rated</h3>
 {% if movies_rated %}
 <div id="user_rated">
-	<table>
-	{% for movie in movies_rated %}
+	<table style="width:700px">
+		<colgroup>
+       		<col span="1" style="width: 70%;">
+       		<col span="1" style="width: 30%;">
+    	</colgroup>
+		{% for movie in movies_rated %}
 		<tr>
 			<td><a href="/movieapp/movie/{{ movie.movie__id }}">{{ movie.movie__title }}</a>{% if movie.movie__year %} ({{ movie.movie__year }}){% endif %}</td>
 			<td>
 				{% include "star.html" with num=forloop.counter read_only=movie.rating split=1 %}
 			</td>
 		</tr>
-	{% endfor %}
+		{% endfor %}
 	</table>
 </div>
 {% else %}

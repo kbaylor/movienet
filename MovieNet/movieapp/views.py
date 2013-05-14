@@ -1,16 +1,17 @@
 from datetime import datetime
-from django.db.models import Count, Avg
+from django.db.models import Count, Avg, Sum
 from movieapp.forms import SearchForm, BasicSearchForm
 from django.shortcuts import render_to_response
 from MovieNet.etl.imdb import IMDBParser as parser
 from django.contrib.auth.decorators import login_required
 from django.core.context_processors import csrf
 from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render, get_object_or_404\
+from django.shortcuts import render, get_object_or_404
+from django.template import RequestContext
 
 from movieapp.models import Director, Movie, Actor, MovieNomination, ActorNomination, DirectorNomination, Rated, MovieGenre
 from registration.models import MovienetUser
-import datetime
+import datetime, itertools
 
   
 @login_required
@@ -24,16 +25,17 @@ def add_movie(request):
         year = movie_info['year']
         rating = movie_info['rating']
         genres = movie_info['genres']
+        movie_info['is_new'] = False
         regex = name + '($|([ ]*\\(.+\\)$))'
         movies_in_db = Movie.objects.filter(title__iregex=regex, year__exact=year)
         if not movies_in_db:
             movies_in_db = [Movie.objects.create(title=name, year=year, imdb_rating=rating)]
-        movies_in_db.update(imdb_rating=rating)
+            movie_info['is_new'] = True;
+        Movie.objects.filter(title__iregex=regex, year__exact=year).update(imdb_rating=rating)
         movie_info['titles'] = movies_in_db
         for movie in movies_in_db:
             pk = movie.pk
-            #return HttpResponse(pk)
-            movie_db_genres = [a.genre for a in MovieGenre.objects.filter(pk=pk)]
+            movie_db_genres = [a.genre for a in MovieGenre.objects.filter(movie_id=pk)]
             for genre in genres:
                 if genre not in movie_db_genres:
                     MovieGenre.objects.create(movie_id=pk, genre=genre)
@@ -52,7 +54,7 @@ def add_movie(request):
                 for director_instance in directors:
                     if movie not in director_instance.movies.values_list('title', flat=True):
                         director_instance.movies.add(movie)
-                        director_instance.save()         
+                        director_instance.save()   
         return render_to_response('movieapp/add_confirmation.html', {'movie_info':movie_info})
     else:
         return render_to_response('movieapp/add.html', context_instance=RequestContext(request))
@@ -63,7 +65,7 @@ def rate(request, movieid):
         #get submitted rating
         rating = int(float(request.POST['star1']))
     movie = Movie.objects.get(id=movieid)
-    Rated.objects.create(user=request.user, movie=movie, rating=rating, date_rated=datetime.now())
+    Rated.objects.create(user=request.user, movie=movie, rating=rating, date_rated=datetime.datetime.now())
     return HttpResponseRedirect('/movieapp/movie/' + str(movieid))
 
 @login_required
@@ -75,7 +77,12 @@ def movie(request, movieid):
         rating = None
     else:
         rating = int(rating.rating)
-    return render(request, 'movieapp/movie.html', {'movie':movie, 'rating':rating})
+    aggregate_rating = Rated.objects.filter(movie__id=movieid).aggregate(avg_rating=Avg('rating'), count=Count('rating'))
+    genres = MovieGenre.objects.filter(movie_id=movieid).values_list('genre')
+    genres = [list(a) for a in genres]
+    genres = list(itertools.chain.from_iterable(genres))
+    return render(request, 'movieapp/movie.html', {'movie':movie, 'rating':rating, 
+                                                   'avg_rating':aggregate_rating, 'genres':genres})
 
 @login_required
 def actor(request, actorid):
@@ -107,12 +114,12 @@ def director(request, did):
 def top_movies(request):
     #movies =Movie.objects.all().annotate(avg_rating=Avg('ratings')).order_by('-avg_rating')[0:50]
     total_rating = Rated.objects.all().aggregate(Avg('rating'))
-    ratings=Rated.objects.all().values('movie').annotate(avg_rating=Avg('rating'), count=Count('rating')).order_by('-avg_rating')[0:50]
+    ratings=Rated.objects.all().values('movie').annotate(avg_rating=Avg('rating'), sum_rating=Sum('rating'), count=Count('rating')).order_by('-sum_rating')[0:50]
     
     movies = []
     for r in ratings:
-        movies.append([Movie.objects.get(pk=r['movie']),r['avg_rating']])
-    return render(request, 'top_movies.html',{'return_set': movies})
+        movies.append([Movie.objects.get(pk=r['movie']),round(r['avg_rating'], 1)])
+    return render(request, 'movieapp/top_movies.html',{'return_set': movies})
     
 def top_users(request):
     #movies =Movie.objects.all().annotate(avg_rating=Avg('ratings')).order_by('-avg_rating')[0:50]
@@ -122,7 +129,7 @@ def top_users(request):
     for r in ratings:
         users.append([MovienetUser.objects.get(pk=r['user']),r['num_ratings']])
     #ratings.annotate(rating_count=)
-    return render(request, 'top_users.html',{'return_set': users})
+    return render(request, 'movieapp/top_users.html',{'return_set': users})
 
 
 
@@ -190,12 +197,11 @@ def advancedfind(request):
                 movie_oscars = MovieNomination.objects.filter(movie__in=movies)
                 actor_oscars = ActorNomination.objects.filter(movie__in=movies)
                 director_oscars = DirectorNomination.objects.filter(movie__in=movies)
-                return HttpResponse(movie_oscars)
-                return render(request, 'advanced_search_results.html',
+                return render(request, 'movieapp/advanced_search_results.html',
                            {'movies': movies, 'query': movie_title, 'show_oscars':show_oscars, 
                                 'movie_oscars': movie_oscars, 'actor_oscars':actor_oscars, 'director_oscars':director_oscars})
             else:
-                return render(request, 'advanced_search_results.html',
+                return render(request, 'movieapp/advanced_search_results.html',
                            {'movies': movies, 'query': movie_title, 'show_oscars':show_oscars})
     else:
         form = SearchForm()

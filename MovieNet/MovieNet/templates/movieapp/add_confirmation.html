@@ -1,12 +1,22 @@
 {% extends "base.html" %}
 
 {% block content %}
+{% if not movie_info.is_new %}
+<h4>The following movies in the database matched your query and were updated accordingly: </h4>
+<ul>
+{% for movie in movie_info.titles %}
+	<li><a href="/movieapp/movie/{{ movie.id }}">{{ movie.title }} </a>{% if movie.year %}({{ movie.year }}){% endif %}</li>
+{% endfor %}
+</ul>
+{% else %}
 <h4><b>Movie Added Successfully</b></h4>
 <ul>
 	<li>Title: {{ movie_info.title }}</li>
 	<li>Year: {{ movie_info.year }}</li>
 	<li>IMDB Rating: {{ movie_info.rating }}</li>
-	<li>Genres: {{ movie_info.genre|join:", " }}</li>
+	<li>Genres: {{ movie_info.genre|join:", "}}</li>
+	<li>Director{{ movie_info.directors|length|pluralize }}: {{ movie_info.directors|join:", " }}</li>
 	<li>Actors / Actresses: {{ movie_info.actors|join:", " }}</li>
 </ul>
+{% endif %}
 {% endblock %}

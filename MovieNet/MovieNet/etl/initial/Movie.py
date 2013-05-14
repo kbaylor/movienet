@@ -23,7 +23,7 @@ if __name__ == '__main__':
         for line in reader:
             movie_id = int(line[ID_INDEX])
             movie_name = unicode(line[NAME_INDEX])
-            genre = [unicode(line[GENRE_INDEX])]
+            genre = unicode(line[GENRE_INDEX])
             year = line[YEAR_INDEX]
             if year in ILLEGAL_YEAR_VALUES:
                 year = None

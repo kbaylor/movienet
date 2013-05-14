@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if return_set %}
+    <p><strong>TOP {{return_set|length}} MOVIE{{ return_set|length|pluralize|upper }} AS RATED BY OUR USERS</strong></p>
+    <o1 style="list-style: decimal">
+    {% for value in return_set %}
+     	<li><a href="/movieapp/movie/{{ value.0.id }}/">{{ value.0.title }}</a> ({{ value.0.year }}): <b>{{value.1}}</b></li>
+    {% endfor %}
+    </ol>
+{% else %}
+    <p>No movies rated</p>
+{% endif %}
+{% endblock %}

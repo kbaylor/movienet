@@ -13,7 +13,7 @@
 {% block content %}
 {% if movie %}
     <h3>{{ movie.title }} ({{ movie.year }})</h2></br>
-	<p><b>{% if rating %}Your Rating{% else %}Rate Movie{% endif %}</b>:
+	<b>{% if rating %}Your Rating{% else %}Rate Movie{% endif %}</b>:
 	<form action="/movieapp/rate/{{ movie.id }}" method="post">{% csrf_token %}
 		{% if rating %}
 			{% include "star.html" with num='1' read_only=rating split=1 %}
@@ -21,7 +21,14 @@
 			{% include "star.html" with num='1' split=1 %}
 		{% endif %}
         <input type="submit" value="Submit">
-	</form></p></br>	
+	</form></br></br>
+	{% if movie.imdb_rating %}
+	<p><b>IMDB Rating: </b>{{movie.imdb_rating}}</p>
+	{% endif %}	
+	{% if avg_rating.avg_rating %}
+	<p><b>Average User Rating: </b>{{avg_rating.avg_rating}} on {{ avg_rating.count }} rating{{ avg_rating.count|pluralize }}</p>
+	{% endif %}	
+	<p><b>Genre{{ genres|length|pluralize }}:</b> {% if genres %}{{ genres|join:", " }}{% else %}No genres for this movie{% endif %}</p>
 	<h4>Directed by: </h4>
 	<ul>	
 		{% for director in movie.directors.all %}

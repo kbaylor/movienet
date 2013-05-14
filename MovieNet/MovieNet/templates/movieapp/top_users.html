@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if return_set %}
+    <p><strong>TOP {{return_set|length}} USERS IN THE LAST 30 DAYS</strong></p>
+    <u1>
+    {% for value in return_set %}
+     	<b>{{value.0.username}}</b> rated {{value.1}} movie{{ value.1|pluralize }}
+     	</br>
+    {% endfor %}
+    
+{% else %}
+    <p>No users rated anything in the last 30 days</p>
+{% endif %}
+{% endblock %}

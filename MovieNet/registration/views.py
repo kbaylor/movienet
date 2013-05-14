@@ -30,12 +30,9 @@ def user_profile(request):
 def deactivate(request):
     if request.method == "POST":
         user_instance = MovienetUser.objects.filter(pk=request.user.pk)
-        try:
-            with open("dropped_user.json") as dropped_users:
-                dropped = json.load(dropped_users)
-        except IOError:
-            dropped = []
-        dropped.append(serializers.serialize("json", user_instance, stream=dropped_users))
+        with open("dropped_user.json") as dropped_users:
+            dropped = json.load(dropped_users)
+            dropped.append(serializers.serialize("json", user_instance))
         with open("dropped_user.json", 'w') as dropped_users:
             json.dump(dropped, dropped_users)
         user_instance.delete()
