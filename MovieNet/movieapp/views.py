@@ -6,9 +6,12 @@ from MovieNet.etl.imdb import IMDBParser as parser
 from django.contrib.auth.decorators import login_required
 from django.core.context_processors import csrf
 from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404\
+
 from movieapp.models import Director, Movie, Actor, MovieNomination, ActorNomination, DirectorNomination, Rated, MovieGenre
 from registration.models import MovienetUser
+import datetime
+
   
 @login_required
 def add_movie(request):
@@ -80,10 +83,7 @@ def actor(request, actorid):
     costars_id = Movie.objects.filter(pk__in=actor.movies.all).values('actors')
     costars_id = costars_id.annotate(num_movies=Count('actors')).order_by('-num_movies')[1:6]
     print costars_id
-    #id_values = costars_id.values_list('actors', flat=True)
-    # id_values = [a.actors for a in costars_id]
-    
-    #ids = []
+
     costar_list = []
     for actor_dict in costars_id:
         #ids.append(actor_dict['actors'])
@@ -92,19 +92,39 @@ def actor(request, actorid):
     #costars = Actor.objects.filter(id__in=ids)
     return render(request, 'movieapp/actor.html', {'actor':actor, 'costars':costar_list});
 
+
 @login_required
 def director(request, did):
     director = get_object_or_404(Director, id=did)
-    return render(request, 'movieapp/director.html', {'director':director})
+    fav_actors_id = Movie.objects.filter(pk__in=director.movies.all).values('actors')
+    fav_actors_id = fav_actors_id.annotate(num_movies=Count('actors')).order_by('-num_movies')[1:6]
+    fav_actors_list = []
+    for actor_dict in fav_actors_id:
+        #ids.append(actor_dict['actors'])
+        fav_actors_list.append([Actor.objects.get(id=actor_dict['actors']), actor_dict['num_movies']])
+    return render(request, 'movieapp/director.html', {'director':director, 'fav_actors':fav_actors_list})
 
 def top_movies(request):
     #movies =Movie.objects.all().annotate(avg_rating=Avg('ratings')).order_by('-avg_rating')[0:50]
+    total_rating = Rated.objects.all().aggregate(Avg('rating'))
     ratings=Rated.objects.all().values('movie').annotate(avg_rating=Avg('rating'), count=Count('rating')).order_by('-avg_rating')[0:50]
+    
     movies = []
     for r in ratings:
         movies.append([Movie.objects.get(pk=r['movie']),r['avg_rating']])
-    return render(request, 'top_movies.html',{'return_set': movies});
+    return render(request, 'top_movies.html',{'return_set': movies})
     
+def top_users(request):
+    #movies =Movie.objects.all().annotate(avg_rating=Avg('ratings')).order_by('-avg_rating')[0:50]
+    ratings = Rated.objects.filter(date_rated__gt=datetime.date.today()-datetime.timedelta(days=30))
+    ratings = ratings.values('user').annotate(num_ratings=Count('rating')).order_by('-num_ratings')[0:25]
+    users = []
+    for r in ratings:
+        users.append([MovienetUser.objects.get(pk=r['user']),r['num_ratings']])
+    #ratings.annotate(rating_count=)
+    return render(request, 'top_users.html',{'return_set': users})
+
+
 
 @login_required
 def find(request):
@@ -138,6 +158,9 @@ def advancedfind(request):
             director_name = cd['director_name']
             start = cd['start_year']
             end = cd['end_year']
+            ratings_start = cd['min_rating']
+            ratings_end = cd['max_rating']
+
             show_oscars = cd['show_oscars']
             movies = Movie.objects.filter(title__icontains=movie_title)
 
@@ -152,24 +175,28 @@ def advancedfind(request):
                 movies = movies.filter(year__range=(start,end))
            
                 
-            ratings=Rated.objects.filter(movie__in=movies).values('movie').annotate(avg_rating=Avg('rating'), count=Count('rating'))
+            #ratings=Rated.objects.filter(movie__in=movies).values('movie').annotate(avg_rating=Avg('rating'), count=Count('rating'))
             #ratings.annotate(avg_rating=Avg('rating'))
-            movies.annotate(avg_rating=Avg('ratings'));
+            #movies.annotate(avg_rating=Avg('ratings__rated__rating'));
+            movies = movies.annotate(avg_rating=Avg('rated__rating'), count=Count('rated__rating'))
             
-            #if ratings_start and ratings_end:    
-            #    ratings = ratings.filter(avg_rating__range=(ratings_start,ratings_end))
-            #    return HttpResponse(ratings);
-            #    movies = movies.filter(pk__in=ratings.movie)
+            
+            #return HttpResponse(movies.values())
+            if ratings_start and ratings_end:    
+                #ratings = ratings.filter(avg_rating__range=(ratings_start,ratings_end))
+                #return HttpResponse(ratings);
+                movies = movies.filter(avg_rating__range=(ratings_start, ratings_end))
             if show_oscars: 
                 movie_oscars = MovieNomination.objects.filter(movie__in=movies)
                 actor_oscars = ActorNomination.objects.filter(movie__in=movies)
                 director_oscars = DirectorNomination.objects.filter(movie__in=movies)
+                return HttpResponse(movie_oscars)
                 return render(request, 'advanced_search_results.html',
-                           {'movies': movies, 'query': movie_title, 'ratings':ratings, 'show_oscars':show_oscars, 
+                           {'movies': movies, 'query': movie_title, 'show_oscars':show_oscars, 
                                 'movie_oscars': movie_oscars, 'actor_oscars':actor_oscars, 'director_oscars':director_oscars})
             else:
                 return render(request, 'advanced_search_results.html',
-                           {'movies': movies, 'query': movie_title, 'ratings':ratings, 'show_oscars':show_oscars})
+                           {'movies': movies, 'query': movie_title, 'show_oscars':show_oscars})
     else:
         form = SearchForm()
     return render(request, 'movieapp/find_form.html', {'form': form})

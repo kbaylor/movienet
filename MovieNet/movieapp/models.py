@@ -10,7 +10,7 @@ class Movie(models.Model):
     title = models.CharField(max_length=1024)
     year = models.IntegerField(null=True)
     imdb_rating = models.DecimalField(null=True, max_digits=2, decimal_places=1)
-    ratings = models.ManyToManyField(MovienetUser, through='Rated')
+    ratings = models.ManyToManyField(MovienetUser, through='Rated', related_name='movie_ratings')
 
 class MovieGenre(models.Model):
     movie = models.ForeignKey(Movie)

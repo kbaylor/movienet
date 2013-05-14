@@ -2,7 +2,16 @@
 
 {% block content %}
 {% if director %}
-    	{{ director.name }}
+    <h2 style="color:black"><b>	{{ director.name }} </b></h2>
+    </br>
+    <ul>
+    <h3 style="color:black">Top 5 starred actors</h3>
+    	{% for actor in fav_actors %}
+    		<li><a href="/movieapp/actor/{{actor.0.id }}/">{{actor.0.name}}</a>:<b>{{actor.1}}</b></li>
+    	{% endfor %}
+    </ul>
+    </br>
+    <h3 style="color:black">Movies</h3>
     <ul>
     	{% for movie in director.movies.all %}
     		<li><a href="/movieapp/movie/{{ movie.id }}/">{{ movie.title }}</a></li>
