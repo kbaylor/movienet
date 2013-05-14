@@ -1,15 +1,15 @@
 {% extends 'include_ratings.html' %}
 
 {% block content %}
-<h3>Account Info</h3>
+<h3 style="color:black">Account Info</h3>
 <ul>
 	<li>Name: {{ user.first_name }} {{ user.last_name }}</li>
 	<li>Email: {{ user.email }}</li>
 	<li>Date of Birth: {{ user.date_of_birth|date:'m/d/Y' }}</li>
 	<li>Sex: {% ifequal user.sex 'M' %}Male{% else %}Female{% endifequal %}</li>
 </ul>
-</br>
-<h3>Movies Rated</h3>
+<p><a href="/deactivate">If you want to deactivate your account, click here</a></p>
+<h3 style="color:black">Movies Rated</h3>
 {% if movies_rated %}
 <div id="user_rated">
 	<table>

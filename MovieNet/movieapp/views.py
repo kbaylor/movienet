@@ -1,12 +1,4 @@
-from django.http import HttpResponse
-from django.db.models import Count
 from datetime import datetime
-'''
-Created on Apr 29, 2013
-
-@author: Aashish
-'''
-from django.http import HttpResponse
 from django.db.models import Count, Avg
 from movieapp.forms import SearchForm, BasicSearchForm
 from django.shortcuts import render_to_response
@@ -60,7 +52,7 @@ def add_movie(request):
                         director_instance.save()         
         return render_to_response('movieapp/add_confirmation.html', {'movie_info':movie_info})
     else:
-        return render_to_response('movieapp/add.html', csrf(request))
+        return render_to_response('movieapp/add.html', context_instance=RequestContext(request))
     
 @login_required
 def rate(request, movieid):

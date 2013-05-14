@@ -1,9 +1,11 @@
 from django.conf.urls import patterns, url
 from django.views.generic.base import TemplateView
 from movieapp import views
+from registration.views import user_profile
 
 
 urlpatterns = patterns('',
+    url(r'^$', user_profile),
     # ex: /movieapp/add
     url(r'add$', views.add_movie, name='add_movie'),
     # ex: /movie/5/
@@ -14,7 +16,6 @@ urlpatterns = patterns('',
     url(r'^director/(?P<did>\d+)/$', views.director, name='director'),
     url(r'^find/$', views.find),
     url(r'^movies/top/$', views.top_movies),
-    
     url(r'^find/advanced/$', views.advancedfind),
     url(r'^rate/(?P<movieid>\d+)$', views.rate, name='rate')
 )

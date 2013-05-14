@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br/>
+<p>We're sorry to see you leave. Note that deactivating your account is <b>FINAL</b> and cannot be
+undone. You will lose all of your ratings and other relevant information associated with the site. Click 
+below to finish deactivation. </p>
+
+<form action="/deactivate" method="post">{% csrf_token %}
+	<input type="submit", value="Deactivate Account"/>
+</form>
+<br/>
+{% endblock %}
